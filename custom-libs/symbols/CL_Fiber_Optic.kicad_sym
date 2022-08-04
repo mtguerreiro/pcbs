@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "HFBR-15X1Z" (in_bom yes) (on_board yes)
+  (symbol "HFBR-1521Z" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -10.16 -10.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "HFBR-15X1Z" (id 1) (at -5.08 8.89 0)
+    (property "Value" "HFBR-1521Z" (id 1) (at -5.08 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (id 2) (at 0 0 0)
@@ -15,13 +15,13 @@
     (property "ki_description" "1 MBd optic transmitter" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "HFBR-15X1Z_0_0"
+    (symbol "HFBR-1521Z_0_0"
       (rectangle (start -11.43 7.62) (end 5.08 -8.89)
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type background))
       )
     )
-    (symbol "HFBR-15X1Z_0_1"
+    (symbol "HFBR-1521Z_0_1"
       (polyline
         (pts
           (xy -3.048 5.207)
@@ -117,12 +117,12 @@
         (fill (type none))
       )
     )
-    (symbol "HFBR-15X1Z_1_1"
-      (pin output line (at 7.62 5.08 180) (length 2.54)
+    (symbol "HFBR-1521Z_1_1"
+      (pin passive line (at 7.62 5.08 180) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 7.62 1.27 180) (length 2.54)
+      (pin passive line (at 7.62 1.27 180) (length 2.54)
         (name "K" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )

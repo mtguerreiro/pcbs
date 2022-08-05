@@ -6,7 +6,7 @@
     (property "Value" "HFBR-1521Z" (id 1) (at -5.08 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CL_Fiber_Optic:HFBR-2521Z" (id 2) (at 0 0 0)
+    (property "Footprint" "CL_Fiber_Optic:HFBR-1521Z" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://docs.broadcom.com/doc/AV02-1501EN" (id 3) (at 0 0 0)

@@ -1,4 +1,4 @@
-(footprint "HFBR-2521Z" (version 20211014) (generator pcbnew)
+(footprint "HFBR-1521Z" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5cf7f9cd-6213-43a9-9582-4282352e913f)
   )
-  (fp_text value "HFBR-2521Z" (at -0.254 7.112 unlocked) (layer "F.Fab")
+  (fp_text value "HFBR-1521Z" (at -0.254 7.112 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3de57c47-8ecf-4e2f-9a9d-00e68cc4961b)
   )
@@ -24,7 +24,7 @@
   (pad "4" thru_hole circle (at 3.81 3.302) (size 1.515 1.515) (drill 1) (layers *.Cu *.Mask) (tstamp 32ca0640-8eee-48a2-998b-8b7e3e64e41d))
   (pad "5" thru_hole circle (at 3.81 -4.318) (size 1.515 1.515) (drill 1) (layers *.Cu *.Mask) (tstamp 06479885-6419-4002-8e37-0223c84e9b61))
   (pad "8" thru_hole circle (at -3.81 -4.318) (size 1.515 1.515) (drill 1) (layers *.Cu *.Mask) (tstamp bb5ff695-6dfd-4e5c-bee2-06b1ef73cb0d))
-  (model "${KICAD_USER_LIBRARY}/3d/CL_Fiber_Optic/HFBR2521.STEP"
+  (model "${KICAD_USER_LIBRARY}/3d/CL_Fiber_Optic/HFBR1521.STEP"
     (offset (xyz 0 3.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

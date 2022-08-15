@@ -2,20 +2,20 @@ Circuit: * C:\Users\marco\Documents\KiCad\hb-gate-driver-mic4102\sim\gate-driver
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun Jul 17 18:06:23 2022
-Total elapsed time: 3.437 seconds.
+Date: Sun Aug 14 11:48:36 2022
+Total elapsed time: 4.020 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 1714970
-traniter = 1714962
-tranpoints = 528592
-accept = 405539
-rejected = 123053
+totiter = 1921968
+traniter = 1921960
+tranpoints = 588438
+accept = 450547
+rejected = 137891
 matrix size = 14
-fillins = 4
+fillins = 2
 solver = Normal
-Matrix Compiler1: 1.11 KB object code size  0.3/0.2/[0.1]
-Matrix Compiler2: 1.17 KB object code size  0.1/0.2/[0.1]
+Matrix Compiler1: 858 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.2/0.1
 

@@ -1082,7 +1082,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8477d62c-8617-429f-a584-7ce4df430682)
   )
-  (text "[1] Vcc powers the reference generator and the amplifier \ncircuit. Vcc can be selected by removing or shorting these\nresistor, according to the desired voltage."
+  (text "[1] Vcc powers the buffer and the optic transmitter and \nreceivers. Vcc can be selecting by placing the proper \nresistor."
     (at 15.24 89.662 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bed072d1-282f-4f2a-9142-e81e1bf4843f)

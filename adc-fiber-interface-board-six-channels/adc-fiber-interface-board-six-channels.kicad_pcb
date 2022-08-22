@@ -2486,7 +2486,7 @@
   (gr_text "TX5" (at 112.8522 79.0956) (layer "F.SilkS") (tstamp b9a9838f-fd46-434d-92b1-e6174dc43958)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
-  (gr_text "6-channel TX,\n2-channel RX \nfiber board\nv1.0 - 08.2022" (at 122.7582 84.7852) (layer "F.SilkS") (tstamp bed543dd-cdbc-4d11-bc1e-c831cbb31e8f)
+  (gr_text "Optics board\n2 RX/6 TX\nv1.0 - 08.2022" (at 122.936 37.2872) (layer "F.SilkS") (tstamp bed543dd-cdbc-4d11-bc1e-c831cbb31e8f)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify left))
   )
   (gr_text "TX2" (at 116.6622 44.1452) (layer "F.SilkS") (tstamp c1447e88-7152-4fcf-a07b-b6b3ec3dc611)

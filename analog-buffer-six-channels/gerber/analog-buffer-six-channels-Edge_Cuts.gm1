@@ -1,0 +1,26 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.6)*
+G04 #@! TF.CreationDate,2022-08-29T15:05:00+02:00*
+G04 #@! TF.ProjectId,analog-buffer-six-channels,616e616c-6f67-42d6-9275-666665722d73,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.6)) date 2022-08-29 15:05:00*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X52451000Y-32740600D02*
+X84531200Y-32740600D01*
+X84531200Y-32740600D02*
+X84531200Y-67767200D01*
+X84531200Y-67767200D02*
+X52451000Y-67767200D01*
+X52451000Y-67767200D02*
+X52451000Y-32740600D01*
+M02*

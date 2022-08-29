@@ -940,7 +940,16 @@
     (uuid fd76771d-4229-4a48-b01f-1fac24d2a3c3)
   )
 
-  (text "[1] Vcc powers the reference generator and the amplifier \ncircuit. Vcc can be selected by removing or shorting these\nresistor, according to the desired voltage."
+  (text "[2]" (at 226.314 22.352 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 75dd4272-064a-4662-8940-bbcdc15dd034)
+  )
+  (text "[2] These resistor are supposed to avoid ringing on the\nCLK and CS lines due to the connectos being too long.\nThey should be a small value or shorted."
+    (at 17.018 96.012 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 88ceea63-f0fa-4d5c-800d-46899a8127d7)
+  )
+  (text "[1] Vcc powers the ADCs and it can be selected by removing \nor shorting these resistors, according to the desired voltage."
     (at 17.018 88.138 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 931659d0-e593-4585-8617-f82c23412463)

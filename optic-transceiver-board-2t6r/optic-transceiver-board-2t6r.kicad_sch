@@ -1082,7 +1082,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0ddd3a2-5b4c-418a-9ffd-5c93d58ea36e)
   )
-  (text "[1] Vcc powers the buffer and the optic transmitter and \nreceivers. Vcc can be selecting by placing the proper \nresistor."
+  (text "[1] Vcc powers the buffer, the optic transmitter and \nreceivers. Vcc can be selecting by placing the proper \nresistor."
     (at 225.044 94.361 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c2aacb35-a505-4470-8efd-88729bb699bb)

@@ -1080,7 +1080,7 @@
     (uuid 7d929ba7-83d6-45d6-9065-3989f04d11f4)
   )
   (text "[1] Vcc powers the reference generator and the amplifier \ncircuit. Vcc can be selected by removing or shorting these\nresistor, according to the desired voltage."
-    (at 224.028 128.27 0)
+    (at 18.415 103.378 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid baddb6e8-be3a-4b8b-b8f7-4d3a0bae862b)
   )

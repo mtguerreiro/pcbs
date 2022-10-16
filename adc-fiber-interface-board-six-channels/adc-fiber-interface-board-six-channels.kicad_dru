@@ -1,0 +1,4 @@
+(version 1.0)
+(rule "IC clearance"
+   (constraint clearance (min 0.2mm))
+   (condition "A.insideCourtyard('U9')"))

@@ -1,0 +1,9 @@
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+D1, ;1;LED;LED;LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;Light emitting diode;
+D2, D3, D4, D5, ;4;D_Zener;D_Zener;Diode_SMD:D_1206_3216Metric;Zener diode;
+F1, F2, F3, F4, ;4;Polyfuse;Polyfuse;Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder;Resettable fuse, polymeric positive temperature coefficient;
+J1, J2, J3, J4, J5, J6, J7, J8, ;8;Conn_01x04;Conn_01x04;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal;Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/);
+J9, ;1;Conn_02x10_Odd_Even;Conn_02x10_Odd_Even;Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Horizontal;Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/);
+R1, R2, R3, R4, R5, R6, R8, R11, R12, R15, R18, R19, R22, R25, R26, R29, R32, R33, R36, R39, R40, R43, R46, R47, ;24;DNP;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R7, ;1;2k;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R9, R10, R13, R14, R16, R17, R20, R21, R23, R24, R27, R28, R30, R31, R34, R35, R37, R38, R41, R42, R44, R45, R48, R49, ;24;DNP;R_Small_US;Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;Resistor, small US symbol;

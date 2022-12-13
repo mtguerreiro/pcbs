@@ -292,12 +292,12 @@
     (uuid 83523b5f-c74a-4096-b5a8-4be24bc6b579)
   )
   (text "[2] This resistor can be placed to avoid ringing at\nthe data line."
-    (at 126.619 23.241 0)
+    (at 126.619 23.622 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 83a0789d-0d38-428f-811b-133628c5fa03)
   )
-  (text "[1] This resistor and capacitor form a low-pass filter\nat the input of the ADC."
-    (at 126.873 17.907 0)
+  (text "[1] This resistor and capacitor form a low-pass filter\nat the input of the ADC. With 2k and 330pF, the cut-off\nfrequency is approximately 240 kHz."
+    (at 126.873 18.542 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d1a7a344-2b82-45fd-abc1-ad67b43c700a)
   )
@@ -451,7 +451,7 @@
     (property "Reference" "C12" (id 0) (at 80.264 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TBD" (id 1) (at 80.264 29.21 0)
+    (property "Value" "330pF" (id 1) (at 80.264 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 78.486 27.94 0)
@@ -468,7 +468,7 @@
     (in_bom yes) (on_board yes)
     (uuid d522de6e-b0b1-4b1e-92f5-bedc0b4fb53c)
     (property "Reference" "R10" (id 0) (at 73.66 19.812 90))
-    (property "Value" "TBD" (id 1) (at 73.66 21.59 90))
+    (property "Value" "2k" (id 1) (at 73.66 21.59 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 73.66 23.368 0)
       (effects (font (size 1.27 1.27)) hide)
     )

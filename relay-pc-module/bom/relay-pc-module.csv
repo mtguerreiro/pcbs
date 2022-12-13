@@ -1,0 +1,15 @@
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+D1, D3, D5, D7, D8, ;5;LED;LED;LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;Light emitting diode;
+D2, D4, D6, ;3;1N4148;1N4148;Diode_SMD:D_SOD-123;100V 0.15A standard switching diode, DO-35;
+J1, ;1;Conn_02x02_Odd_Even;Conn_02x02_Odd_Even;Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical;Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/);
+J2, ;1;Conn_02x06_Odd_Even;Conn_02x06_Odd_Even;Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal;Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/);
+J4, J5, J6, ;3;Screw_Terminal_01x03;Screw_Terminal_01x03;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal;Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/);
+J7, J8, ;2;Conn_01x04;Conn_01x04;Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/);
+K1, K2, K3, ;3;SANYOU_SRD_Form_C;SANYOU_SRD_Form_C;Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C;Sanyo SRD relay, Single Pole Miniature Power Relay,;
+Q1, Q2, Q3, Q4, Q5, Q6, ;6;BCW66H;Q_NPN_BEC;Package_TO_SOT_SMD:SOT-23W;NPN transistor, base/emitter/collector;
+R1, R2, R3, R10, R11, R12, R19, R20, R21, ;9;TBD;R_Small_US;Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P5.08mm_Vertical;Resistor, small US symbol;
+R4, R13, R22, R28, R29, ;5;2k;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R5, R14, R23, ;3;360R,>0.35W;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R6, R7, R15, R16, R24, R25, ;6;4k7;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R8, R9, R17, R18, R26, R27, ;6;47k;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+U1, U2, U3, ;3;PC817;PC817;Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads;DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4;

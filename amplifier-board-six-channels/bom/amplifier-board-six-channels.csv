@@ -1,0 +1,13 @@
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+C1, C3, C5, C7, C9, C11, C13, C15, C17, C19, C21, C23, C26, ;13;100nF;C_Small;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor, small symbol;
+C2, C6, C10, C14, C18, C22, C25, ;7;1uF;C_Small;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor, small symbol;
+C4, C8, C12, C16, C20, C24, ;6;TBD;C_Small;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor, small symbol;
+D1, ;1;LED;LED;LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;Light emitting diode;
+J1, J2, ;2;Conn_02x08_Odd_Even;Conn_02x08_Odd_Even;Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal;Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/);
+R1, R2, R4, R6, R8, R9, R10, R11, R13, R15, R17, R18, R19, R20, R22, R24, R26, R27, R28, R29, R31, R33, R35, R36, R37, R38, R40, R42, R44, R45, R46, R47, R49, R51, R53, R54, ;36;TBD;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R3, R7, R12, R16, R21, R25, R30, R34, R39, R43, R48, R52, ;12;22k;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R5, R14, R23, R32, R41, R50, R55, ;7;0R;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R56, ;1;DNP;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R57, ;1;2k;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+U1, U2, U3, U4, U5, U6, ;6;Opamp_Dual;Opamp_Dual;Package_SO:SOIC-8_3.9x4.9mm_P1.27mm;Dual operational amplifier;
+U7, ;1;MAX6035xxUR25;MAX6035xxUR25;Package_TO_SOT_SMD:SOT-23_Handsoldering;2.5V, High-Supply-Voltage, Precision Voltage Reference, SOT-23;

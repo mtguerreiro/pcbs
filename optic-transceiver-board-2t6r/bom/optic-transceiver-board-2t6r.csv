@@ -1,0 +1,16 @@
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+C1, C3, C4, C5, C6, C7, C8, C9, C11, C12, ;10;100nF;C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;Unpolarized capacitor, small symbol;
+C2, C10, C13, ;3;1uF;C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;Unpolarized capacitor, small symbol;
+D1, ;1;LED;LED;LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;Light emitting diode;
+J1, ;1;Conn_02x08_Odd_Even;Conn_02x08_Odd_Even;Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal;Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/);
+R1, R21, ;2;220R;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R2, R22, ;2;2k;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R3, R6, R9, R12, R15, R18, ;6;0R;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R4, R7, R10, R13, R16, R19, ;6;DNP;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R5, R8, R11, R14, R17, R20, ;6;47R;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R23, ;1;0R;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R24, ;1;DNP;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+R25, ;1;2k;R_Small;Resistor_SMD:R_0805_2012Metric;Resistor, small symbol;
+U1, U8, ;2;HFBR-1521Z;HFBR-1521Z;CL_Fiber_Optic:HFBR-1521Z;1 MBd optic transmitter;
+U2, U3, U4, U5, U6, U7, ;6;HFBR-2521Z;HFBR-2521Z;CL_Fiber_Optic:HFBR-2521Z;1 MBd optic receiver;
+U9, ;1;74HCT541;74HCT541;Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm;8-bit Buffer/Line Driver 3-state outputs;

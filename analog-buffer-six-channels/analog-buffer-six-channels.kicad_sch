@@ -1711,7 +1711,7 @@
     (property "Reference" "R13" (id 0) (at 32.639 76.073 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TBD" (id 1) (at 32.639 78.613 0)
+    (property "Value" "2k" (id 1) (at 32.639 78.613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 31.623 77.343 0)
@@ -2431,7 +2431,7 @@
       (reference "R12") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7deeb18e-5967-4a76-b7ef-1bd5f0b0211c"
-      (reference "R13") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R13") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/a28eb529-2781-473b-a0cf-7bd7bdd12fbc"
       (reference "R14") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0805_2012Metric")

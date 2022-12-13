@@ -1,0 +1,2 @@
+- Put voltade divider at the input?
+- Put RC filter at the output?

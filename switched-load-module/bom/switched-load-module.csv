@@ -1,0 +1,24 @@
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+C1, C3, C6, ;3;100nF;C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;Unpolarized capacitor, small symbol;
+C2, ;1;330nF;C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;Unpolarized capacitor, small symbol;
+C4, C5, ;2;10uF;C_Small;Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;Unpolarized capacitor, small symbol;
+D1, D3, D4, ;3;LED;LED;LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;Light emitting diode;
+D2, ;1;D;D;Diode_SMD:D_SMA;Diode;
+J1, J3, ;2;Conn_01x03;Conn_01x03;Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/);
+J2, ;1;Screw_Terminal_01x04;Screw_Terminal_01x04;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal;Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/);
+J4, ;1;Screw_Terminal_01x05;Screw_Terminal_01x05;TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-5-5.08_1x05_P5.08mm_Horizontal;Generic screw terminal, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/);
+Q1, ;1;BCW66H;Q_NPN_BEC;Package_TO_SOT_SMD:SOT-23W;NPN transistor, base/emitter/collector;
+Q2, ;1;Q_NMOS_GDS;Q_NMOS_GDS;Package_TO_SOT_SMD:TO-252-2;N-MOSFET transistor, gate/drain/source;
+R1, R15, R16, ;3;2k;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R2, ;1;270R;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R3, R14, ;2;1k2;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R4, ;1;4k7;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R5, ;1;47k;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R6, R13, ;2;0R;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R7, R12, ;2;DNP;R_Small_US;Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;Resistor, small US symbol;
+R8, R9, ;2;TBD;R_Small_US;Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P45.72mm;Resistor, small US symbol;
+R10, R11, ;2;20R;R_Small_US;Resistor_SMD:R_MELF_MMB-0207;Resistor, small US symbol;
+U1, ;1;PC817;PC817;Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads;DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4;
+U2, ;1;L78L05_SOT89;L78L05_SOT89;Package_TO_SOT_SMD:SOT-89-3;Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89;
+U3, ;1;HFBR-2521Z;HFBR-2521Z;CL_Fiber_Optic:HFBR-2521Z;1 MBd optic receiver;
+U4, ;1;DGD0211C;DGD0211C;Package_TO_SOT_SMD:TSOT-23-5_HandSoldering;1.9 A high speed single gate driver;

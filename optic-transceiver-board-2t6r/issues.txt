@@ -1,0 +1,2 @@
+- Some resistors have symbol R_Small and others have resistor R_Small_US. Make all R_Small_US
+- Footprint of R23, R24 and R25 should be handsolder (same as all other resistors)

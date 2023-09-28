@@ -1,0 +1,1 @@
+- Add isolating cap between two grounds for better emi performance

@@ -539,7 +539,6 @@
     )
   )
 
-
   (junction (at 69.85 63.246) (diameter 0) (color 0 0 0 0)
     (uuid 50fd41a2-d778-4c00-a95f-a3241df4d6e7)
   )
@@ -1304,7 +1303,7 @@
     (property "Reference" "C3" (id 0) (at 88.9 58.928 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1uF" (id 1) (at 88.9 61.468 0)
+    (property "Value" "0.22uF" (id 1) (at 88.9 61.468 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 87.122 60.198 0)
@@ -1405,7 +1404,7 @@
       (reference "C2") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/d864a44e-cfd1-4618-9542-ec85cfd38a8e"
-      (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C3") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/93427dec-2852-4ba5-be9a-39e01fe5acdf"
       (reference "C4") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")

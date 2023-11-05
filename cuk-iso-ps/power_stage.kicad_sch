@@ -1604,7 +1604,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 072ab092-8da9-4dec-867a-0abf40b8b59e)
   )
-  (text "[1] This additional diode is meant to alleviate the current that is conducted\nby the body diode of the MOSFET. The same is applied to the other MOSFETs.\n\n[2] These resistors form a voltage divider that applies Vgs to switch the \nMOSFET. Two resistors were added in the lower part of the divider in order to\nallow the MOSFET to be used with higher Vds.\n\n[3] Snubber circuit of the MOSFET. Exact values will be determined later \nby experiments.\n\n[4] This many capacitors were placed in order to accomodate different \nfootprints. In practice, only two capacitors can actually be used. \n"
+  (text "[1] This additional diode is meant to alleviate the current that is conducted\nby the body diode of the MOSFET. The same is applied to the other MOSFETs.\n\n[2] These resistors form a voltage divider that applies Vgs to switch the \nMOSFET. Two resistors were added in the lower part of the divider in order to\nallow the MOSFET to be used with higher Vds.\n\n[3] Snubber circuit of the MOSFET. Exact values will be determined later \nby experiments. Also, note that the diode in parallel with the resistor \nmight be reversed in some cases.\n\n[4] This many capacitors were placed in order to accomodate different \nfootprints. In practice, only two capacitors can actually be used. \n"
     (at 205.232 46.228 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 30e0230d-4578-45ca-ba71-f221ab0d2d38)

@@ -1,1 +1,2 @@
 - 10 mm capacitor would've been a better choice. For higher voltages (>160V), 10mm is easier to find
+- power leds

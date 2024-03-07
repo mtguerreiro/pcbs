@@ -519,7 +519,7 @@
     (uuid ffe4592a-c2bd-4994-b065-6c23385c5569)
   )
 
-  (text "Supply info\n - Input voltage: 4.5 V - 17 V\n - Output voltage: 3.3 V\n - Output current: 3 A\n\nCompatible switching regulators:\n - TPS56320x\n - TPS56220x\n\nTODO\n - Make feedback resistors, output capacitors and inductor \n configurable from the sheet, so that it is possible to obtain\n any output voltage without changing values inside the sheet."
+  (text "Supply info\n - Input voltage: 6.7 V - 17 V\n - Output voltage: 5 V\n - Output current: 3 A\n\nCompatible switching regulators:\n - TPS56320x\n - TPS56220x\n\nTODO\n - Make feedback resistors, output capacitors and inductor \n configurable from the sheet, so that it is possible to obtain\n any output voltage without changing values inside the sheet."
     (at 14.732 84.328 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0d20b2a3-4f7e-4872-b9c1-05ab1d3775bb)
@@ -529,7 +529,7 @@
     (uuid 3c213350-4c89-4867-bbc5-20a14432167c)
   )
 
-  (label "3V3" (at 130.556 22.098 0)
+  (label "5V" (at 130.556 22.098 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1bda68ab-c872-4930-a580-cf3700e722bc)
   )
@@ -549,7 +549,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5a729e93-c7f9-4e41-935a-d799f01c91ca)
   )
-  (label "3V3" (at 18.796 45.72 180)
+  (label "5V" (at 18.796 45.72 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5de0c1f5-c3de-4376-bde3-8de2ac8f192f)
   )
@@ -582,7 +582,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 42f6e004-c87c-482d-bd7d-1462264b008d)
   )
-  (hierarchical_label "3V3" (shape output) (at 21.336 45.72 0)
+  (hierarchical_label "5V" (shape output) (at 21.336 45.72 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c0afdee5-b137-4bf3-9c69-d394a3914921)
   )
@@ -627,7 +627,7 @@
     (property "Reference" "R?" (id 0) (at 122.174 27.432 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "30k" (id 1) (at 122.428 29.972 0)
+    (property "Value" "11k" (id 1) (at 122.428 29.972 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 121.158 28.702 0)
@@ -740,7 +740,7 @@
     (property "Reference" "R?" (id 0) (at 122.174 33.528 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "9k1" (id 1) (at 122.174 36.068 0)
+    (property "Value" "2k" (id 1) (at 122.174 36.068 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 121.158 34.798 0)

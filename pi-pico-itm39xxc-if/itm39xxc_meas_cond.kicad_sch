@@ -619,8 +619,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3132e574-f002-4b2a-aacc-665b6237a6e5)
   )
-  (text "Supply\n- Vcc: 3V3\n\n[1] The amplifier will condition the analog card's\nmeasurements to the ADC's range. Since the amplifier is \n(should) be supplied at the same Vcc as the ADC, and \ndue to the range of Im and Vm, the amplifier  must be \nrail-to-rail input/output.\n\n[2] This small filter can be added to improve the ADC\nreadings."
-    (at 168.402 40.132 0)
+  (text "Supply\n- Vcc: 3V3\n\nInputs\n- V_ref: 3 V\n- Im: -10 V to +10 V\n- Vm: 0 V to 10 V\n\nOutputs\n- Im_meas: 0 V to 3 V\n- Vm_meas: 0 V to 3 V\n\n[1] The amplifier will condition the analog card's measurements \nto the ADC's range. Since the amplifier is  (should) be supplied \nat the same Vcc as the ADC, and  due to the range of Im and Vm,\nthe amplifier  must be rail-to-rail input/output.\n\n[2] This small filter can be added to improve the ADC readings."
+    (at 172.212 64.516 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 371ef0fd-eb97-41f7-98c4-510055b9b72d)
   )

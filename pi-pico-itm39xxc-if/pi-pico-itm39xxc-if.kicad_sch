@@ -3603,7 +3603,7 @@
     (uuid e537a71c-a3ba-4b5b-8bab-8ecb166d6a48)
     (property "Reference" "U1" (id 0) (at 36.703 114.173 0))
     (property "Value" "Pico" (id 1) (at 63.881 169.799 0))
-    (property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH" (id 2) (at 50.927 141.859 90)
+    (property "Footprint" "CL_MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH" (id 2) (at 50.927 141.859 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 50.927 141.859 0)
@@ -4437,7 +4437,7 @@
       (reference "TP5") (unit 1) (value "TestPoint_Small") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
     )
     (path "/e537a71c-a3ba-4b5b-8bab-8ecb166d6a48"
-      (reference "U1") (unit 1) (value "Pico") (footprint "RPi_Pico:RPi_Pico_SMD_TH")
+      (reference "U1") (unit 1) (value "Pico") (footprint "CL_MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
     )
     (path "/eac3a80a-bdd4-4793-93a3-28d6b9f0c36d/b70f6820-5f16-43a7-af28-07d093030925"
       (reference "U2") (unit 1) (value "TPS56320x") (footprint "Package_TO_SOT_SMD:SOT-23-6")
@@ -4467,7 +4467,7 @@
       (reference "U6") (unit 3) (value "Opamp_Dual") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/2721c640-6df0-48bb-bbcb-b59a3c9df97e/8dabc0ef-c49f-460d-ba6c-c984c46040c1"
-      (reference "U7") (unit 1) (value "MCP4922") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (reference "U7") (unit 1) (value "MCP4922") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/2721c640-6df0-48bb-bbcb-b59a3c9df97e/1e1d021d-0851-4b61-a3ac-ac46840f4527"
       (reference "U8") (unit 1) (value "Opamp_Dual") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -4479,7 +4479,7 @@
       (reference "U8") (unit 3) (value "Opamp_Dual") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/2721c640-6df0-48bb-bbcb-b59a3c9df97e/e8e90e4d-712c-4c30-8b3c-313caa89c7ed"
-      (reference "U9") (unit 1) (value "MCP4922") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (reference "U9") (unit 1) (value "MCP4922") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/692a73d2-e176-477f-bd1d-3a1a47774593/f08ee633-5528-498d-a37b-98234454325c"
       (reference "U10") (unit 1) (value "Opamp_Dual") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")

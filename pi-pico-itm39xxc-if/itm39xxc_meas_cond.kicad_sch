@@ -988,7 +988,7 @@
     (pin "2" (uuid b0ca9185-e66b-4872-8cb7-63d00676b0e2))
   )
 
-  (symbol (lib_id "Device:Opamp_Dual") (at 44.577 68.326 0) (unit 1)
+  (symbol (lib_id "Device:Opamp_Dual") (at 44.577 68.326 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 689fd45f-2a1b-4483-846a-9d149be90a0a)
     (property "Reference" "U11" (id 0) (at 47.625 65.278 0))
@@ -1259,7 +1259,7 @@
     (pin "2" (uuid 23e0fca8-5829-47a4-a92c-754b03388473))
   )
 
-  (symbol (lib_id "Device:Opamp_Dual") (at 91.44 69.596 0) (unit 2)
+  (symbol (lib_id "Device:Opamp_Dual") (at 91.44 69.596 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa490ac8-cd20-4a92-b766-1f6619b82f61)
     (property "Reference" "U11" (id 0) (at 91.44 64.516 0))

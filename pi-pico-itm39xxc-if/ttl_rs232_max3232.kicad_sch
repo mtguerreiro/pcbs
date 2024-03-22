@@ -338,7 +338,7 @@
 
   (no_connect (at 87.122 62.738) (uuid 8575cf13-cc45-4a7a-bbc4-f90491204d7d))
   (no_connect (at 87.122 72.898) (uuid db2d6e61-b002-4c71-accb-53547148dfa7))
-  (no_connect (at 46.482 72.898) (uuid db2d6e61-b002-4c71-accb-53547148dfa7))
+  (no_connect (at 46.482 72.898) (uuid db2d6e61-b002-4c71-accb-53547148dfa8))
 
   (wire (pts (xy 38.1 50.038) (xy 45.466 50.038))
     (stroke (width 0) (type default) (color 0 0 0 0))

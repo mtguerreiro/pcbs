@@ -1,0 +1,1 @@
+- Missing load capacitor for voltage reference. This is required, for example, for MCP1525

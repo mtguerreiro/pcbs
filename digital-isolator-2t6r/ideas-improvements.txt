@@ -1,3 +1,4 @@
 - Add isolating cap between two grounds for better emi performance
 - Add a list with compatible isolators (possibilities: adum1401, iso6741, Si8641, Si86S641/L41)
 - Add power leds
+- would it make more sense to match tx/tx and rx/rx instead of tx/rx and rx/tx as of now?

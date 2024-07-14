@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="44.239307mm"
+   height="33.839626mm"
+   viewBox="0 0 44.239307 33.839626"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.2482356"
+     inkscape:cx="73.206863"
+     inkscape:cy="67.910546"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-60.397948,-98.682736)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="24.480042"
+       height="33.439625"
+       x="68.913391"
+       y="98.882736" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.11163,106.40232 H 74.523856"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.861232,103.6358 H 98.387555"
+       id="path1-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87.906416,106.69601 h 10.48114"
+       id="path1-3-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.875022,109.75622 H 98.387548"
+       id="path1-3-7" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="98.915123"
+       y="110.91196"
+       id="text4-9"><tspan
+         sodipodi:role="line"
+         id="tspan4-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+         x="98.915123"
+         y="110.91196">SD<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="98.915123"
+       y="129.01741"
+       id="text4-9-3"><tspan
+         sodipodi:role="line"
+         id="tspan4-3-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+         x="98.915123"
+         y="129.01741">SD<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9-4">6</tspan></tspan></text>
+    <g
+       id="g6"
+       transform="translate(-12.250698,-0.89607141)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-dasharray:none;stroke-opacity:1"
+         d="m 111.38131,103.04792 h 3.39824"
+         id="path1-5-6-2" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         x="111.16582"
+         y="105.69586"
+         id="text4-1-9"><tspan
+           sodipodi:role="line"
+           id="tspan4-0-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+           x="111.16582"
+           y="105.69586">CS</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="98.915123"
+       y="107.85175"
+       id="text4-1-6-5"><tspan
+         sodipodi:role="line"
+         id="tspan4-0-6-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+         x="98.915123"
+         y="107.85175">CLK</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.104004,124.80278 H 74.51623"
+       id="path1-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 87.77533,128.15668 H 98.387552"
+       id="path1-3-7-3" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="60.346634"
+       y="107.24211"
+       id="text4-9-3-4"><tspan
+         sodipodi:role="line"
+         id="tspan4-3-6-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+         x="60.346634"
+         y="107.24211">A<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9-4-4">1</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       x="60.340588"
+       y="125.62796"
+       id="text4-9-3-3"><tspan
+         sodipodi:role="line"
+         id="tspan4-3-6-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+         x="60.340588"
+         y="125.62796">A<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan9-4-2">6</tspan></tspan></text>
+    <g
+       id="g3">
+      <g
+         id="g1">
+        <g
+           id="g4"
+           transform="translate(-42.99696,-5.9563366)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.25;stroke-dasharray:none;stroke-opacity:1"
+             d="m 125.90945,108.09993 h 3.39824"
+             id="path1-5-6" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="125.68156"
+             y="116.69742"
+             id="text4"><tspan
+               sodipodi:role="line"
+               id="tspan4"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="125.68156"
+               y="116.69742">SD</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="125.69396"
+             y="110.74788"
+             id="text4-1"><tspan
+               sodipodi:role="line"
+               id="tspan4-0"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="125.69396"
+               y="110.74788">CS</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="123.58556"
+             y="113.67483"
+             id="text4-1-6"><tspan
+               sodipodi:role="line"
+               id="tspan4-0-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="123.58556"
+               y="113.67483">CLK</tspan></text>
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.746878,101.18693 h 8.03608"
+           id="path1-5-9" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.739248,101.18693 -5.21539,5.21539"
+           id="path4" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 74.523858,106.40232 5.21539,5.21539"
+           id="path4-5" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.739248,111.61771 h 8.03608"
+           id="path1-5-9-7" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="M 87.782958,111.56093 V 101.2437"
+           id="path1-5-9-0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           x="76.623039"
+           y="107.55961"
+           id="text5"><tspan
+             sodipodi:role="line"
+             id="tspan5"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4"
+             x="76.623039"
+             y="107.55961">A</tspan></text>
+      </g>
+      <g
+         id="g2">
+        <g
+           id="g4-2"
+           transform="translate(-43.004586,12.444128)">
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.25;stroke-dasharray:none;stroke-opacity:1"
+             d="m 125.90945,108.09993 h 3.39824"
+             id="path1-5-6-3" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="125.68156"
+             y="116.69742"
+             id="text4-6"><tspan
+               sodipodi:role="line"
+               id="tspan4-8"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="125.68156"
+               y="116.69742">SD</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="125.69396"
+             y="110.74788"
+             id="text4-1-2"><tspan
+               sodipodi:role="line"
+               id="tspan4-0-3"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="125.69396"
+               y="110.74788">CS</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+             x="123.58556"
+             y="113.67483"
+             id="text4-1-6-2"><tspan
+               sodipodi:role="line"
+               id="tspan4-0-6-6"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.4"
+               x="123.58556"
+               y="113.67483">CLK</tspan></text>
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.739252,119.5874 h 8.036076"
+           id="path1-5-9-3" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.731622,119.5874 -5.21539,5.21538"
+           id="path4-2" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 74.516232,124.80278 5.21539,5.21539"
+           id="path4-5-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="m 79.731622,130.01817 h 8.036076"
+           id="path1-5-9-7-3" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           d="M 87.775328,129.96139 V 119.64417"
+           id="path1-5-9-0-0" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+           x="76.61541"
+           y="125.96009"
+           id="text5-7"><tspan
+             sodipodi:role="line"
+             id="tspan5-3"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4"
+             x="76.61541"
+             y="125.96009">A</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 87.875327,122.04848 h 1.662624"
+           id="path1-3-1" />
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.400001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87.87533,125.10869 h 3.427219"
+       id="path1-3-6-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 89.337948,122.04848 V 103.63581"
+       id="path1-3-1-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 91.102549,125.10869 V 106.69602"
+       id="path1-3-1-9-4" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path10"
+       cx="91.102554"
+       cy="106.69601"
+       r="0.5" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path10-9"
+       cx="89.337952"
+       cy="103.6358"
+       r="0.5" />
+    <g
+       id="g11"
+       transform="translate(3.8662765,4.0141205)">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88"
+         cx="58.015999"
+         cy="117.00625"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-2"
+         cx="58.015999"
+         cy="114.29369"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-3"
+         cx="58.015999"
+         cy="111.58112"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-6"
+         cx="58.015999"
+         cy="108.86855"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-29"
+         cx="58.015999"
+         cy="106.15599"
+         r="0.32499999" />
+    </g>
+    <g
+       id="g10"
+       transform="translate(3.8662765,4.378621)">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-26"
+         cx="79.891014"
+         cy="108.80417"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-38"
+         cx="79.891014"
+         cy="111.22393"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-7"
+         cx="79.891014"
+         cy="113.64369"
+         r="0.32499999" />
+    </g>
+    <g
+       id="g11-1"
+       transform="translate(43.469584,7.5228394)">
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-5"
+         cx="58.015999"
+         cy="117.00625"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-2-4"
+         cx="58.015999"
+         cy="114.29369"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-3-9"
+         cx="58.015999"
+         cy="111.58112"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-6-9"
+         cx="58.015999"
+         cy="108.86855"
+         r="0.32499999" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.399999;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path10-9-2-88-29-3"
+         cx="58.015999"
+         cy="106.15599"
+         r="0.32499999" />
+    </g>
+  </g>
+</svg>

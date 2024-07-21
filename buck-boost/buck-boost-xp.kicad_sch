@@ -1,5 +1,122 @@
-(kicad_sch (version 20211123) (generator eeschema)
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3f994017-d36f-4c43-a8c8-740bd919e8ad")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 82.55 106.68)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "bc46c06a-9ffe-406b-8a41-64c141cc151a")
+		(property "Sheetname" "gd_1ed3125mu12f"
+			(at 82.55 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
+			(at 82.55 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCC2" input
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47f5b6e4-732e-40c3-a424-5db6dc2ed4b6")
+		)
+		(pin "VEE2" input
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b619486-45e9-4432-b11c-3ff868869cd3")
+		)
+		(pin "G" bidirectional
+			(at 100.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32031249-e49e-486d-8bfa-a9e148c7a36d")
+		)
+		(pin "IN+" input
+			(at 82.55 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed9d76d0-2e66-44f4-859c-f1ec4d3d27a5")
+		)
+		(pin "IN-" input
+			(at 82.55 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff83b853-9278-47a5-9d31-b0c7f2c12346")
+		)
+		(pin "VCC1" input
+			(at 82.55 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d036e321-3616-440a-8195-80ebf426bd37")
+		)
+		(pin "GND1" input
+			(at 82.55 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "53965cc6-6e23-4724-9b7d-8bd6280e7d16")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

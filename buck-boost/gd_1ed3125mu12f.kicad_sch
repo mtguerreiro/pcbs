@@ -2466,7 +2466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 36.83 48.26 0)
 			(effects
 				(font

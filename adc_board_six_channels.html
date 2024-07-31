@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>adc-board-six-channels &mdash; ResPCBs v0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=4c0d86c8"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to ResPCBs’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ResPCBs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">adc-board-six-channels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#board-and-pinout">Board and pinout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adc-compability">ADC compability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#channel-diagram">Channel diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supplying-the-board">Supplying the board</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#isolation">Isolation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#signal-preconditioning">Signal preconditioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-six-channels">Why six channels?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#has-this-board-ever-been-used">Has this board ever been used?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ResPCBs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">adc-board-six-channels</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/adc_board_six_channels.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="adc-board-six-channels">
+<span id="sec-adc-board-six-channels"></span><h1>adc-board-six-channels<a class="headerlink" href="#adc-board-six-channels" title="Permalink to this heading"></a></h1>
+<p>The <code class="docutils literal notranslate"><span class="pre">adc-board-six-channels</span></code> is a board containing six ADCs, intended for single-ended measurements. The boad supports ADCs with SOT-23-6 package and SPI interface.</p>
+<p>A diagram of the board is shown in  <a class="reference internal" href="#fig-adc-board-six-channels-diagram"><span class="std std-numref">Fig. 1</span></a>, where:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> and <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> are supply inputs. The ADCs can be supplied either with <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> (typically 3V3) or <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> (typically 5V). This depends on the specific ADC mounted on the board.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{A}_1, \dots, \text{A}_6\)</span> are the analog inputs.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\bar{\text{CS}}\)</span> and <span class="math notranslate nohighlight">\(\text{CLK}\)</span> are the chip select and clock signals. These two signals are shared among all ADCs on the board.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{SD}_1, \dots, \text{SD}_6\)</span> are the data outputs of the ADCs.</p></li>
+</ul>
+<figure class="align-center" id="fig-adc-board-six-channels-diagram">
+<a class="reference internal image-reference" href="_images/diagram.svg"><img alt="Diagram of the board." height="291" src="_images/diagram.svg" width="264" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Diagram of the board.</span><a class="headerlink" href="#fig-adc-board-six-channels-diagram" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<section id="board-and-pinout">
+<h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
+<p>A fully populated board is shown in <a class="reference internal" href="#fig-adc-board-six-channels-adc-board"><span class="std std-numref">Fig. 2</span></a>. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).</p>
+<figure class="align-center" id="fig-adc-board-six-channels-adc-board">
+<a class="reference internal image-reference" href="_images/adc-board.svg"><img alt="Populated board." height="160" src="_images/adc-board.svg" width="181" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Populated board.</span><a class="headerlink" href="#fig-adc-board-six-channels-adc-board" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>The board’s pinout is shown in <a class="reference internal" href="#fig-adc-board-six-channels-pinout"><span class="std std-numref">Fig. 3</span></a></p>
+<figure class="align-center" id="fig-adc-board-six-channels-pinout">
+<a class="reference internal image-reference" href="_images/pinout.svg"><img alt="Pinout of the board." height="618" src="_images/pinout.svg" width="1548" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Pinout of the board.</span><a class="headerlink" href="#fig-adc-board-six-channels-pinout" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="adc-compability">
+<h2>ADC compability<a class="headerlink" href="#adc-compability" title="Permalink to this heading"></a></h2>
+<p>The board supports any ADC having the footprint shown in <a class="reference internal" href="#fig-adc-board-six-channels-adc-footprint"><span class="std std-numref">Fig. 4</span></a>. Example of compatible ADCs</p>
+<ul class="simple">
+<li><p>TI’s ADC121S021 (12 bit, 50-200 ksps)</p></li>
+<li><p>Analog Devices’ MAX11665 (12 bit, 500 ksps)</p></li>
+</ul>
+<figure class="align-center" id="fig-adc-board-six-channels-adc-footprint">
+<a class="reference internal image-reference" href="_images/adc-footprint.svg"><img alt="Footprint of ADC." height="131" src="_images/adc-footprint.svg" width="142" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">ADC’s footprint.</span><a class="headerlink" href="#fig-adc-board-six-channels-adc-footprint" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="channel-diagram">
+<h2>Channel diagram<a class="headerlink" href="#channel-diagram" title="Permalink to this heading"></a></h2>
+<p>All channels are identifical, consisting essentially of a low-pass filter and an ADC. The circuit diagram is shown in <a class="reference internal" href="#fig-adc-board-six-channels-channel-diagram"><span class="std std-numref">Fig. 5</span></a>. The cut-off frequency <span class="math notranslate nohighlight">\(f_\text{c}\)</span> of the filter is given by</p>
+<div class="math notranslate nohighlight">
+\[f_\text{c} = \frac{1}{2\pi R C}.\]</div>
+<p>The cut-off frequency can be adjusted according to the desired filtering requirements or sampling rate. Each channel can have a different cut-off frequency; however, all channels will have the same sampling rate since they share the chip select and clock signals.</p>
+<figure class="align-center" id="fig-adc-board-six-channels-channel-diagram">
+<a class="reference internal image-reference" href="_images/channel-diagram.svg"><img alt="Single channel diagram." height="102" src="_images/channel-diagram.svg" width="249" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Circuit diagram of a single channel.</span><a class="headerlink" href="#fig-adc-board-six-channels-channel-diagram" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>To help damping ringing in case of a longer cables on connector J2, a small resistor <span class="math notranslate nohighlight">\(\text{R}_\text{d}\)</span> is placed in series with the data output line of the ADC.</p>
+</section>
+<section id="supplying-the-board">
+<h2>Supplying the board<a class="headerlink" href="#supplying-the-board" title="Permalink to this heading"></a></h2>
+<p>As shown in <a class="reference internal" href="#fig-adc-board-six-channels-diagram"><span class="std std-numref">Fig. 1</span></a>, the ADCs can be powered either with <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> (typically 3.3 V) or <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span>  (typically 5 V). The voltage source is selected by populating the proper resistor on the PCB, as indicated in <a class="reference internal" href="#fig-adc-board-six-channels-supply"><span class="std std-numref">Fig. 6</span></a>. Depending on which resistor is populated and which is not, the ADCs are powered as follows:</p>
+<ul class="simple">
+<li><p>R15 populated, R16 not placed: ADCs are powered with 5 V (<span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span>)</p></li>
+<li><p>R16 not placed, R15 populated: ADCs are powered with 3.3 V (<span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span>)</p></li>
+</ul>
+<figure class="align-center" id="fig-adc-board-six-channels-supply">
+<a class="reference internal image-reference" href="_images/supply.png"><img alt="ADC's supply." src="_images/supply.png" style="width: 225.0px; height: 95.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Selecting the voltage source for the ADCs.</span><a class="headerlink" href="#fig-adc-board-six-channels-supply" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="isolation">
+<h2>Isolation<a class="headerlink" href="#isolation" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>TODO: make reference to digital isolator boards</p></li>
+</ul>
+</section>
+<section id="signal-preconditioning">
+<h2>Signal preconditioning<a class="headerlink" href="#signal-preconditioning" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>TODO: make reference to amplifier boards</p></li>
+</ul>
+</section>
+<section id="why-six-channels">
+<h2>Why six channels?<a class="headerlink" href="#why-six-channels" title="Permalink to this heading"></a></h2>
+<p>Originally, the board was intended to be used in three-phase systems, to sample three voltage and three current signals. That’s why the board was designed with six analog channels.</p>
+</section>
+<section id="has-this-board-ever-been-used">
+<h2>Has this board ever been used?<a class="headerlink" href="#has-this-board-ever-been-used" title="Permalink to this heading"></a></h2>
+<p>Yes. This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controller by an FPGA.</p>
+<p>One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup"><span class="std std-numref">Fig. 7</span></a>. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.</p>
+<figure class="align-center" id="fig-general-buck-boost-setup">
+<a class="reference internal image-reference" href="_images/buck-boost-setup.jpeg"><img alt="Buck/boost setup." src="_images/buck-boost-setup.jpeg" style="width: 540.0px; height: 219.0px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">ADC board put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="fabrication-files">
+<h2>Fabrication files<a class="headerlink" href="#fabrication-files" title="Permalink to this heading"></a></h2>
+<p>To get the gerber files used to fabricate the ADC board, checkout commit <code class="docutils literal notranslate"><span class="pre">34480072c29c523887cbbbe66a5d34a5624f99fb</span></code>, and find the files under <code class="docutils literal notranslate"><span class="pre">adc-board-six-channels/gerber</span></code></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to ResPCBs’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Marco Guerreiro.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

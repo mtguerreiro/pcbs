@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="273.2666mm"
+   height="109.13595mm"
+   viewBox="0 0 273.2666 109.13595"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="pinout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.70644641"
+     inkscape:cx="897.44953"
+     inkscape:cy="272.49059"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <rect
+       x="396.23483"
+       y="339.39456"
+       width="163.68062"
+       height="43.399231"
+       id="rect11" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-8.3152093,-38.805547)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text11"
+       style="font-size:12px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';white-space:pre;shape-inside:url(#rect11);display:inline;fill:#363a44;fill-opacity:1;stroke-width:1.51181;stroke-linecap:round" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.569217,50.642654 h 5.620535"
+       id="path12" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.237498,50.642654 h 5.620535"
+       id="path12-4-6" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.633331,85.279384 h 5.620535"
+       id="path12-4-96" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 80.897915,93.938556 H 86.51845"
+       id="path12-4-5" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 80.897915,102.59774 H 86.51845"
+       id="path12-4-59" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 81.162498,111.25693 h 5.620535"
+       id="path12-4-83" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.502082,59.301836 h 5.620535"
+       id="path12-4-8" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.502082,67.961018 h 5.620535"
+       id="path12-4-4" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.031249,76.6202 h 5.620535"
+       id="path12-4-87" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.766666,85.279383 h 5.620535"
+       id="path12-4-2" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.824999,93.938565 h 5.620535"
+       id="path12-4-15" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.766666,102.59774 h 5.620535"
+       id="path12-4-17" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 46.766666,111.25693 h 5.620535"
+       id="path12-4-9" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.569217,59.301836 h 5.620535"
+       id="path12-4-3" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.368749,67.961019 h 5.620535"
+       id="path12-4-94" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.368749,76.620201 h 5.620535"
+       id="path12-4-39" />
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="47.724827" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="52.185711"
+       id="text1-39-4-5-5-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="52.185711"
+         id="tspan2-0">RX1A</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-9"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="99.679924" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.788071"
+       y="104.14081"
+       id="text1-39-4-5-5-6-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.788071"
+         y="104.14081"
+         id="tspan2-0-2">VDDA</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="60.872799"
+       id="text1-39-4-5-5-6-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="60.872799"
+         id="tspan2-0-20">RX2A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="65.04319" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="69.502007"
+       id="text1-39-4-5-5-6-9-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="69.502007"
+         id="tspan2-0-20-2">RX3A</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-9-1"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="108.3391" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="72.379128"
+       y="112.79792"
+       id="text1-39-4-5-5-6-1-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="72.379128"
+         y="112.79792"
+         id="tspan2-0-2-9">NC</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7"
+       width="12.887983"
+       height="5.8356543"
+       x="68.46212"
+       y="73.702377" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="78.163261"
+       id="text1-39-4-5-5-6-9-2-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="78.163261"
+         id="tspan2-0-20-2-4">RX4A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7-1"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="82.361557" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="86.792465"
+       id="text1-39-4-5-5-6-9-2-8-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="86.792465"
+         id="tspan2-0-20-2-4-6">RX5A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7-1-1"
+       width="12.887983"
+       height="5.8356543"
+       x="68.462112"
+       y="91.020737" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="69.699188"
+       y="95.479553"
+       id="text1-39-4-5-5-6-9-2-8-0-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="69.699188"
+         y="95.479553"
+         id="tspan2-0-20-2-4-6-5">RX6A</tspan></text>
+    <g
+       id="g10"
+       transform="translate(19.820129,-1.6009331)">
+      <rect
+         style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+         id="rect1-4-7-6-8-48-93"
+         width="12.887983"
+         height="5.8356543"
+         x="31.841763"
+         y="49.327827" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+         x="33.121216"
+         y="53.786644"
+         id="text1-39-4-5-5-6-7"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+           x="33.121216"
+           y="53.786644"
+           id="tspan2-0-4">GNDA</tspan></text>
+    </g>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.941345"
+       y="60.842827"
+       id="text1-39-4-5-5-6-7-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.941345"
+         y="60.842827"
+         id="tspan2-0-4-2">GNDA</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-0"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="65.041122" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.998188"
+       y="69.502007"
+       id="text1-39-4-5-5-6-7-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.998188"
+         y="69.502007"
+         id="tspan2-0-4-1">TX1A</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-9"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="73.698242" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.998188"
+       y="78.157059"
+       id="text1-39-4-5-5-6-7-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.998188"
+         y="78.157059"
+         id="tspan2-0-4-7">TX2A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-7"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="82.355354" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.941345"
+       y="86.814171"
+       id="text1-39-4-5-5-6-7-76"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.941345"
+         y="86.814171"
+         id="tspan2-0-4-73">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-8"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="91.012466" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.941345"
+       y="95.471283"
+       id="text1-39-4-5-5-6-7-12"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.941345"
+         y="95.471283"
+         id="tspan2-0-4-9">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-5"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="99.669586" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.941345"
+       y="104.1284"
+       id="text1-39-4-5-5-6-7-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.941345"
+         y="104.1284"
+         id="tspan2-0-4-96">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-59"
+       width="12.887983"
+       height="5.8356543"
+       x="51.661892"
+       y="108.3267" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="52.941345"
+       y="112.78551"
+       id="text1-39-4-5-5-6-7-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="52.941345"
+         y="112.78551"
+         id="tspan2-0-4-4">GNDA</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="47.724827" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="52.220852"
+       id="text1-39-4-5-5-6-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="52.220852"
+         id="tspan2-0-44">RX 1 - side A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="60.880035"
+       id="text1-39-4-5-5-6-4-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="60.880035"
+         id="tspan2-0-44-6">RX 2 - side A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="65.04319" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="69.539215"
+       id="text1-39-4-5-5-6-4-9-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="69.539215"
+         id="tspan2-0-44-6-4">RX 3 - side A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5-7"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="73.70237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="78.198395"
+       id="text1-39-4-5-5-6-4-9-7-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="78.198395"
+         id="tspan2-0-44-6-4-3">RX 4 - side A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5-7-8"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="82.361549" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="86.857574"
+       id="text1-39-4-5-5-6-4-9-7-5-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="86.857574"
+         id="tspan2-0-44-6-4-3-6">RX 5 - side A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5-7-8-8"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="91.020729" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.283829"
+       y="95.516754"
+       id="text1-39-4-5-5-6-4-9-7-5-9-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.283829"
+         y="95.516754"
+         id="tspan2-0-44-6-4-3-6-0">RX 6 - side A</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5-7-8-8-9"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="99.679916" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="85.739281"
+       y="103.777"
+       id="text1-39-4-5-5-6-4-9-7-5-9-6-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="85.739281"
+         y="103.777"
+         id="tspan2-0-44-6-4-3-6-0-7">Supply - side A</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-5-5-7-8-8-9-0"
+       width="39.394928"
+       height="5.8356543"
+       x="85.262337"
+       y="108.3391" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="88.437828"
+       y="112.83513"
+       id="text1-39-4-5-5-6-4-9-7-5-9-6-7-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="88.437828"
+         y="112.83513"
+         id="tspan2-0-44-6-4-3-6-0-7-2">No connection</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354723"
+       y="47.724827" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="52.220852"
+       id="text1-39-4-5-5-6-4-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="52.220852"
+         id="tspan2-0-44-9">Ground - side A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-6"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354723"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="60.880035"
+       id="text1-39-4-5-5-6-4-2-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="60.880035"
+         id="tspan2-0-44-9-6">Ground - side A</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-9"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354723"
+       y="65.04319" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="11.475434"
+       y="69.539215"
+       id="text1-39-4-5-5-6-4-2-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="11.475434"
+         y="69.539215"
+         id="tspan2-0-44-9-0">TX 1 - side A</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-2"
+       width="39.394928"
+       height="5.8356543"
+       x="8.3547192"
+       y="73.70237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="11.47543"
+       y="78.198395"
+       id="text1-39-4-5-5-6-4-2-28"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="11.47543"
+         y="78.198395"
+         id="tspan2-0-44-9-9">TX 2 - side A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-93"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354722"
+       y="82.361557" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="86.857582"
+       id="text1-39-4-5-5-6-4-2-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="86.857582"
+         id="tspan2-0-44-9-94">Ground - side A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-3"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354722"
+       y="91.020737" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="95.516762"
+       id="text1-39-4-5-5-6-4-2-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="95.516762"
+         id="tspan2-0-44-9-1">Ground - side A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-1"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354723"
+       y="99.679916" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="104.17594"
+       id="text1-39-4-5-5-6-4-2-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="104.17594"
+         id="tspan2-0-44-9-5">Ground - side A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-937"
+       width="39.394928"
+       height="5.8356543"
+       x="8.354723"
+       y="108.3391" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="8.8699102"
+       y="112.83513"
+       id="text1-39-4-5-5-6-4-2-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="8.8699102"
+         y="112.83513"
+         id="tspan2-0-44-9-52">Ground - side A</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,111.24453 H 238.039"
+       id="path12-4-6-6" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="108.3267" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="112.78551"
+       id="text1-39-4-5-5-6-7-00"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="112.78551"
+         id="tspan2-0-4-46">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="108.3267" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="112.82272"
+       id="text1-39-4-5-5-6-4-2-56"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="112.82272"
+         id="tspan2-0-44-9-98">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,102.58741 H 238.039"
+       id="path12-4-6-6-9" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="99.669586" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="104.1284"
+       id="text1-39-4-5-5-6-7-00-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="104.1284"
+         id="tspan2-0-4-46-2">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-6"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="99.669586" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="104.16561"
+       id="text1-39-4-5-5-6-4-2-56-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="104.16561"
+         id="tspan2-0-44-9-98-3">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.12253,50.642653 h 5.62053"
+       id="path12-4-6-4" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.38711,59.301835 h 5.62054"
+       id="path12-4-8-3" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.38711,67.961017 h 5.62054"
+       id="path12-4-4-3" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.91628,76.620199 h 5.62053"
+       id="path12-4-87-3" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.6517,85.279382 h 5.62053"
+       id="path12-4-2-8" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 204.71003,93.938564 h 5.62053"
+       id="path12-4-15-6" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.6517,102.59774 h 5.62053"
+       id="path12-4-17-0" />
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.6517,111.25694 h 5.62053"
+       id="path12-4-9-4" />
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-89"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="47.726894" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="52.185711"
+       id="text1-39-4-5-5-6-7-77"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="52.185711"
+         id="tspan2-0-4-6">TX1B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-3"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="60.842827"
+       id="text1-39-4-5-5-6-7-7-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="60.842827"
+         id="tspan2-0-4-2-3">TX2B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-0-9"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="65.041122" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="69.499939"
+       id="text1-39-4-5-5-6-7-6-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="69.499939"
+         id="tspan2-0-4-1-5">TX3B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-9-0"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="73.698242" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="78.157059"
+       id="text1-39-4-5-5-6-7-1-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="78.157059"
+         id="tspan2-0-4-7-9">TX4B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-7-6"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="82.355354" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="86.814171"
+       id="text1-39-4-5-5-6-7-76-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="86.814171"
+         id="tspan2-0-4-73-2">TX5B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-8-4"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="91.012466" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.9442"
+       y="95.471283"
+       id="text1-39-4-5-5-6-7-12-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.9442"
+         y="95.471283"
+         id="tspan2-0-4-9-7">TX6B</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-5-4"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="99.669586" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="209.93385"
+       y="104.13047"
+       id="text1-39-4-5-5-6-7-0-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="209.93385"
+         y="104.13047"
+         id="tspan2-0-4-96-1">VDDB</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-59-8"
+       width="12.887983"
+       height="5.8356543"
+       x="208.54692"
+       y="108.3267" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="212.46394"
+       y="112.78551"
+       id="text1-39-4-5-5-6-7-8-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="212.46394"
+         y="112.78551"
+         id="tspan2-0-4-4-3">NC</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-0"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="47.724827" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.42143"
+       y="52.220852"
+       id="text1-39-4-5-5-6-4-2-21"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.42143"
+         y="52.220852"
+         id="tspan2-0-44-9-05">TX 1 - side B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-6-1"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="56.38401" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.40697"
+       y="60.891403"
+       id="text1-39-4-5-5-6-4-2-0-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.40697"
+         y="60.891403"
+         id="tspan2-0-44-9-6-8">TX 2 - side B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-9-0"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="65.04319" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.38629"
+       y="69.550583"
+       id="text1-39-4-5-5-6-4-2-2-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.38629"
+         y="69.550583"
+         id="tspan2-0-44-9-0-4">TX 3 - side B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-2-2"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="73.70237" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.32841"
+       y="78.209763"
+       id="text1-39-4-5-5-6-4-2-28-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.32841"
+         y="78.209763"
+         id="tspan2-0-44-9-9-8">TX 4 - side B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-93-2"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="82.361557" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.39664"
+       y="86.86895"
+       id="text1-39-4-5-5-6-4-2-1-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.39664"
+         y="86.86895"
+         id="tspan2-0-44-9-94-4">TX 5 - side B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-3-2"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="91.020737" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.36459"
+       y="95.52813"
+       id="text1-39-4-5-5-6-4-2-6-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.36459"
+         y="95.52813"
+         id="tspan2-0-44-9-1-0">TX 6 - side B</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-1-2"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="99.679916" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="165.77766"
+       y="103.777"
+       id="text1-39-4-5-5-6-4-9-7-5-9-6-7-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="165.77766"
+         y="103.777"
+         id="tspan2-0-44-6-4-3-6-0-7-0">Supply - side B</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-937-8"
+       width="39.394928"
+       height="5.8356543"
+       x="165.23975"
+       y="108.3391" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="168.41524"
+       y="112.83513"
+       id="text1-39-4-5-5-6-4-9-7-5-9-6-7-9-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="168.41524"
+         y="112.83513"
+         id="tspan2-0-44-6-4-3-6-0-7-2-9">No connection</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,93.930294 H 238.039"
+       id="path12-4-6-6-91" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-9"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="91.012466" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="95.471283"
+       id="text1-39-4-5-5-6-7-00-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="95.471283"
+         id="tspan2-0-4-46-0">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-8"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="91.012466" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="95.508492"
+       id="text1-39-4-5-5-6-4-2-56-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="95.508492"
+         id="tspan2-0-44-9-98-0">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,85.273181 H 238.039"
+       id="path12-4-6-6-9-4" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-0"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="82.355354" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="86.814171"
+       id="text1-39-4-5-5-6-7-00-0-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="86.814171"
+         id="tspan2-0-4-46-2-2">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-6-6"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="82.355354" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="86.851379"
+       id="text1-39-4-5-5-6-4-2-56-1-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="86.851379"
+         id="tspan2-0-44-9-98-3-0">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,67.958948 H 238.039"
+       id="path12-4-6-6-0" />
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-5"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34715"
+       y="65.041122" />
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-2"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="65.041122" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="245.22984"
+       y="69.537148"
+       id="text1-39-4-5-5-6-4-2-56-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="245.22984"
+         y="69.537148"
+         id="tspan2-0-44-9-98-38">RX 1 - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,50.644722 H 238.039"
+       id="path12-4-6-6-9-0" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="47.726894" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="52.185711"
+       id="text1-39-4-5-5-6-7-00-0-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="52.185711"
+         id="tspan2-0-4-46-2-9">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-6-2"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="47.726894" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="52.222919"
+       id="text1-39-4-5-5-6-4-2-56-1-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="52.222919"
+         id="tspan2-0-44-9-98-3-4">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,59.30183 H 238.039"
+       id="path12-4-6-6-9-0-4" />
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09-2"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34717"
+       y="56.384003" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.68761"
+       y="60.842819"
+       id="text1-39-4-5-5-6-7-00-0-1-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.68761"
+         y="60.842819"
+         id="tspan2-0-4-46-2-9-8">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-6-2-2"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="56.384003" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="242.72354"
+       y="60.880028"
+       id="text1-39-4-5-5-6-4-2-56-1-5-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="242.72354"
+         y="60.880028"
+         id="tspan2-0-44-9-98-3-4-8">Ground - side B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       d="M 243.65954,76.616061 H 238.039"
+       id="path12-4-6-6-9-0-1" />
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09-4"
+       width="12.887983"
+       height="5.8356543"
+       x="225.34715"
+       y="73.698235" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.6452"
+       y="78.187027"
+       id="text1-39-4-5-5-6-7-00-0-1-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.6452"
+         y="78.187027"
+         id="tspan2-0-4-46-2-9-1">RX2B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="226.6452"
+       y="69.502007"
+       id="text1-39-4-5-5-6-7-00-0-1-3-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="226.6452"
+         y="69.502007"
+         id="tspan2-0-4-46-2-9-1-3">RX1B</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.400001;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-4-56-7-6-2-6"
+       width="39.394928"
+       height="5.8356543"
+       x="242.14737"
+       y="73.698235" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="245.22984"
+       y="78.19426"
+       id="text1-39-4-5-5-6-4-2-56-1-5-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="245.22984"
+         y="78.19426"
+         id="tspan2-0-44-9-98-3-4-4">RX 2 - side B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:#2577a9;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       x="44.553844"
+       y="43.630058"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="44.553844"
+         y="43.630058">J2 - top view</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:#2577a9;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       x="201.43887"
+       y="43.630058"
+       id="text32-6"><tspan
+         sodipodi:role="line"
+         id="tspan32-5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="201.43887"
+         y="43.630058">J1 - top view</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-3"
+       width="12.887983"
+       height="5.8356543"
+       x="8.3152094"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="9.5522881"
+       y="138.77754"
+       id="text1-39-4-5-5-6-92"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="9.5522881"
+         y="138.77754"
+         id="tspan2-0-8">RX1A</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-9-0"
+       width="12.887983"
+       height="5.8356543"
+       x="97.023994"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="98.349953"
+       y="138.77754"
+       id="text1-39-4-5-5-6-1-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="98.349953"
+         y="138.77754"
+         id="tspan2-0-2-7">VDDA</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-91"
+       width="12.887983"
+       height="5.8356543"
+       x="23.100008"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="24.337086"
+       y="138.80544"
+       id="text1-39-4-5-5-6-9-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="24.337086"
+         y="138.80544"
+         id="tspan2-0-20-4">RX2A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-2"
+       width="12.887983"
+       height="5.8356543"
+       x="37.884804"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="39.121883"
+       y="138.77547"
+       id="text1-39-4-5-5-6-9-2-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="39.121883"
+         y="138.77547"
+         id="tspan2-0-20-2-7">RX3A</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:0.95686275;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-9-1-9"
+       width="12.887983"
+       height="5.8356543"
+       x="111.80879"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="115.72581"
+       y="138.77547"
+       id="text1-39-4-5-5-6-1-2-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="115.72581"
+         y="138.77547"
+         id="tspan2-0-2-9-4">NC</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7-9"
+       width="12.887983"
+       height="5.8356543"
+       x="52.669605"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="53.906685"
+       y="138.77754"
+       id="text1-39-4-5-5-6-9-2-8-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="53.906685"
+         y="138.77754"
+         id="tspan2-0-20-2-4-5">RX4A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7-1-0"
+       width="12.887983"
+       height="5.8356543"
+       x="67.454399"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="68.691475"
+       y="138.74756"
+       id="text1-39-4-5-5-6-9-2-8-0-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="68.691475"
+         y="138.74756"
+         id="tspan2-0-20-2-4-6-1">RX5A</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-7-9-7-1-1-9"
+       width="12.887983"
+       height="5.8356543"
+       x="82.239197"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="83.476273"
+       y="138.77547"
+       id="text1-39-4-5-5-6-9-2-8-0-5-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="83.476273"
+         y="138.77547"
+         id="tspan2-0-20-2-4-6-5-8">RX6A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-53"
+       width="12.887983"
+       height="5.8356543"
+       x="8.3152094"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="9.5946627"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="9.5946627"
+         y="146.56467"
+         id="tspan2-0-4-90">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-0"
+       width="12.887983"
+       height="5.8356543"
+       x="23.100008"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="24.379461"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-7-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="24.379461"
+         y="146.56467"
+         id="tspan2-0-4-2-9">GNDA</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-53-5"
+       width="12.887983"
+       height="5.8356543"
+       x="37.884804"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="39.164257"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-4-8"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="39.164257"
+         y="146.56467"
+         id="tspan2-0-4-90-4">TX1A</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-0-7"
+       width="12.887983"
+       height="5.8356543"
+       x="52.669605"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="53.949059"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-7-1-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="53.949059"
+         y="146.56467"
+         id="tspan2-0-4-2-9-3">TX2A</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-53-2"
+       width="12.887983"
+       height="5.8356543"
+       x="67.454399"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="68.733849"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-4-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="68.733849"
+         y="146.56467"
+         id="tspan2-0-4-90-3">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-0-1"
+       width="12.887983"
+       height="5.8356543"
+       x="82.239197"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="83.518646"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-7-1-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="83.518646"
+         y="146.56467"
+         id="tspan2-0-4-2-9-2">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-53-5-2"
+       width="12.887983"
+       height="5.8356543"
+       x="97.023994"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="98.303444"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-4-8-1"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="98.303444"
+         y="146.56467"
+         id="tspan2-0-4-90-4-7">GNDA</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-0-7-1"
+       width="12.887983"
+       height="5.8356543"
+       x="111.80879"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="113.08824"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-7-1-1-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="113.08824"
+         y="146.56467"
+         id="tspan2-0-4-2-9-3-4">GNDA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:#2577a9;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       x="41.619141"
+       y="130.48198"
+       id="text32-1"><tspan
+         sodipodi:role="line"
+         id="tspan32-1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="41.619141"
+         y="130.48198">J2 - front view</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:#2577a9;fill-opacity:1;stroke:#ffffff;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+       x="198.50417"
+       y="130.48198"
+       id="text32-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan32-1-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="198.50417"
+         y="130.48198">J1 - front view</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-96"
+       width="12.887983"
+       height="5.8356543"
+       x="165.20029"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="166.54066"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="166.54066"
+         y="146.56467"
+         id="tspan2-0-4-46-8">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-7"
+       width="12.887983"
+       height="5.8356543"
+       x="179.98508"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="181.32552"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-0-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="181.32552"
+         y="146.56467"
+         id="tspan2-0-4-46-2-6">GNDB</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-89-5"
+       width="12.887983"
+       height="5.8356543"
+       x="268.69382"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="270.09109"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-77-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="270.09109"
+         y="138.77547"
+         id="tspan2-0-4-6-9">TX1B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-1-3-1"
+       width="12.887983"
+       height="5.8356543"
+       x="253.90903"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="255.3063"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-7-0-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="255.3063"
+         y="138.77547"
+         id="tspan2-0-4-2-3-4">TX2B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-0-9-5"
+       width="12.887983"
+       height="5.8356543"
+       x="239.12424"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="240.52151"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-6-2-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="240.52151"
+         y="138.77547"
+         id="tspan2-0-4-1-5-4">TX3B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-9-0-8"
+       width="12.887983"
+       height="5.8356543"
+       x="224.33943"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="225.73672"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-1-5-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="225.73672"
+         y="138.77547"
+         id="tspan2-0-4-7-9-8">TX4B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-7-6-2"
+       width="12.887983"
+       height="5.8356543"
+       x="209.55463"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="210.95193"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-76-9-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="210.95193"
+         y="138.77547"
+         id="tspan2-0-4-73-2-2">TX5B</tspan></text>
+    <rect
+       style="fill:#5b9d2d;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-8-4-0"
+       width="12.887983"
+       height="5.8356543"
+       x="194.76984"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="196.16711"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-12-7-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="196.16711"
+         y="138.77547"
+         id="tspan2-0-4-9-7-4">TX6B</tspan></text>
+    <rect
+       style="fill:#e83131;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-5-4-3"
+       width="12.887983"
+       height="5.8356543"
+       x="179.98503"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="181.37201"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-0-8-6"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="181.37201"
+         y="138.77547"
+         id="tspan2-0-4-96-1-3">VDDB</tspan></text>
+    <rect
+       style="fill:#a9a9a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-59-8-4"
+       width="12.887983"
+       height="5.8356543"
+       x="165.20023"
+       y="134.31665" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="169.11725"
+       y="138.77547"
+       id="text1-39-4-5-5-6-7-8-9-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="169.11725"
+         y="138.77547"
+         id="tspan2-0-4-4-3-3">NC</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-9-9"
+       width="12.887983"
+       height="5.8356543"
+       x="194.76987"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="196.11031"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-1-3"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="196.11031"
+         y="146.56467"
+         id="tspan2-0-4-46-0-4">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-0-6"
+       width="12.887983"
+       height="5.8356543"
+       x="209.55466"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="210.8951"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-0-4-5"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="210.8951"
+         y="146.56467"
+         id="tspan2-0-4-46-2-2-9">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09-5"
+       width="12.887983"
+       height="5.8356543"
+       x="268.69382"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="270.03424"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-0-1-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="270.03424"
+         y="146.56467"
+         id="tspan2-0-4-46-2-9-81">GNDB</tspan></text>
+    <rect
+       style="fill:#363a44;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09-2-7"
+       width="12.887983"
+       height="5.8356543"
+       x="253.90903"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="255.24947"
+       y="146.56467"
+       id="text1-39-4-5-5-6-7-00-0-1-8-4"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="255.24947"
+         y="146.56467"
+         id="tspan2-0-4-46-2-9-8-0">GNDB</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-6-09-4-7"
+       width="12.887983"
+       height="5.8356543"
+       x="224.33945"
+       y="142.10583" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="225.6375"
+       y="146.56465"
+       id="text1-39-4-5-5-6-7-00-0-1-3-0"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="225.6375"
+         y="146.56465"
+         id="tspan2-0-4-46-2-9-1-0">RX2B</tspan></text>
+    <rect
+       style="fill:#2577a9;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       id="rect1-4-7-6-8-48-93-4-5-7"
+       width="12.887983"
+       height="5.8356543"
+       x="239.12424"
+       y="142.10585" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round;stroke-opacity:1"
+       x="240.42229"
+       y="146.39026"
+       id="text1-39-4-5-5-6-7-00-0-1-3-0-9"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.4;stroke-opacity:1"
+         x="240.42229"
+         y="146.39026"
+         id="tspan2-0-4-46-2-9-1-0-1">RX1B</tspan></text>
+    <path
+       style="fill:#a2a2a2;fill-opacity:1;stroke:#9d9d9d;stroke-width:0.8;stroke-linecap:square;stroke-dasharray:3.20000005,6.4000001;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 144.9485,39.011643 V 147.7387"
+       id="path12-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.46944px;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Normal';fill:#a9a9a9;fill-opacity:1;stroke:#000000;stroke-width:0.349999;stroke-linejoin:round;stroke-dasharray:2.1, 2.1"
+       x="184.93721"
+       y="145.02368"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.35" /></text>
+  </g>
+</svg>

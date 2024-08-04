@@ -22,7 +22,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Welcome to ResPCBs’s documentation!" href="index.html" /> 
+    <link rel="next" title="digital-isolator-2t6r" href="digital_isolator_2t6r.html" />
+    <link rel="prev" title="Welcome to our site!" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,11 +45,11 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Analog-to-digital converters (ADCs)</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">adc-board-six-channels</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#board-and-pinout">Board and pinout</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#adc-compability">ADC compability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adc-compatibility">ADC compatibility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#channel-diagram">Channel diagram</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#supplying-the-board">Supplying the board</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#isolation">Isolation</a></li>
@@ -58,6 +59,10 @@
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Digital isolators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="digital_isolator_2t6r.html">digital-isolator-2t6r</a></li>
 </ul>
 
         </div>
@@ -86,7 +91,7 @@
              
   <section id="adc-board-six-channels">
 <span id="sec-adc-board-six-channels"></span><h1>adc-board-six-channels<a class="headerlink" href="#adc-board-six-channels" title="Permalink to this heading"></a></h1>
-<p>The <code class="docutils literal notranslate"><span class="pre">adc-board-six-channels</span></code> is a board containing six ADCs, intended for single-ended measurements. The boad supports ADCs with SOT-23-6 package and SPI interface.</p>
+<p><code class="docutils literal notranslate"><span class="pre">adc-board-six-channels</span></code> is a board containing six ADCs, intended for single-ended measurements. The boad supports ADCs with SOT-23-6 package and SPI interface.</p>
 <p>A diagram of the board is shown in  <a class="reference internal" href="#fig-adc-board-six-channels-diagram"><span class="std std-numref">Fig. 1</span></a>, where:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> and <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> are supply inputs. The ADCs can be supplied either with <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> (typically 3V3) or <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> (typically 5V). This depends on the specific ADC mounted on the board.</p></li>
@@ -117,8 +122,8 @@
 </figcaption>
 </figure>
 </section>
-<section id="adc-compability">
-<h2>ADC compability<a class="headerlink" href="#adc-compability" title="Permalink to this heading"></a></h2>
+<section id="adc-compatibility">
+<h2>ADC compatibility<a class="headerlink" href="#adc-compatibility" title="Permalink to this heading"></a></h2>
 <p>The board supports any ADC having the footprint shown in <a class="reference internal" href="#fig-adc-board-six-channels-adc-footprint"><span class="std std-numref">Fig. 4</span></a>. Example of compatible ADCs</p>
 <ul class="simple">
 <li><p>TI’s ADC121S021 (12 bit, 50-200 ksps)</p></li>
@@ -158,11 +163,16 @@
 <p><span class="caption-number">Fig. 6 </span><span class="caption-text">Selecting the voltage source for the ADCs.</span><a class="headerlink" href="#fig-adc-board-six-channels-supply" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> and <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> do not have to necessarily be 5 V and 3.3 V. You can choose if you want to power the ADCs with <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> or <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span>, as long as the chosen rail is within the voltage levels of the ADC chip.</p>
+</div>
 </section>
 <section id="isolation">
 <h2>Isolation<a class="headerlink" href="#isolation" title="Permalink to this heading"></a></h2>
+<p>Isolated measurements are possible by combining the <code class="docutils literal notranslate"><span class="pre">adc-board-six-channels</span></code> board with the <a class="reference internal" href="digital_isolator_2t6r.html#sec-digital-isolator-2t6r"><span class="std std-ref">digital-isolator-2t6r</span></a> isolator board.</p>
 <ul class="simple">
-<li><p>TODO: make reference to digital isolator boards</p></li>
+<li><p>TODO: add picture of setup</p></li>
 </ul>
 </section>
 <section id="signal-preconditioning">
@@ -178,11 +188,11 @@
 <section id="has-this-board-ever-been-used">
 <h2>Has this board ever been used?<a class="headerlink" href="#has-this-board-ever-been-used" title="Permalink to this heading"></a></h2>
 <p>Yes. This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controller by an FPGA.</p>
-<p>One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup"><span class="std std-numref">Fig. 7</span></a>. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.</p>
-<figure class="align-center" id="fig-general-buck-boost-setup">
+<p>One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup-adc-board"><span class="std std-numref">Fig. 7</span></a>. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.</p>
+<figure class="align-center" id="fig-general-buck-boost-setup-adc-board">
 <a class="reference internal image-reference" href="_images/buck-boost-setup.jpeg"><img alt="Buck/boost setup." src="_images/buck-boost-setup.jpeg" style="width: 540.0px; height: 219.0px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 7 </span><span class="caption-text">ADC board put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">ADC board put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup-adc-board" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -196,7 +206,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to ResPCBs’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to our site!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="digital_isolator_2t6r.html" class="btn btn-neutral float-right" title="digital-isolator-2t6r" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

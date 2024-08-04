@@ -3,7 +3,7 @@
 adc-board-six-channels
 ======================
 
-The ``adc-board-six-channels`` is a board containing six ADCs, intended for single-ended measurements. The boad supports ADCs with SOT-23-6 package and SPI interface.
+``adc-board-six-channels`` is a board containing six ADCs, intended for single-ended measurements. The boad supports ADCs with SOT-23-6 package and SPI interface.
 
 A diagram of the board is shown in  :numref:`fig-adc-board-six-channels-diagram`, where:
 
@@ -45,8 +45,8 @@ The board's pinout is shown in :numref:`fig-adc-board-six-channels-pinout`
    Pinout of the board.
  
 
-ADC compability
----------------
+ADC compatibility
+-----------------
 
 The board supports any ADC having the footprint shown in :numref:`fig-adc-board-six-channels-adc-footprint`. Example of compatible ADCs
 
@@ -99,11 +99,15 @@ As shown in :numref:`fig-adc-board-six-channels-diagram`, the ADCs can be powere
    
    Selecting the voltage source for the ADCs.
 
+.. note::
+   :math:`\text{V}_\text{DD}` and :math:`\text{V}_\text{CC}` do not have to necessarily be 5 V and 3.3 V. You can choose if you want to power the ADCs with :math:`\text{V}_\text{DD}` or :math:`\text{V}_\text{CC}`, as long as the chosen rail is within the voltage levels of the ADC chip.
 
 Isolation
 ---------
 
-* TODO: make reference to digital isolator boards
+Isolated measurements are possible by combining the ``adc-board-six-channels`` board with the :ref:`sec-digital-isolator-2t6r` isolator board.
+
+* TODO: add picture of setup
 
 Signal preconditioning 
 ----------------------
@@ -120,10 +124,10 @@ Has this board ever been used?
 
 Yes. This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controller by an FPGA. 
 
-One example is shown in :numref:`fig-general-buck-boost-setup`. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.
+One example is shown in :numref:`fig-general-buck-boost-setup-adc-board`. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.
 
 .. figure:: img/general/buck-boost-setup.jpeg
-   :name: fig-general-buck-boost-setup
+   :name: fig-general-buck-boost-setup-adc-board
    :scale: 50%
    :align: center
    :alt: Buck/boost setup.

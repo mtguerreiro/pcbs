@@ -3,20 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ResPCBs's documentation!
-===================================
+Welcome to our site!
+====================
+
+This is the documentation of printed circuit boards (PCBs) we developed for our research. These PCBs are designed keeping modularity, flexibility and convenience in mind. Parts with relatively large footprints are preferred (i.e. SOIC instead of TSSOP, 0805 instead of 0603 or 0402), so that no special tools are required to change components or probe the boards.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: Analog-to-digital converters (ADCs)
    
    adc_board_six_channels
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
+   :caption: Digital isolators
+   
+   digital_isolator_2t6r

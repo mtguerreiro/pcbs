@@ -1354,16 +1354,6 @@
 		)
 		(uuid "4c56fb45-fdd3-408d-bce6-3802c02d7133")
 	)
-	(text "Add test points"
-		(exclude_from_sim no)
-		(at 146.812 83.566 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "604f18dc-a6d6-42a2-8841-f9caaa4941bf")
-	)
 	(text "Notes\n\n[1] These parts should be placed as close as possible to the IC\n\n[2] These diodes are for protection and are optional\n\n[3] Theoretically, we don't need this filter, since the 1ED3125 IC\nalready has an input filter. However, this IC is pin-to-pin compatible\nwith STGAP2S driver, and they recommend placing a small filter at the\ndigital inputs. \n\n[4] We force _IN- high with a pull-up resistor, so that if IN- is \nfloating, _IN- is forced high, which forces the output of the driver \nto be zero. "
 		(exclude_from_sim no)
 		(at 133.858 35.814 0)

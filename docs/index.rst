@@ -6,8 +6,14 @@
 Welcome to our site!
 ====================
 
-This is the documentation of printed circuit boards (PCBs) we developed for our research. These PCBs are designed keeping modularity, flexibility and convenience in mind. Parts with relatively large footprints are preferred (i.e. SOIC instead of TSSOP, 0805 instead of 0603 or 0402), so that no special tools are required to change components or probe the boards.
+This is the documentation of printed circuit boards (PCBs) we developed for our research. These PCBs are designed keeping modularity, flexibility and convenience in mind. Parts with relatively large footprints are preferred (i.e. SOIC instead of TSSOP, 0805 instead of 0603 or 0402), so that no special tools are required to change parts or probe the boards. 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Amplifiers
+   
+   amplifier_board_six_channels
+   
 .. toctree::
    :maxdepth: 1
    :caption: Analog-to-digital converters (ADCs)

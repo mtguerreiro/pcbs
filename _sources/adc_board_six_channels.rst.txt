@@ -105,26 +105,31 @@ As shown in :numref:`fig-adc-board-six-channels-diagram`, the ADCs can be powere
 Isolation
 ---------
 
-Isolated measurements are possible by combining the ``adc-board-six-channels`` board with the :ref:`sec-digital-isolator-2t6r` isolator board.
+Isolated measurements are possible by combining the ``adc-board-six-channels`` board with the :ref:`sec-digital-isolator-2t6r` isolator board. An example is shown :numref:`fig-adc-board-six-channels-general-adc-iso-board`.
 
-* TODO: add picture of setup
+.. figure:: img/general/adc-iso-board.svg
+   :name: fig-adc-board-six-channels-general-adc-iso-board
+   :scale: 10%
+   :align: center
+   :alt: ADC + dig. iso board.
+   
+   Isolated measurements by combining the ``adc-board-six-channels`` and :ref:`sec-digital-isolator-2t6r` boards.
+   
 
 Signal preconditioning 
 ----------------------
 
-* TODO: make reference to amplifier boards
+If signal conditioning is required, it is possible to combine an ADC board with an amplifier board, see :ref:`sec-amplifier-board-six-channels`. With the amplifier board, it is possible to amplify and offset analog voltage or current signals. It is also possible to use the board as an analog buffer. See :ref:`sec-amplifier-board-six-channels` for more details.
 
 Why six channels?
 -----------------
 
 Originally, the board was intended to be used in three-phase systems, to sample three voltage and three current signals. That's why the board was designed with six analog channels.
 
-Has this board ever been used?
-------------------------------
+Application examples
+--------------------
 
-Yes. This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controller by an FPGA. 
-
-One example is shown in :numref:`fig-general-buck-boost-setup-adc-board`. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.
+This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controlled by an FPGA. One example is shown in :numref:`fig-general-buck-boost-setup-adc-board`. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.
 
 .. figure:: img/general/buck-boost-setup.jpeg
    :name: fig-general-buck-boost-setup-adc-board

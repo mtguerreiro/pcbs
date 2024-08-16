@@ -44,7 +44,11 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Analog-to-digital converters (ADCs)</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Amplifiers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="amplifier_board_six_channels.html">amplifier-board-six-channels</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Analog-to-digital converters (ADCs)</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="adc_board_six_channels.html">adc-board-six-channels</a></li>
 </ul>
@@ -55,7 +59,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#digital-isolator-compatibility">Digital isolator compatibility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#isolator-diagram">Isolator diagram</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-this-number-of-channels">Why this number of channels?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#has-this-board-ever-been-used">Has this board ever been used?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-examples">Application examples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
@@ -87,7 +91,7 @@
              
   <section id="digital-isolator-2t6r">
 <span id="sec-digital-isolator-2t6r"></span><h1>digital-isolator-2t6r<a class="headerlink" href="#digital-isolator-2t6r" title="Permalink to this heading"></a></h1>
-<p>The <code class="docutils literal notranslate"><span class="pre">digital-isolator-2t6r</span></code> is a board containing two digital isolators, providing a total of 2 TX channels and 6 RX channels. The board supports digital isolators with SOIC-16W package. A diagram of the board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-diagram"><span class="std std-numref">Fig. 8</span></a>, where:</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">digital-isolator-2t6r</span></code> is a board containing two digital isolators, providing a total of 2 TX channels and 6 RX channels. The board supports digital isolators with SOIC-16W package. A diagram of the board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-diagram"><span class="std std-numref">Fig. 18</span></a>, where:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\text{V}_\text{DDA}\)</span>/<span class="math notranslate nohighlight">\(\text{GNDA}\)</span> and  <span class="math notranslate nohighlight">\(\text{V}_\text{DDB}\)</span>/<span class="math notranslate nohighlight">\(\text{GNDB}\)</span> are the supply to each side.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\text{RX1}_\text{A}, \dots, \text{RX6}_\text{A}\)</span> are the RX pins on side A.</p></li>
@@ -96,9 +100,9 @@
 <li><p><span class="math notranslate nohighlight">\(\text{TX1}_\text{B}, \dots, \text{TX6}_\text{B}\)</span> are the TX pins on side B.</p></li>
 </ul>
 <figure class="align-center" id="fig-digital-isolator-2t6r-diagram">
-<a class="reference internal image-reference" href="_images/diagram1.svg"><img alt="Diagram of the board." height="300" src="_images/diagram1.svg" width="351" /></a>
+<a class="reference internal image-reference" href="_images/diagram2.svg"><img alt="Diagram of the board." height="300" src="_images/diagram2.svg" width="351" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Diagram of the board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 18 </span><span class="caption-text">Diagram of the board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <p>The board is denoted <code class="docutils literal notranslate"><span class="pre">2t6r</span></code> based on the number of TX and RX of side A.</p>
@@ -108,24 +112,24 @@
 </div>
 <section id="board-and-pinout">
 <h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
-<p>A fully populated board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-board"><span class="std std-numref">Fig. 9</span></a>. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).</p>
+<p>A fully populated board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-board"><span class="std std-numref">Fig. 19</span></a>. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).</p>
 <figure class="align-center" id="fig-digital-isolator-2t6r-board">
-<a class="reference internal image-reference" href="_images/board.svg"><img alt="Populated board." height="118" src="_images/board.svg" width="173" /></a>
+<a class="reference internal image-reference" href="_images/board1.svg"><img alt="Populated board." height="118" src="_images/board1.svg" width="173" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Populated board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-board" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 19 </span><span class="caption-text">Populated board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-board" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<p>The board’s pinout is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-pinout"><span class="std std-numref">Fig. 10</span></a>.</p>
+<p>The board’s pinout is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-pinout"><span class="std std-numref">Fig. 20</span></a>.</p>
 <figure class="align-center" id="fig-digital-isolator-2t6r-pinout">
-<a class="reference internal image-reference" href="_images/pinout1.svg"><img alt="Pinout of the board." height="618" src="_images/pinout1.svg" width="1548" /></a>
+<a class="reference internal image-reference" href="_images/pinout2.svg"><img alt="Pinout of the board." height="618" src="_images/pinout2.svg" width="1548" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 10 </span><span class="caption-text">Pinout of the board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-pinout" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 20 </span><span class="caption-text">Pinout of the board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-pinout" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
 <section id="digital-isolator-compatibility">
 <h2>Digital isolator compatibility<a class="headerlink" href="#digital-isolator-compatibility" title="Permalink to this heading"></a></h2>
-<p>The board supports any isolator having the footprint shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-footprint"><span class="std std-numref">Fig. 11</span></a>. Example of compatible isolators:</p>
+<p>The board supports any isolator having the footprint shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-footprint"><span class="std std-numref">Fig. 21</span></a>. Example of compatible isolators:</p>
 <ul class="simple">
 <li><p>Analog Devices’ ADuM1401</p></li>
 <li><p>Texas Instruments’ ISO6741</p></li>
@@ -134,7 +138,7 @@
 <figure class="align-center" id="fig-digital-isolator-2t6r-footprint">
 <a class="reference internal image-reference" href="_images/dig-iso-footprint.svg"><img alt="Footprint of isolator." height="251" src="_images/dig-iso-footprint.svg" width="178" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 11 </span><span class="caption-text">Isolator’s footprint.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-footprint" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 21 </span><span class="caption-text">Isolator’s footprint.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-footprint" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -144,11 +148,11 @@
 </section>
 <section id="isolator-diagram">
 <h2>Isolator diagram<a class="headerlink" href="#isolator-diagram" title="Permalink to this heading"></a></h2>
-<p>The diagram of a single isolator is show in <a class="reference internal" href="#fig-digital-isolator-2t6r-diagram-single"><span class="std std-numref">Fig. 12</span></a>. TX lines contain a series resistor to help with ringing in case of driving capacitive lines. In most cases, a value of 10R-47R should be enough. The inputs contain a pull-down resistor to prevent floating signals at the input of the isolator. These might not be necessary depending on the part used. For example, ADuM1401 does not contain any pull down resistors (see <a class="reference external" href="https://ez.analog.com/interface-isolation/f/q-a/86929/adum14x-does-adum14x-has-internal-pull-up-or-pull-down-resistor">here</a> and <a class="reference external" href="https://ez.analog.com/interface-isolation/f/q-a/84971/adum-unused-inputs">here</a>), while ISO6741 might (see <a class="reference external" href="https://e2e.ti.com/support/isolation-group/isolation/f/isolation-forum/1216369/iso6740-input-pull-down-resistor-tolerance">here</a>).</p>
+<p>The diagram of a single isolator is show in <a class="reference internal" href="#fig-digital-isolator-2t6r-diagram-single"><span class="std std-numref">Fig. 22</span></a>. TX lines contain a series resistor to help with ringing in case of driving capacitive lines. In most cases, a value of 10R-47R should be enough. The inputs contain a pull-down resistor to prevent floating signals at the input of the isolator. These might not be necessary depending on the part used. For example, ADuM1401 does not contain any pull down resistors (see <a class="reference external" href="https://ez.analog.com/interface-isolation/f/q-a/86929/adum14x-does-adum14x-has-internal-pull-up-or-pull-down-resistor">here</a> and <a class="reference external" href="https://ez.analog.com/interface-isolation/f/q-a/84971/adum-unused-inputs">here</a>), while ISO6741 might (see <a class="reference external" href="https://e2e.ti.com/support/isolation-group/isolation/f/isolation-forum/1216369/iso6740-input-pull-down-resistor-tolerance">here</a>).</p>
 <figure class="align-center" id="fig-digital-isolator-2t6r-diagram-single">
 <a class="reference internal image-reference" href="_images/diagram-single.svg"><img alt="Diagram of single isolator." height="153" src="_images/diagram-single.svg" width="219" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 12 </span><span class="caption-text">Diagram of single isolator.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram-single" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 22 </span><span class="caption-text">Diagram of single isolator.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram-single" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -156,14 +160,13 @@
 <h2>Why this number of channels?<a class="headerlink" href="#why-this-number-of-channels" title="Permalink to this heading"></a></h2>
 <p>Originally, the board was intended to be used along the <a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a>, to provide digital isolation. Thus, the number of TX and RX were chosen to be compatible with the ADC board.</p>
 </section>
-<section id="has-this-board-ever-been-used">
-<h2>Has this board ever been used?<a class="headerlink" href="#has-this-board-ever-been-used" title="Permalink to this heading"></a></h2>
-<p>Yes. This board has been used as part of research projects on dc/dc converters. They were used to isolate an FPGA from the converter.</p>
-<p>One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup-dig-iso"><span class="std std-numref">Fig. 13</span></a>. In this case, two boards were used as in  interface between the FPGA and the ADCs, thus providing isolated measurements. In this setup, the Si8641 chip was used, with signals of 16.7 MHz.</p>
+<section id="application-examples">
+<h2>Application examples<a class="headerlink" href="#application-examples" title="Permalink to this heading"></a></h2>
+<p>This board has been used as part of research projects on dc/dc converters, to isolate an FPGA from the converters. One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup-dig-iso"><span class="std std-numref">Fig. 23</span></a>. In this case, two boards were used as in  interface between the FPGA and the ADCs, thus providing isolated measurements. In this setup, the Si8641 chip was used, with signals of 16.7 MHz.</p>
 <figure class="align-center" id="fig-general-buck-boost-setup-dig-iso">
 <a class="reference internal image-reference" href="_images/buck-boost-setup.jpeg"><img alt="Buck/boost setup." src="_images/buck-boost-setup.jpeg" style="width: 540.0px; height: 219.0px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 13 </span><span class="caption-text">2T6R isolator boards put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup-dig-iso" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">2T6R isolator boards put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup-dig-iso" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>

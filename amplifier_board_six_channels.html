@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>amplifier-board-six-channels &mdash; ResPCBs v0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=4c0d86c8"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="adc-board-six-channels" href="adc_board_six_channels.html" />
+    <link rel="prev" title="Welcome to our site!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ResPCBs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Amplifiers</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">amplifier-board-six-channels</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#board-and-pinout">Board and pinout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#amplifier-compatibility">Amplifier compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#voltage-reference-compatibility">Voltage reference compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#single-channel-diagram">Single channel diagram</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#channel-reference">Channel reference</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#input-is-a-voltage-signal">Input is a voltage signal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#input-is-a-current-signal">Input is a current signal</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#voltage-reference">Voltage reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supplying-the-board">Supplying the board</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-this-number-of-channels">Why this number of channels?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-examples">Application examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Analog-to-digital converters (ADCs)</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="adc_board_six_channels.html">adc-board-six-channels</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Digital isolators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="digital_isolator_2t6r.html">digital-isolator-2t6r</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ResPCBs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">amplifier-board-six-channels</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/amplifier_board_six_channels.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="amplifier-board-six-channels">
+<span id="sec-amplifier-board-six-channels"></span><h1>amplifier-board-six-channels<a class="headerlink" href="#amplifier-board-six-channels" title="Permalink to this heading"></a></h1>
+<p>The <code class="docutils literal notranslate"><span class="pre">amplifier-board-six-channels</span></code> is a board containing six amplifiers, intended for gain and offset of analog signals. The board supports six analog channels. Its diagram is shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-diagram"><span class="std std-numref">Fig. 1</span></a>, where:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> and <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> are supply inputs. The amplifiers and reference generator can be supplied either with <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> (typically 3V3) or <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> (typically 5V).</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{A}_{i1}, \dots, \text{A}_{i6}\)</span> are the analog inputs.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{A}_{o1}, \dots, \text{A}_{o6}\)</span> are the analog outputs.</p></li>
+</ul>
+<figure class="align-center" id="fig-amplifier-board-six-channels-diagram">
+<a class="reference internal image-reference" href="_images/diagram1.svg"><img alt="Diagram of the board." height="280" src="_images/diagram1.svg" width="280" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">Diagram of the board.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-diagram" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<section id="board-and-pinout">
+<h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
+<p>A partially populated board is shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-board"><span class="std std-numref">Fig. 2</span></a>. The analog inputs are on the left (connector J1), while the analog outputs are on the right (connector J2).</p>
+<figure class="align-center" id="fig-amplifier-board-six-channels-board">
+<a class="reference internal image-reference" href="_images/board.svg"><img alt="Partially populated board." height="135" src="_images/board.svg" width="199" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Partially populated board.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-board" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>The board’s pinout is shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-pinout"><span class="std std-numref">Fig. 3</span></a>.</p>
+<figure class="align-center" id="fig-amplifier-board-six-channels-pinout">
+<a class="reference internal image-reference" href="_images/pinout1.svg"><img alt="Pinout of the board." height="618" src="_images/pinout1.svg" width="1548" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">Pinout of the board.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-pinout" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="amplifier-compatibility">
+<h2>Amplifier compatibility<a class="headerlink" href="#amplifier-compatibility" title="Permalink to this heading"></a></h2>
+<p>The board supports any two-channel amplifier having the footprint shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-amplifier-footprint"><span class="std std-numref">Fig. 4</span></a>. Example of compatible amplifiers:</p>
+<ul class="simple">
+<li><p>TI’s LM358</p></li>
+<li><p>Microchip’s MCP6002</p></li>
+</ul>
+<figure class="align-center" id="fig-amplifier-board-six-channels-amplifier-footprint">
+<a class="reference internal image-reference" href="_images/amplifier-footprint.svg"><img alt="Footprint of amplifier." height="142" src="_images/amplifier-footprint.svg" width="147" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">Amplifiers’s footprint.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-amplifier-footprint" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="voltage-reference-compatibility">
+<h2>Voltage reference compatibility<a class="headerlink" href="#voltage-reference-compatibility" title="Permalink to this heading"></a></h2>
+<p>The board supports voltage reference ICs having the footprint shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-reference-footprint"><span class="std std-numref">Fig. 5</span></a>. Example of compatible references:</p>
+<ul class="simple">
+<li><p>Maxim’s MAX6035</p></li>
+</ul>
+<figure class="align-center" id="fig-amplifier-board-six-channels-reference-footprint">
+<a class="reference internal image-reference" href="_images/reference-footprint.svg"><img alt="Footprint of reference." height="115" src="_images/reference-footprint.svg" width="114" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 5 </span><span class="caption-text">Voltage reference’s footprint.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-reference-footprint" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="single-channel-diagram">
+<h2>Single channel diagram<a class="headerlink" href="#single-channel-diagram" title="Permalink to this heading"></a></h2>
+<p>The board can handle voltage or current signals at its inputs. For current signals, there is the possibility to place a burden resistor from the analog input to ground. For voltage signals, this resistor is not populated on the board. For clarity, the diagram of a single channel is discussed separately depending if the input is a voltage or a current signal. Each channel can also have its own reference, which can be used to offset the inpu signals. Next, the reference generator and the amplifier for each case is discussed.</p>
+<section id="channel-reference">
+<h3>Channel reference<a class="headerlink" href="#channel-reference" title="Permalink to this heading"></a></h3>
+<p>Each channel has a reference generator, consisting of a voltage divider and an external reference that is common to all amplifiers on the board. The diagram of the reference generator of each channel is shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-diagram-single-reference"><span class="std std-numref">Fig. 6</span></a>. The output reference <span class="math notranslate nohighlight">\(V'_\text{r}\)</span> is</p>
+<div class="math notranslate nohighlight">
+\[V'_\text{r} = \left( \frac{R_2}{R_1+R_2} \right) V_\text{r},\]</div>
+<p>where <span class="math notranslate nohighlight">\(V_\text{r}\)</span> is a reference signal common to all amplifiers in the board. Each amplifier can have its own reference. Note that <span class="math notranslate nohighlight">\(V'_\text{r} \leq V_\text{r}\)</span>. For more information regarding <span class="math notranslate nohighlight">\(V_\text{r}\)</span>, see <a class="reference internal" href="#sec-amplifier-board-six-channels-reference"><span class="std std-ref">Voltage reference</span></a>.</p>
+<figure class="align-center" id="fig-amplifier-board-six-channels-diagram-single-reference">
+<a class="reference internal image-reference" href="_images/diagram-single-reference.svg"><img alt="Diagram of reference generator of a single channel." height="154" src="_images/diagram-single-reference.svg" width="210" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text">Diagram of reference generator of a single channel.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-diagram-single-reference" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="input-is-a-voltage-signal">
+<h3>Input is a voltage signal<a class="headerlink" href="#input-is-a-voltage-signal" title="Permalink to this heading"></a></h3>
+<p><a class="reference internal" href="#fig-amplifier-board-six-channels-diagram-single-voltage"><span class="std std-numref">Fig. 7</span></a> shows the diagram of a single channel, intended for use with voltage signals. By selecting <span class="math notranslate nohighlight">\(R_1=R_3\)</span> and <span class="math notranslate nohighlight">\(R_2=R_4\)</span>, the voltage at the output of the amplifier is</p>
+<div class="math notranslate nohighlight">
+\[v'_\text{o} = V'_\text{r} + \left( \frac{R_2}{R_1} \right) v_\text{i}.\]</div>
+<p>Thus, in this configuration, it is possible to add an offset of <span class="math notranslate nohighlight">\(V'_\text{r}\)</span> and a gain of <span class="math notranslate nohighlight">\(R_2/R_1\)</span> to the input signal. This is useful when conditioning a signal with a range between of -10V and 10V to a range of 0 to 3 V for an ADC, for example.</p>
+<p>A low-pass RC filter is placed at the output of the amplifier. Note that if this filter is used, the output signal won’t be buffered anymore. Resistor <span class="math notranslate nohighlight">\(R_\text{f}\)</span> can also be used as series resistor to help with ringing, in case the amplifier needs to drive a capacitive line.</p>
+<figure class="align-center" id="fig-amplifier-board-six-channels-diagram-single-voltage">
+<a class="reference internal image-reference" href="_images/diagram-single-voltage.svg"><img alt="Diagram of single channel for voltage signals." height="227" src="_images/diagram-single-voltage.svg" width="270" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 7 </span><span class="caption-text">Single channel diagram for voltage inputs.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-diagram-single-voltage" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>Another possibility is to use the channel as a buffer. This can be accomplished by simply removing <span class="math notranslate nohighlight">\(R_2\)</span> and <span class="math notranslate nohighlight">\(R_3\)</span>, and shorting <span class="math notranslate nohighlight">\(R_1\)</span> and <span class="math notranslate nohighlight">\(R_4\)</span>.</p>
+</section>
+<section id="input-is-a-current-signal">
+<h3>Input is a current signal<a class="headerlink" href="#input-is-a-current-signal" title="Permalink to this heading"></a></h3>
+<p>It is possible to use the board with current signals as well. Every channel contains a resistor between its input signal and ground that can be used as a burden resistor. The configuration of the channel for a current signal is shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-diagram-single-current"><span class="std std-numref">Fig. 8</span></a>, where the input signal is a current source <span class="math notranslate nohighlight">\(i_\text{i}\)</span> referred to the same ground as the amplifier board,  <span class="math notranslate nohighlight">\(R_\text{B}\)</span> is the  burden resistor.</p>
+<p>The burden resistor at the input is compensated by a burden resistor in series with <span class="math notranslate nohighlight">\(R_3\)</span>. selecting <span class="math notranslate nohighlight">\(R_1=R_3\)</span> and <span class="math notranslate nohighlight">\(R_2=R_4\)</span>, the voltage at the output of the amplifier is</p>
+<div class="math notranslate nohighlight">
+\[v'_\text{o} = V'_\text{r} + \left( \frac{R_2}{R_1+R_\text{B}} \right) R_\text{B}i_\text{i}.\]</div>
+<figure class="align-center" id="fig-amplifier-board-six-channels-diagram-single-current">
+<a class="reference internal image-reference" href="_images/diagram-single-current.svg"><img alt="Diagram of single channel for current signals." height="276" src="_images/diagram-single-current.svg" width="338" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 8 </span><span class="caption-text">Single channel diagram for current inputs.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-diagram-single-current" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="voltage-reference">
+<span id="sec-amplifier-board-six-channels-reference"></span><h2>Voltage reference<a class="headerlink" href="#voltage-reference" title="Permalink to this heading"></a></h2>
+<p>The board has a voltage reference source that is shared with all amplifiers. This reference is intended to be generated by a voltage reference IC. However, it is also possible to use the supply rails as reference by shorting the IC’s supply and output pins.</p>
+</section>
+<section id="supplying-the-board">
+<h2>Supplying the board<a class="headerlink" href="#supplying-the-board" title="Permalink to this heading"></a></h2>
+<p>As shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-diagram"><span class="std std-numref">Fig. 1</span></a>, the amplifiers can be powered either with <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> (typically 3.3 V) or <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span>  (typically 5 V). The voltage source is selected by populating the proper resistor on the PCB, as indicated in <a class="reference internal" href="#fig-amplifier-board-six-channels-supply"><span class="std std-numref">Fig. 9</span></a>. Depending on which resistor is populated and which is not, the amplifiers and voltage reference are powered as follows:</p>
+<ul class="simple">
+<li><p>R55 populated, R16 not placed: amplifiers and reference chip are powered with 5 V (<span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span>)</p></li>
+<li><p>R56 not placed, R15 populated: amplifiers and reference chip are powered with 3.3 V (<span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span>)</p></li>
+</ul>
+<figure class="align-center" id="fig-amplifier-board-six-channels-supply">
+<a class="reference internal image-reference" href="_images/supply1.png"><img alt="Selecting the supply rail for the amplifier board." src="_images/supply1.png" style="width: 177.5px; height: 73.5px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 9 </span><span class="caption-text">Selecting the supply rail for the amplifier board.</span><a class="headerlink" href="#fig-amplifier-board-six-channels-supply" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> and <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span> do not have to necessarily be 5 V and 3.3 V. You can choose if you want to power the ADCs with <span class="math notranslate nohighlight">\(\text{V}_\text{DD}\)</span> or <span class="math notranslate nohighlight">\(\text{V}_\text{CC}\)</span>, as long as the chosen rail is within the voltage levels of the amplifier and voltage reference chips.</p>
+</div>
+</section>
+<section id="why-this-number-of-channels">
+<h2>Why this number of channels?<a class="headerlink" href="#why-this-number-of-channels" title="Permalink to this heading"></a></h2>
+<p>Originally, the board was intended to be used in three-phase systems, to sample three voltage and three current signals. That’s why the board was designed with six analog channels.</p>
+</section>
+<section id="application-examples">
+<h2>Application examples<a class="headerlink" href="#application-examples" title="Permalink to this heading"></a></h2>
+<p>The board shown in <a class="reference internal" href="#fig-amplifier-board-six-channels-board"><span class="std std-numref">Fig. 2</span></a> was used  to adapt the output signal of a tachometer to the input of a microcontroller’s ADC. The supply rails were used as the reference, and the tachometer’s -12~12V signal was converter to the ADC’s 0~3V range.</p>
+</section>
+<section id="fabrication-files">
+<h2>Fabrication files<a class="headerlink" href="#fabrication-files" title="Permalink to this heading"></a></h2>
+<p>To get the gerber files used to fabricate the isolator board, checkout commit <code class="docutils literal notranslate"><span class="pre">9ccb289f878a5144997fc79c7e62c2e65202115a</span></code>, and find the files under <code class="docutils literal notranslate"><span class="pre">amplifier-board-six-channels/gerber</span></code></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to our site!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="adc_board_six_channels.html" class="btn btn-neutral float-right" title="adc-board-six-channels" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Marco Guerreiro.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

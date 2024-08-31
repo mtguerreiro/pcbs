@@ -143,5 +143,4 @@ This board has been used as part of research projects on dc/dc converters. They 
 Fabrication files
 -----------------
 
-To get the gerber files used to fabricate the ADC board, checkout commit ``34480072c29c523887cbbbe66a5d34a5624f99fb``, and find the files under ``adc-board-six-channels/gerber``
-
+To get the gerber files used to fabricate the ADC board, checkout commit ``34480072c29c523887cbbbe66a5d34a5624f99fb``, and find the files under ``adc-board-six-channels/gerber``.

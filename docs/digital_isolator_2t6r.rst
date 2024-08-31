@@ -19,25 +19,28 @@ The ``digital-isolator-2t6r`` is a board containing two digital isolators, provi
    
    Diagram of the board.
 
-The board is denoted ``2t6r`` based on the number of TX and RX of side A.
-
 .. note::
    TX and RX pins are defined with respect to the board. Thus, TX pins on the board are outputs, and RX pins are inputs.
+
+.. note::
+   The board is denoted ``2t6r`` based on the number of TX and RX of side A. This is typically the side that would be connected to the target application, while side B is connected to the controller (thus providing the controller with 2 TX and 6 RX channels).
+
+.. note::
+   - TODO: make reference to Pynq header board.
+
 
 Board and pinout
 ----------------
 
-A fully populated board is shown in :numref:`fig-digital-isolator-2t6r-board`. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).
+A fully populated board is shown in :numref:`fig-digital-isolator-2t6r-board`. The two TX signals and six RX signals are on the left (connector J2). The board's pinout is shown in :numref:`fig-digital-isolator-2t6r-pinout`.
 
 .. figure:: img/digital-isolator-2t6r/board.svg
    :name: fig-digital-isolator-2t6r-board
-   :scale: 10%
+   :scale: 15%
    :align: center
    :alt: Populated board.
    
    Populated board.
-
-The board's pinout is shown in :numref:`fig-digital-isolator-2t6r-pinout`.
 
 .. figure:: img/digital-isolator-2t6r/pinout.svg
    :name: fig-digital-isolator-2t6r-pinout
@@ -68,6 +71,9 @@ The board supports any isolator having the footprint shown in :numref:`fig-digit
 .. note::
    The ENA and ENB pins are connected to their respective VDD pins on the board through a pull-up resistor. Should you instead need a low level on ENA/ENB to enable the chip, it is possible to simply do a solder bridge between EN and GND on the board.
 
+.. note::
+   The footprint of the isolator of this board is the same as in the :ref:`sec-digital-isolator-6t2r` board.
+
 Isolator diagram
 --------------------
 
@@ -80,6 +86,19 @@ The diagram of a single isolator is show in :numref:`fig-digital-isolator-2t6r-d
    :alt: Diagram of single isolator.
    
    Diagram of single isolator.
+
+
+Usage as 6 TX and 2 RX
+-----------------------
+
+If this board has 2 TX and 6 RX channels on side A, and I need 6 TX and 2 RX channels instead, can't I simply use the board through side B instead? Why is there a :ref:`sec-digital-isolator-6t2r` board for this purpose?
+
+Using the board from side B to get 6 TX and 2 RX channels is perfectly fine. Note, however, that the connections will be mirrored. 
+
+In order to keep the same connections, but reversed TX and RX, board was :ref:`sec-digital-isolator-6t2r` designed. The main motivation for this is designing a single connector board for a controller that has a standard type of connector, and different applications would use different boards depending on the number of required TX and RX channels.
+
+.. note::
+   - TODO: mention relation to pynq adapter board.
 
 Why this number of channels?
 ----------------------------
@@ -103,4 +122,4 @@ This board has been used as part of research projects on dc/dc converters, to is
 Fabrication files
 -----------------
 
-To get the gerber files used to fabricate the isolator board, checkout commit ``a134106d05d90f406177a17ca4cb45505ea1c51b``, and find the files under ``digital-isolator-2t6r/gerber``
+To get the gerber files used to fabricate the isolator board, checkout commit ``b51d6b563e844d826048459c406fef7229853c5a``, and find the files under ``digital-isolator-2t6r/gerber``.

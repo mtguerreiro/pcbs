@@ -22,6 +22,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="digital-isolator-6t2r" href="digital_isolator_6t2r.html" />
     <link rel="prev" title="adc-board-six-channels" href="adc_board_six_channels.html" /> 
 </head>
 
@@ -58,11 +59,13 @@
 <li class="toctree-l2"><a class="reference internal" href="#board-and-pinout">Board and pinout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#digital-isolator-compatibility">Digital isolator compatibility</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#isolator-diagram">Isolator diagram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#usage-as-6-tx-and-2-rx">Usage as 6 TX and 2 RX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-this-number-of-channels">Why this number of channels?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#application-examples">Application examples</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="digital_isolator_6t2r.html">digital-isolator-6t2r</a></li>
 </ul>
 
         </div>
@@ -105,21 +108,29 @@
 <p><span class="caption-number">Fig. 18 </span><span class="caption-text">Diagram of the board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<p>The board is denoted <code class="docutils literal notranslate"><span class="pre">2t6r</span></code> based on the number of TX and RX of side A.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>TX and RX pins are defined with respect to the board. Thus, TX pins on the board are outputs, and RX pins are inputs.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The board is denoted <code class="docutils literal notranslate"><span class="pre">2t6r</span></code> based on the number of TX and RX of side A. This is typically the side that would be connected to the target application, while side B is connected to the controller (thus providing the controller with 2 TX and 6 RX channels).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>TODO: make reference to Pynq header board.</p></li>
+</ul>
+</div>
 <section id="board-and-pinout">
 <h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
-<p>A fully populated board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-board"><span class="std std-numref">Fig. 19</span></a>. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).</p>
+<p>A fully populated board is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-board"><span class="std std-numref">Fig. 19</span></a>. The two TX signals and six RX signals are on the left (connector J2). The board’s pinout is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-pinout"><span class="std std-numref">Fig. 20</span></a>.</p>
 <figure class="align-center" id="fig-digital-isolator-2t6r-board">
-<a class="reference internal image-reference" href="_images/board1.svg"><img alt="Populated board." height="118" src="_images/board1.svg" width="173" /></a>
+<a class="reference internal image-reference" href="_images/board1.svg"><img alt="Populated board." height="177" src="_images/board1.svg" width="259" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 19 </span><span class="caption-text">Populated board.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-board" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<p>The board’s pinout is shown in <a class="reference internal" href="#fig-digital-isolator-2t6r-pinout"><span class="std std-numref">Fig. 20</span></a>.</p>
 <figure class="align-center" id="fig-digital-isolator-2t6r-pinout">
 <a class="reference internal image-reference" href="_images/pinout2.svg"><img alt="Pinout of the board." height="618" src="_images/pinout2.svg" width="1548" /></a>
 <figcaption>
@@ -145,6 +156,10 @@
 <p class="admonition-title">Note</p>
 <p>The ENA and ENB pins are connected to their respective VDD pins on the board through a pull-up resistor. Should you instead need a low level on ENA/ENB to enable the chip, it is possible to simply do a solder bridge between EN and GND on the board.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The footprint of the isolator of this board is the same as in the <a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a> board.</p>
+</div>
 </section>
 <section id="isolator-diagram">
 <h2>Isolator diagram<a class="headerlink" href="#isolator-diagram" title="Permalink to this heading"></a></h2>
@@ -155,6 +170,18 @@
 <p><span class="caption-number">Fig. 22 </span><span class="caption-text">Diagram of single isolator.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-diagram-single" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
+</section>
+<section id="usage-as-6-tx-and-2-rx">
+<h2>Usage as 6 TX and 2 RX<a class="headerlink" href="#usage-as-6-tx-and-2-rx" title="Permalink to this heading"></a></h2>
+<p>If this board has 2 TX and 6 RX channels on side A, and I need 6 TX and 2 RX channels instead, can’t I simply use the board through side B instead? Why is there a <a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a> board for this purpose?</p>
+<p>Using the board from side B to get 6 TX and 2 RX channels is perfectly fine. Note, however, that the connections will be mirrored.</p>
+<p>In order to keep the same connections, but reversed TX and RX, board was <a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a> designed. The main motivation for this is designing a single connector board for a controller that has a standard type of connector, and different applications would use different boards depending on the number of required TX and RX channels.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>TODO: mention relation to pynq adapter board.</p></li>
+</ul>
+</div>
 </section>
 <section id="why-this-number-of-channels">
 <h2>Why this number of channels?<a class="headerlink" href="#why-this-number-of-channels" title="Permalink to this heading"></a></h2>
@@ -172,7 +199,7 @@
 </section>
 <section id="fabrication-files">
 <h2>Fabrication files<a class="headerlink" href="#fabrication-files" title="Permalink to this heading"></a></h2>
-<p>To get the gerber files used to fabricate the isolator board, checkout commit <code class="docutils literal notranslate"><span class="pre">a134106d05d90f406177a17ca4cb45505ea1c51b</span></code>, and find the files under <code class="docutils literal notranslate"><span class="pre">digital-isolator-2t6r/gerber</span></code></p>
+<p>To get the gerber files used to fabricate the isolator board, checkout commit <code class="docutils literal notranslate"><span class="pre">b51d6b563e844d826048459c406fef7229853c5a</span></code>, and find the files under <code class="docutils literal notranslate"><span class="pre">digital-isolator-2t6r/gerber</span></code>.</p>
 </section>
 </section>
 
@@ -181,6 +208,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="adc_board_six_channels.html" class="btn btn-neutral float-left" title="adc-board-six-channels" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="digital_isolator_6t2r.html" class="btn btn-neutral float-right" title="digital-isolator-6t2r" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

@@ -25,3 +25,5 @@ This is the documentation of printed circuit boards (PCBs) we developed for our 
    :caption: Digital isolators
    
    digital_isolator_2t6r
+   digital_isolator_6t2r
+

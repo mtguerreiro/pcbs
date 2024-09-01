@@ -1,0 +1,2693 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5d3d4680-a8d3-4cbf-a47d-55fab42971b7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Converter_DCDC:TBA1-1212E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TBA1-1212E"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SIP-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Traco isolated isolation dc-dc converter not-regulated non-regulated single 1W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*TRACO*TBA1*xxxxE*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TBA1-1212E_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TBA1-1212E_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 21.59 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "031a7ad5-19c7-4eba-9f74-46e17965ffd5")
+	)
+	(junction
+		(at 38.1 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18bc1859-40f4-4543-b24f-ce8f32ed1485")
+	)
+	(junction
+		(at 38.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6caf6ccf-43e6-4d5b-af14-abb420e63382")
+	)
+	(junction
+		(at 161.29 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8393ed0d-a436-429c-9ab5-3a7eff529097")
+	)
+	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4a0c34-c482-46c7-9518-2e6738d3daa9")
+	)
+	(junction
+		(at 21.59 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd19c6b-9be0-457b-af77-f576f731d5e0")
+	)
+	(junction
+		(at 113.03 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a314c277-4159-497b-8d75-1253455e3cb1")
+	)
+	(junction
+		(at 45.72 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3826495-0c99-4ec0-9a44-e9455ab6b6c5")
+	)
+	(junction
+		(at 129.54 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69b1338-562c-4060-999a-58bfc5979f65")
+	)
+	(junction
+		(at 113.03 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c91628-21d1-45e2-a747-2c2a056bf3a2")
+	)
+	(junction
+		(at 129.54 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d412195a-440e-4b96-a5c7-6a03e735708a")
+	)
+	(junction
+		(at 69.85 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5ca353-f859-4c70-8d9c-e1495b956ecd")
+	)
+	(junction
+		(at 137.16 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fada40ef-c9af-40bb-9fe1-be4baf0fff25")
+	)
+	(junction
+		(at 161.29 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc6260a3-8a1a-4fef-991b-0d0b1cdb8ae6")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 66.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027cc200-30d3-485c-a6a5-e360fb74b5f8")
+	)
+	(wire
+		(pts
+			(xy 135.89 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d11bc4-04ac-4a87-8ba3-6e8b2468e21e")
+	)
+	(wire
+		(pts
+			(xy 125.73 22.86) (xy 129.54 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ad4660-1a2f-4200-93c3-86736d12f089")
+	)
+	(wire
+		(pts
+			(xy 110.49 27.94) (xy 113.03 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d4562d-8b01-4440-9daf-1f186a21ab51")
+	)
+	(wire
+		(pts
+			(xy 135.89 54.61) (xy 138.43 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad4aba4-6314-484d-9221-c00338501f7e")
+	)
+	(wire
+		(pts
+			(xy 157.48 22.86) (xy 161.29 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130c7d01-2624-4d03-82dc-f375a3b16f1e")
+	)
+	(wire
+		(pts
+			(xy 156.21 48.26) (xy 158.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13bd2189-e10f-49c8-95ee-cac3cd730722")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 138.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18749cfa-293c-41a5-8ac8-9d29ce10eae1")
+	)
+	(wire
+		(pts
+			(xy 135.89 71.12) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cf060f-7aaa-4f70-b098-5e5ef7eec5bf")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e168fb2-a856-4d29-88f4-1e5c15494643")
+	)
+	(wire
+		(pts
+			(xy 29.21 22.86) (xy 21.59 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c37bae-9e99-4e57-a209-fe148e76c42e")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 138.43 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232d0737-f4ba-49a4-ac64-9a0fd822d34f")
+	)
+	(wire
+		(pts
+			(xy 21.59 27.94) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27bcf321-8b68-40d8-8a2b-94d3b4628c69")
+	)
+	(wire
+		(pts
+			(xy 44.45 67.31) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292e255e-326c-42ee-8675-bff7893e334b")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a216890-a82e-45c7-85a0-1d1d1cd4e1ea")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b48239c-4fa9-4d14-a8de-dbdb52950ee8")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d64e286-194e-43d7-afde-3e20f645b08b")
+	)
+	(wire
+		(pts
+			(xy 64.77 72.39) (xy 67.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f78f32-615f-4758-88d1-82b14d5b6c26")
+	)
+	(wire
+		(pts
+			(xy 161.29 27.94) (xy 170.18 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3744a25c-801c-4f21-aadb-924182fda5fa")
+	)
+	(wire
+		(pts
+			(xy 64.77 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3805ec43-c841-4a59-8996-beb2d6442126")
+	)
+	(wire
+		(pts
+			(xy 38.1 27.94) (xy 45.72 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47049a28-ddce-4983-be32-c51d98bdd984")
+	)
+	(wire
+		(pts
+			(xy 66.04 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af06b66-e341-4fd4-b26a-f143028c75e9")
+	)
+	(wire
+		(pts
+			(xy 157.48 27.94) (xy 161.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb05e09-da11-4521-9c1b-9fbee6920a44")
+	)
+	(wire
+		(pts
+			(xy 44.45 78.74) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6013ec7d-513e-4fd9-bdc1-5503135df431")
+	)
+	(wire
+		(pts
+			(xy 44.45 43.18) (xy 46.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6528b009-053e-49f4-8980-dfc8aad04608")
+	)
+	(wire
+		(pts
+			(xy 44.45 50.8) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66623785-95bf-47bd-8c21-e81120002c9b")
+	)
+	(wire
+		(pts
+			(xy 19.05 22.86) (xy 21.59 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682cb183-b2d8-4d40-8e89-89d52f941055")
+	)
+	(wire
+		(pts
+			(xy 129.54 22.86) (xy 137.16 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8e2ae8-81c4-498d-909d-d756d746f7fa")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.31) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e127e48-f1da-4458-94c9-363dd198a926")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 45.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea0c99e-aeb4-4567-9f26-1f977906098c")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 138.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808e66c4-a9e4-499d-a70b-837d6e11e494")
+	)
+	(wire
+		(pts
+			(xy 129.54 27.94) (xy 137.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ab5628-cfd8-414d-a287-ab42963013a3")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833e8a4f-adb0-4366-909c-6873c0fb45d7")
+	)
+	(wire
+		(pts
+			(xy 64.77 48.26) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8380953b-e5d4-4b20-8cd9-4258a8ca2096")
+	)
+	(wire
+		(pts
+			(xy 45.72 78.74) (xy 46.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d27179c-bcfd-420d-8acd-6df0a3d0e9d1")
+	)
+	(wire
+		(pts
+			(xy 44.45 74.93) (xy 46.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd3b6fc-d489-4c3b-9da1-64527c70d8bc")
+	)
+	(wire
+		(pts
+			(xy 113.03 27.94) (xy 129.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5d78d3-97d6-445b-84c5-dcf737f95174")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 158.75 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09a15c6-0c15-4f58-9296-186c395743d9")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 45.72 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50e9342-50d9-482d-aebd-cf0109fe7055")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 78.74 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a382d2-d4a4-40e4-82c9-41b47807d164")
+	)
+	(wire
+		(pts
+			(xy 156.21 43.18) (xy 158.75 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa794a04-7a4d-4b57-afe8-69534b5fa148")
+	)
+	(wire
+		(pts
+			(xy 161.29 22.86) (xy 170.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab362032-2a13-409f-891e-594dd02abc28")
+	)
+	(wire
+		(pts
+			(xy 34.29 22.86) (xy 38.1 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac54d607-a837-47ca-8fa0-eca1d49d429d")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18a4f87-7aea-468d-958a-75db936361ce")
+	)
+	(wire
+		(pts
+			(xy 157.48 82.55) (xy 137.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f699a2-2821-4046-8ba6-4e6a33e0f96a")
+	)
+	(wire
+		(pts
+			(xy 110.49 22.86) (xy 113.03 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56f56bc-f4bb-4254-9d50-219f07915728")
+	)
+	(wire
+		(pts
+			(xy 19.05 27.94) (xy 21.59 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ea1246-4ac5-4026-b06f-7a6ad1d656d6")
+	)
+	(wire
+		(pts
+			(xy 38.1 22.86) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd99df45-9bfb-40e5-8a46-789c2496fee4")
+	)
+	(wire
+		(pts
+			(xy 44.45 54.61) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95e9241-d0a0-46cf-8c81-86b83b7fd6e7")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb02178-a839-422b-9c53-b63d1344c8d2")
+	)
+	(wire
+		(pts
+			(xy 69.85 27.94) (xy 78.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee1dab5-662a-42a3-bef3-1412be06feee")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1c5b468-d09f-46fd-9d64-04ae539f79d0")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ee1f8e-7773-48c5-92e8-cb94f1c47cd1")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 138.43 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b34146-c8bf-49fb-8def-7392fa06588d")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f107af79-8b99-4f02-b51e-37e8488e7b34")
+	)
+	(wire
+		(pts
+			(xy 44.45 71.12) (xy 46.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d0b65e-240a-410c-be6f-04cdb06de414")
+	)
+	(wire
+		(pts
+			(xy 120.65 22.86) (xy 113.03 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fadbce71-418b-49bd-bb11-f60c998f386b")
+	)
+	(wire
+		(pts
+			(xy 44.45 46.99) (xy 46.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8e790b-6a25-45bd-9239-9b5aa9486fe8")
+	)
+	(text "Notes\n\n[1] Connecting S2 to IN- of the high-side driver and S1 to IN- of the\nlow-side driver prevents that both MOSFETs are turned on at the same\ntime.\n"
+		(exclude_from_sim no)
+		(at 202.184 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "137ba9e0-5791-490c-a737-75a1c462463a")
+	)
+	(text "[1]"
+		(exclude_from_sim no)
+		(at 39.116 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed741e7a-345b-49ca-aa23-8ce4333cd162")
+	)
+	(label "Vdd_S1"
+		(at 67.31 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16185c1b-b31f-4c79-8add-8f17e7a3c6b1")
+	)
+	(label "GND"
+		(at 110.49 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "163c2ada-f989-4734-b737-c143ed1e6d9c")
+	)
+	(label "Vdd_S1"
+		(at 78.74 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fd1b8e0-7e43-48ef-bbd8-5c155108e3cc")
+	)
+	(label "Vcc"
+		(at 44.45 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28986a41-1753-475a-a7fd-f3f64fe6de0f")
+	)
+	(label "S1"
+		(at 44.45 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a3a8788-186a-4f33-9089-08748970c631")
+	)
+	(label "Vdd_S3"
+		(at 170.18 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d42af93-93db-4dba-8a30-43abff327080")
+	)
+	(label "S3"
+		(at 135.89 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3441c46e-2f56-480a-aa3f-32f2def422a2")
+	)
+	(label "Vdd"
+		(at 158.75 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34bb11a6-069a-43b0-a4e4-428233a0032b")
+	)
+	(label "GND"
+		(at 44.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3813f980-2718-470d-b032-4df85f724526")
+	)
+	(label "G_S3"
+		(at 158.75 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4886015f-6d73-49ef-825d-a7891980187f")
+	)
+	(label "S2"
+		(at 44.45 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "490a5c2f-8f72-4543-b0c5-b5b5a088590c")
+	)
+	(label "GND"
+		(at 135.89 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f27eb5a-6b4c-4f0d-8269-218f1adae9c3")
+	)
+	(label "GND"
+		(at 135.89 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5790835d-6727-4d9c-b030-e76fb73a254b")
+	)
+	(label "Vdd"
+		(at 110.49 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bc31511-9d4e-402f-bf19-4e74cac05567")
+	)
+	(label "Vee_S3"
+		(at 170.18 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60e9d598-cf8b-444c-9d96-180f402c0bf1")
+	)
+	(label "S3"
+		(at 135.89 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "652fd76c-b724-4895-8bf6-bedeed95e59c")
+	)
+	(label "S4"
+		(at 135.89 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a198c71-aedf-4971-af95-36bab457bad5")
+	)
+	(label "G_S1"
+		(at 67.31 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d939934-a5ee-4831-a340-9477cc5f7231")
+	)
+	(label "Vcc"
+		(at 135.89 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f1f7293-ca06-4132-ba35-40fb5e77ed65")
+	)
+	(label "S1"
+		(at 44.45 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bdcf53a-024c-414f-9e1d-2756666d5984")
+	)
+	(label "S4"
+		(at 135.89 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90a0ab8f-91da-4acb-88e4-ece59e7c7629")
+	)
+	(label "Vee_S3"
+		(at 158.75 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "910dd8cd-f053-40c4-bc2b-7ddd96414b4b")
+	)
+	(label "Vcc"
+		(at 44.45 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91ac876e-22bd-46b0-ba30-35b284e9870f")
+	)
+	(label "GND"
+		(at 44.45 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d96e3a1-31b7-4792-8a25-f4851242c9b4")
+	)
+	(label "Vdd"
+		(at 19.05 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b722742a-0f04-467b-8736-465e70416327")
+	)
+	(label "Vdd"
+		(at 67.31 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b963963a-648a-48c9-883b-12e58dde7c65")
+	)
+	(label "Vdd_S3"
+		(at 158.75 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdc3ed5c-730b-48cf-98c7-568ae36b9171")
+	)
+	(label "GND"
+		(at 19.05 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be235251-ad73-442c-9e90-a45db698aade")
+	)
+	(label "Vcc"
+		(at 135.89 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca7a43cf-3b19-4390-a085-d6dcc5f610c1")
+	)
+	(label "Vee_S1"
+		(at 78.74 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf47eeb8-e798-4254-b760-777c6a9194a2")
+	)
+	(label "Vee_S1"
+		(at 67.31 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe4b706-a328-41a3-aebc-ae0d4d4840f3")
+	)
+	(label "S2"
+		(at 44.45 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df0ecd97-208a-417c-986d-0dcf896e9a1b")
+	)
+	(label "G_S4"
+		(at 158.75 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e07d1fc6-9cda-464b-8942-01dc0a5c20b7")
+	)
+	(label "G_S2"
+		(at 67.31 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd684482-3c7e-4c54-a138-980d471a1717")
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 123.19 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "034fdcf2-9355-4dff-ad89-e5afdca28167")
+		(property "Reference" "L4"
+			(at 123.19 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 123.19 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "afc3cdd3-9217-47a7-8c6b-bfa8ddc97710")
+		)
+		(pin "1"
+			(uuid "77c813ed-101a-403e-bbee-7d85155d234e")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TBA1-1212E")
+		(at 55.88 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1435e017-f54a-4503-a87f-ba8adad74863")
+		(property "Reference" "U4"
+			(at 49.276 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBA1-1212E"
+			(at 54.356 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SIP-7"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccc29a6c-4d2f-4809-9032-3e9687f5f585")
+		)
+		(pin "1"
+			(uuid "ec29c034-0d53-4e63-974e-1b7fa7043248")
+		)
+		(pin "6"
+			(uuid "35f09b83-03e9-4ced-b2c7-9ff68f241b52")
+		)
+		(pin "4"
+			(uuid "ae996fc9-8828-4e9a-adaa-0b2db7b5ee30")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "285ee1df-f2ed-438b-b3a1-74b5e7f082dc")
+		(property "Reference" "C25"
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8c05516-6570-47cf-8db4-672bbc7baa40")
+		)
+		(pin "1"
+			(uuid "5c2b6a78-125f-4b5e-a967-e5bf622105f5")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 129.54 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46fecb19-37e9-4187-87d9-b0a2c7aac36d")
+		(property "Reference" "C28"
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 130.81 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7804773-a416-4fb8-808f-7e24bda4a84a")
+		)
+		(pin "1"
+			(uuid "5584adc2-d1d5-4256-9024-eaa0ee6979c1")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "525e5275-47a6-4d90-a7f9-5a0eeccbbb9b")
+		(property "Reference" "C27"
+			(at 114.3 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ce13bae-a24a-435c-a2e2-bfd32b40ca07")
+		)
+		(pin "1"
+			(uuid "01a067ce-1fef-4e70-94d9-d0e9a7805112")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_DCDC:TBA1-1212E")
+		(at 147.32 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9affbd57-6a04-4e8d-a2c6-00fba267fd2a")
+		(property "Reference" "U5"
+			(at 140.716 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBA1-1212E"
+			(at 145.796 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
+			(at 147.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SIP-7"
+			(at 147.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc332431-dd53-485e-9655-32230b428c89")
+		)
+		(pin "1"
+			(uuid "de53437e-3930-407c-9323-8b6d3bfadc00")
+		)
+		(pin "6"
+			(uuid "fcd9dbe0-3e25-4712-9167-867abd98de77")
+		)
+		(pin "4"
+			(uuid "e838f027-d49c-4c62-8a73-e9469e06a990")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 161.29 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5f885f9-d2dc-4d6b-9c3a-5f8acd374ee9")
+		(property "Reference" "C29"
+			(at 162.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 161.29 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "673e8708-9ef3-4391-aa09-c73a05be509f")
+		)
+		(pin "1"
+			(uuid "5dd01244-9e4a-4275-92d1-6c76e6e9cafe")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 21.59 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acc0d2ef-61d7-48c3-9dbd-e9b166abef05")
+		(property "Reference" "C24"
+			(at 22.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 22.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d256b9eb-93a2-44e3-87a6-93eb0da72295")
+		)
+		(pin "1"
+			(uuid "ddfb1805-f16f-4a4c-a563-2a66c8607d45")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 69.85 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca1b8d1b-5708-4495-8dc9-9276b291290e")
+		(property "Reference" "C26"
+			(at 71.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d97d22e-41d9-405f-b036-d02a169c3eb1")
+		)
+		(pin "1"
+			(uuid "7d0919dc-044c-4586-bc5c-ff2331b4d76b")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 31.75 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea77a1fb-7d8f-4efb-b605-423fdde03a6d")
+		(property "Reference" "L2"
+			(at 31.75 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 31.75 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 31.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "037d684c-8372-4e9a-971a-4d7d5b8dec09")
+		)
+		(pin "1"
+			(uuid "ec27fdd1-c17b-46be-9ea8-309c714cbc39")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 40.64)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 253 231 1.0000)
+		)
+		(uuid "761151f6-faee-4ce9-9368-5feaea030452")
+		(property "Sheetname" "gd_1ed3125mu12f"
+			(at 46.99 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
+			(at 46.99 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCC2" input
+			(at 64.77 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8a7572b-ca50-46ea-821c-b848650931cc")
+		)
+		(pin "VEE2" input
+			(at 64.77 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38bf221d-2ce0-494f-a8a0-88c314f968f1")
+		)
+		(pin "G" bidirectional
+			(at 64.77 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea6194e7-3ab9-4056-ba63-25e15855acd8")
+		)
+		(pin "IN+" input
+			(at 46.99 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5dfa7438-6e1d-4f34-852c-f7a0888215d1")
+		)
+		(pin "IN-" input
+			(at 46.99 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36ecc818-983e-450f-9d17-b9a6393cd71c")
+		)
+		(pin "VCC1" input
+			(at 46.99 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "70132e10-f27c-48aa-9dbd-948646982ab2")
+		)
+		(pin "GND1" input
+			(at 46.99 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "52a16d14-38f2-4bdd-a138-1915968e5a0a")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 40.64)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 253 231 1.0000)
+		)
+		(uuid "84d1d1f7-2f54-4c33-9a3e-2e9dd13843c7")
+		(property "Sheetname" "gd_1ed3125mu12f2"
+			(at 138.43 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
+			(at 138.43 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCC2" input
+			(at 156.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae4e6d72-34c1-4fc6-b320-f2d98904c450")
+		)
+		(pin "VEE2" input
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b50a8d0-bc8c-4f76-bed9-9e6f8175dcf2")
+		)
+		(pin "G" bidirectional
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ccbaa064-1cb5-4442-ac6e-e68207b4b0de")
+		)
+		(pin "IN+" input
+			(at 138.43 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "331040cd-14e4-4655-b359-8fded2f3f1b3")
+		)
+		(pin "IN-" input
+			(at 138.43 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "693085fd-1ce5-4992-87e9-ea1fe8463db4")
+		)
+		(pin "VCC1" input
+			(at 138.43 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59fe6ea3-a210-49ba-94c9-54074f160fdb")
+		)
+		(pin "GND1" input
+			(at 138.43 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c583d249-ff0d-4d2a-8cf6-cb779777d4f0")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 64.77)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 253 231 1.0000)
+		)
+		(uuid "a54d3f19-6e2c-4865-abea-187ad4200fd2")
+		(property "Sheetname" "gd_1ed3125mu12f3"
+			(at 138.43 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
+			(at 138.43 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCC2" input
+			(at 156.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98f04b2c-cb67-47a6-9aab-1ca10ddb28fb")
+		)
+		(pin "VEE2" input
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "074a36ec-ee01-47bf-b82f-7496f108786c")
+		)
+		(pin "G" bidirectional
+			(at 156.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a69a703e-f24b-490d-b713-013007de2c9f")
+		)
+		(pin "IN+" input
+			(at 138.43 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5939a090-ea7a-4d91-a8d0-34ccc7c62390")
+		)
+		(pin "IN-" input
+			(at 138.43 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4b4c3506-f7c9-490e-8ffa-489e562c271f")
+		)
+		(pin "VCC1" input
+			(at 138.43 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74466f47-f3da-400a-a3ff-f5e0672e6f7a")
+		)
+		(pin "GND1" input
+			(at 138.43 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "376daac1-318e-425d-ac2c-8013d7772b18")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 64.77)
+		(size 17.78 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 253 231 1.0000)
+		)
+		(uuid "ae7b56dd-c12d-4359-b01b-e816c6964e9d")
+		(property "Sheetname" "gd_1ed3125mu12f1"
+			(at 46.99 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
+			(at 46.99 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "VCC2" input
+			(at 64.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "daf617f0-d6d1-4b04-ad2f-0c36d51ff2af")
+		)
+		(pin "VEE2" input
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "173690b8-c5c7-473a-a298-579111b6d74a")
+		)
+		(pin "G" bidirectional
+			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48ccfb9f-70a7-45a6-89ba-8b2854390bf9")
+		)
+		(pin "IN+" input
+			(at 46.99 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f3663986-2c57-4f4a-9833-8ff15591fce4")
+		)
+		(pin "IN-" input
+			(at 46.99 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c95dbbf-cc61-4345-a902-0c09ade4d10e")
+		)
+		(pin "VCC1" input
+			(at 46.99 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8b27d5b-b44a-4f98-b86d-a44ec4991997")
+		)
+		(pin "GND1" input
+			(at 46.99 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4f85cf9-a8ef-47fe-aca6-7b3337f8a8fc")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/fdca222d-0f97-4e31-8037-fff4f850ee1b"
+					(page "4")
+				)
+			)
+		)
+	)
+)

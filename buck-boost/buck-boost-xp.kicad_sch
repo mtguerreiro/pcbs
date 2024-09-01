@@ -4,843 +4,7 @@
 	(generator_version "8.0")
 	(uuid "3f994017-d36f-4c43-a8c8-740bd919e8ad")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Converter_DCDC:TBA1-1212E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TBA1-1212E"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SIP-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Traco isolated isolation dc-dc converter not-regulated non-regulated single 1W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*TRACO*TBA1*xxxxE*Single*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TBA1-1212E_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TBA1-1212E_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "+Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "-Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "-Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "+Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:L_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
-	(junction
-		(at 101.6 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10bcb8b5-a328-47b0-a0be-70b1261d2064")
-	)
-	(junction
-		(at 101.6 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "879f4e50-735e-48f1-8394-1aace9484f11")
-	)
-	(wire
-		(pts
-			(xy 101.6 132.08) (xy 110.49 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61abced4-d965-419e-b33c-00398ba67c47")
-	)
-	(wire
-		(pts
-			(xy 93.98 127) (xy 101.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7757f6a9-9e58-465e-aab8-2be3fce9fc7a")
-	)
-	(wire
-		(pts
-			(xy 88.9 127) (xy 81.28 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b88931-d514-4f79-96bc-10198e924e85")
-	)
-	(wire
-		(pts
-			(xy 101.6 127) (xy 110.49 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d609686d-9441-45fd-9743-0a641ac5d428")
-	)
-	(wire
-		(pts
-			(xy 81.28 132.08) (xy 101.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca35844-4eca-4f2a-8435-dbfd9193aa66")
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e085635-0422-4f56-9425-bc75b0aa0c46")
-		(property "Reference" "C13"
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 102.87 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 101.6 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "822d2dc5-4cb2-4e46-85a5-32aedb3dd7a4")
-		)
-		(pin "1"
-			(uuid "d6f318d0-a7f5-46de-ae14-a8b140635ba0")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Converter_DCDC:TBA1-1212E")
-		(at 120.65 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "678a2f01-cf4f-433f-8cf9-fbde68fddf93")
-		(property "Reference" "U2"
-			(at 120.65 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TBA1-1212E"
-			(at 119.126 136.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TBA1-xxxxE_Single_THT"
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tracopower.com/products/tba1e.pdf"
-			(at 120.65 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1W DC/DC converter unregulated, 10.8-13.2V input, 12V fixed output voltage, 84mA output, 1.5kVDC isolation, SIP-7"
-			(at 120.65 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f8cbb0d-9bb9-459f-9572-be0176e18a64")
-		)
-		(pin "1"
-			(uuid "45ab514d-2ef4-4684-a60a-f25a74a01628")
-		)
-		(pin "6"
-			(uuid "6d317cc0-4b62-4a3b-99ec-6cb30ab8e2aa")
-		)
-		(pin "4"
-			(uuid "b24ab22a-3bf3-40e2-b7cf-5f4999ad26d7")
-		)
-		(instances
-			(project ""
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 91.44 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c7e4ad9-eef5-4e0e-b6ad-0429e8df74a9")
-		(property "Reference" "L2"
-			(at 91.44 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 91.44 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 91.44 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f853a824-79dc-4558-8990-80b1f8279cae")
-		)
-		(pin "1"
-			(uuid "b9874068-2dba-4191-b07d-10f3e0b41d57")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 81.28 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba897856-3a34-42be-bceb-8e1076057b9b")
-		(property "Reference" "C12"
-			(at 82.55 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 82.55 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "737977b5-582f-41e3-aa2a-5e2107465544")
-		)
-		(pin "1"
-			(uuid "3bfb86ec-337b-419a-a0e2-be74aae46474")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
+	(lib_symbols)
 	(sheet
 		(at 85.09 25.4)
 		(size 30.48 45.72)
@@ -972,26 +136,6 @@
 			)
 			(uuid "7e2d97fd-1109-48b2-b6af-13cf777cf53b")
 		)
-		(pin "V_s3" bidirectional
-			(at 85.09 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "352e59a8-cf69-496b-b5d1-4702d5300413")
-		)
-		(pin "S1" bidirectional
-			(at 85.09 43.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d8977f83-6617-4c07-9253-feb95f9e4725")
-		)
 		(pin "I_in_+" output
 			(at 115.57 48.26 0)
 			(effects
@@ -1001,16 +145,6 @@
 				(justify right)
 			)
 			(uuid "a5b00acc-2edb-4375-bf8b-d18343d47c80")
-		)
-		(pin "S3" bidirectional
-			(at 85.09 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0a2e8037-5378-457b-9640-ba883d053a68")
 		)
 		(pin "I_out_+" output
 			(at 115.57 58.42 0)
@@ -1052,16 +186,6 @@
 			)
 			(uuid "0517014f-ba1d-4849-a2af-a2088af9cea5")
 		)
-		(pin "V_s1" bidirectional
-			(at 85.09 45.72 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e472ab45-25ba-4807-93db-675595d850de")
-		)
 		(pin "K_in_A2" bidirectional
 			(at 85.09 63.5 180)
 			(effects
@@ -1102,17 +226,47 @@
 			)
 			(uuid "50171223-88b7-400f-852d-71473e61c222")
 		)
-		(pin "S_load" bidirectional
-			(at 85.09 58.42 180)
+		(pin "G_S1" bidirectional
+			(at 85.09 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6519eea0-a113-4a39-a83c-bf4f77b7efd3")
+			(uuid "785f95f7-194b-4eec-9177-88790e5f82c3")
 		)
-		(pin "S2" bidirectional
+		(pin "G_S3" bidirectional
+			(at 85.09 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c2948307-991d-4d7d-803e-faef3bf335ac")
+		)
+		(pin "Vs_S1" bidirectional
+			(at 85.09 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f984a3f3-1d4a-46b5-9da8-c9984c5cb7a3")
+		)
+		(pin "Vs_S3" bidirectional
+			(at 85.09 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a90562e3-5577-4710-9f76-84a748eb5f17")
+		)
+		(pin "G_S2" bidirectional
 			(at 85.09 48.26 180)
 			(effects
 				(font
@@ -1120,9 +274,9 @@
 				)
 				(justify left)
 			)
-			(uuid "5dd94f0e-94a8-4181-86d2-911a96cd2de2")
+			(uuid "5fccaae3-bae3-4e4b-932d-e628c746aa4e")
 		)
-		(pin "S4" bidirectional
+		(pin "G_S4" bidirectional
 			(at 85.09 55.88 180)
 			(effects
 				(font
@@ -1130,7 +284,17 @@
 				)
 				(justify left)
 			)
-			(uuid "c2d0358b-1a6c-4f91-9c1f-bd26388f414c")
+			(uuid "44560cc7-8e0c-4546-a577-89feb9a13757")
+		)
+		(pin "G_Sload" bidirectional
+			(at 85.09 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5db6e38-94e4-482a-aae2-0d47a82f0cd9")
 		)
 		(instances
 			(project "buck-boost-xp"
@@ -1141,8 +305,8 @@
 		)
 	)
 	(sheet
-		(at 43.18 123.19)
-		(size 17.78 16.51)
+		(at 95.25 149.86)
+		(size 22.86 25.4)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1151,9 +315,9 @@
 		(fill
 			(color 255 253 231 1.0000)
 		)
-		(uuid "bc46c06a-9ffe-406b-8a41-64c141cc151a")
-		(property "Sheetname" "gd_1ed3125mu12f"
-			(at 43.18 122.4784 0)
+		(uuid "fdca222d-0f97-4e31-8037-fff4f850ee1b")
+		(property "Sheetname" "drivers"
+			(at 95.25 149.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,90 +325,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "gd_1ed3125mu12f.kicad_sch"
-			(at 43.18 140.2846 0)
+		(property "Sheetfile" "drivers.kicad_sch"
+			(at 95.25 175.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
-		)
-		(pin "VCC2" input
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "47f5b6e4-732e-40c3-a424-5db6dc2ed4b6")
-		)
-		(pin "VEE2" input
-			(at 60.96 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5b619486-45e9-4432-b11c-3ff868869cd3")
-		)
-		(pin "G" bidirectional
-			(at 60.96 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "32031249-e49e-486d-8bfa-a9e148c7a36d")
-		)
-		(pin "IN+" input
-			(at 43.18 129.54 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ed9d76d0-2e66-44f4-859c-f1ec4d3d27a5")
-		)
-		(pin "IN-" input
-			(at 43.18 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ff83b853-9278-47a5-9d31-b0c7f2c12346")
-		)
-		(pin "VCC1" input
-			(at 43.18 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d036e321-3616-440a-8195-80ebf426bd37")
-		)
-		(pin "GND1" input
-			(at 43.18 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "53965cc6-6e23-4724-9b7d-8bd6280e7d16")
 		)
 		(instances
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad"
-					(page "2")
+					(page "5")
 				)
 			)
 		)

@@ -580,12 +580,28 @@
       "Root"
     ],
     [
-      "bc46c06a-9ffe-406b-8a41-64c141cc151a",
+      "761151f6-faee-4ce9-9368-5feaea030452",
       "gd_1ed3125mu12f"
     ],
     [
       "4b78e856-8df0-4354-bb89-2d922a25b663",
       "buck_boost_power_stage"
+    ],
+    [
+      "ae7b56dd-c12d-4359-b01b-e816c6964e9d",
+      "gd_1ed3125mu12f1"
+    ],
+    [
+      "fdca222d-0f97-4e31-8037-fff4f850ee1b",
+      "drivers"
+    ],
+    [
+      "84d1d1f7-2f54-4c33-9a3e-2e9dd13843c7",
+      "gd_1ed3125mu12f2"
+    ],
+    [
+      "a54d3f19-6e2c-4865-abea-187ad4200fd2",
+      "gd_1ed3125mu12f3"
     ]
   ],
   "text_variables": {}

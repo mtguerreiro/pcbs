@@ -24,7 +24,7 @@ A diagram of the board is shown in  :numref:`fig-adc-board-six-channels-diagram`
 Board and pinout
 ----------------
 
-A fully populated board is shown in :numref:`fig-adc-board-six-channels-adc-board`. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2).
+A fully populated board is shown in :numref:`fig-adc-board-six-channels-adc-board`. The analog inputs are on the left (connector J1), while SPI interface is on the right (connector J2). The board's pinout is shown in :numref:`fig-adc-board-six-channels-pinout`.
 
 .. figure:: img/adc-board-six-channels/adc-board.svg
    :name: fig-adc-board-six-channels-adc-board
@@ -34,7 +34,6 @@ A fully populated board is shown in :numref:`fig-adc-board-six-channels-adc-boar
    
    Populated board.
 
-The board's pinout is shown in :numref:`fig-adc-board-six-channels-pinout`
 
 .. figure:: img/adc-board-six-channels/pinout.svg
    :name: fig-adc-board-six-channels-pinout
@@ -126,8 +125,8 @@ Why six channels?
 
 Originally, the board was intended to be used in three-phase systems, to sample three voltage and three current signals. That's why the board was designed with six analog channels.
 
-Application examples
---------------------
+Application example
+-------------------
 
 This board has been used as part of research projects on dc/dc converters. They were used to capture voltage and current measurements, and were controlled by an FPGA. One example is shown in :numref:`fig-general-buck-boost-setup-adc-board`. In this case, two boards were used to convert signals from two different converters. In this setup, the ADC121S021 chip was used, with a sampling frequency of 200 kHz for one converter and 100 kHz for another converter, and a clock of 16.7 MHz.
 

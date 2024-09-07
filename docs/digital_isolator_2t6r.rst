@@ -105,8 +105,8 @@ Why this number of channels?
 
 Originally, the board was intended to be used along the :ref:`sec-adc-board-six-channels`, to provide digital isolation. Thus, the number of TX and RX were chosen to be compatible with the ADC board.
 
-Application examples
---------------------
+Application example
+-------------------
 
 This board has been used as part of research projects on dc/dc converters, to isolate an FPGA from the converters. One example is shown in :numref:`fig-general-buck-boost-setup-dig-iso`. In this case, two boards were used as in  interface between the FPGA and the ADCs, thus providing isolated measurements. In this setup, the Si8641 chip was used, with signals of 16.7 MHz.
 

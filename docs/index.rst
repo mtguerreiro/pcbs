@@ -27,3 +27,8 @@ This is the documentation of printed circuit boards (PCBs) we developed for our 
    digital_isolator_2t6r
    digital_isolator_6t2r
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Pynq Z2 adapter
+   
+   pynq_rpi_ph_adapter

@@ -172,8 +172,8 @@ Why this number of channels?
 Originally, the board was intended to be used in three-phase systems, to sample three voltage and three current signals. That's why the board was designed with six analog channels.
 
 
-Application examples
---------------------
+Application example
+-------------------
 
 The board shown in :numref:`fig-amplifier-board-six-channels-board` was used  to adapt the output signal of a tachometer to the input of a microcontroller's ADC. The supply rails were used as the reference, and the tachometer's -12~12V signal was converter to the ADC's 0~3V range.
 

@@ -1,1 +1,2 @@
 - IO8 and IO9 are inverted (see pin header)
+  - Fixed in new version (commit 48243a0069cdf400ffa442e71829328903b15db7)

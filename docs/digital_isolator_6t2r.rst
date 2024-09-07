@@ -105,8 +105,8 @@ Why this number of channels?
 
 This board was originally designed to be a counterpart of the :ref:`sec-digital-isolator-2t6r` board. Since that board has 2 TX and 6 RX channels, this one was designed to have 6 TX and 2 RX channels.
 
-Application examples
---------------------
+Application example
+-------------------
 
 This board has been used as part of research projects on dc/dc converters, to isolate an FPGA from the converters. One example is shown in :numref:`fig-general-buck-boost-setup-dig-iso-6t2r`. In this case the boards were used drive the PWM signals and the relays of the converters. In this setup, the Si8641 chip was used, with the PWM signals being driven at 200 kHz in some cases.
 

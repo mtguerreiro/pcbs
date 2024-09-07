@@ -9,7 +9,7 @@ The ``amplifier-board-six-channels`` is a board containing six amplifiers, inten
 * :math:`\text{A}_{i1}, \dots, \text{A}_{i6}` are the analog inputs.
 * :math:`\text{A}_{o1}, \dots, \text{A}_{o6}` are the analog outputs.
 
-.. figure:: img/amplifier-board-six-channels/diagram.svg
+.. figure:: media/amplifier-board-six-channels/diagram.svg
    :name: fig-amplifier-board-six-channels-diagram
    :scale: 150%
    :align: center
@@ -22,7 +22,7 @@ Board and pinout
 
 A partially populated board is shown in :numref:`fig-amplifier-board-six-channels-board`. The analog inputs are on the left (connector J1), while the analog outputs are on the right (connector J2).
 
-.. figure:: img/amplifier-board-six-channels/board.svg
+.. figure:: media/amplifier-board-six-channels/board.svg
    :name: fig-amplifier-board-six-channels-board
    :scale: 10%
    :align: center
@@ -32,7 +32,7 @@ A partially populated board is shown in :numref:`fig-amplifier-board-six-channel
 
 The board's pinout is shown in :numref:`fig-amplifier-board-six-channels-pinout`.
 
-.. figure:: img/amplifier-board-six-channels/pinout.svg
+.. figure:: media/amplifier-board-six-channels/pinout.svg
    :name: fig-amplifier-board-six-channels-pinout
    :scale: 150%
    :align: center
@@ -49,7 +49,7 @@ The board supports any two-channel amplifier having the footprint shown in :numr
 * TI's LM358
 * Microchip's MCP6002
 
-.. figure:: img/amplifier-board-six-channels/amplifier-footprint.svg
+.. figure:: media/amplifier-board-six-channels/amplifier-footprint.svg
    :name: fig-amplifier-board-six-channels-amplifier-footprint
    :scale: 85%
    :align: center
@@ -64,7 +64,7 @@ The board supports voltage reference ICs having the footprint shown in :numref:`
 
 * Maxim's MAX6035
 
-.. figure:: img/amplifier-board-six-channels/reference-footprint.svg
+.. figure:: media/amplifier-board-six-channels/reference-footprint.svg
    :name: fig-amplifier-board-six-channels-reference-footprint
    :scale: 85%
    :align: center
@@ -89,7 +89,7 @@ Each channel has a reference generator, consisting of a voltage divider and an e
 
 where :math:`V_\text{r}` is a reference signal common to all amplifiers in the board. Each amplifier can have its own reference. Note that :math:`V'_\text{r} \leq V_\text{r}`. For more information regarding :math:`V_\text{r}`, see :ref:`sec-amplifier-board-six-channels-reference`. 
 
-.. figure:: img/amplifier-board-six-channels/diagram-single-reference.svg
+.. figure:: media/amplifier-board-six-channels/diagram-single-reference.svg
    :name: fig-amplifier-board-six-channels-diagram-single-reference
    :scale: 130%
    :align: center
@@ -110,7 +110,7 @@ Thus, in this configuration, it is possible to add an offset of :math:`V'_\text{
 
 A low-pass RC filter is placed at the output of the amplifier. Note that if this filter is used, the output signal won't be buffered anymore. Resistor :math:`R_\text{f}` can also be used as series resistor to help with ringing, in case the amplifier needs to drive a capacitive line.
 
-.. figure:: img/amplifier-board-six-channels/diagram-single-voltage.svg
+.. figure:: media/amplifier-board-six-channels/diagram-single-voltage.svg
    :name: fig-amplifier-board-six-channels-diagram-single-voltage
    :scale: 130%
    :align: center
@@ -131,7 +131,7 @@ The burden resistor at the input is compensated by a burden resistor in series w
    
    v'_\text{o} = V'_\text{r} + \left( \frac{R_2}{R_1+R_\text{B}} \right) R_\text{B}i_\text{i}.
 
-.. figure:: img/amplifier-board-six-channels/diagram-single-current.svg
+.. figure:: media/amplifier-board-six-channels/diagram-single-current.svg
    :name: fig-amplifier-board-six-channels-diagram-single-current
    :scale: 130%
    :align: center
@@ -155,7 +155,7 @@ As shown in :numref:`fig-amplifier-board-six-channels-diagram`, the amplifiers c
 * R55 populated, R16 not placed: amplifiers and reference chip are powered with 5 V (:math:`\text{V}_\text{DD}`)
 * R56 not placed, R15 populated: amplifiers and reference chip are powered with 3.3 V (:math:`\text{V}_\text{CC}`)
 
-.. figure:: img/amplifier-board-six-channels/supply.png
+.. figure:: media/amplifier-board-six-channels/supply.png
    :name: fig-amplifier-board-six-channels-supply
    :scale: 50%
    :align: center

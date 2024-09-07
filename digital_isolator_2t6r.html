@@ -61,11 +61,15 @@
 <li class="toctree-l2"><a class="reference internal" href="#isolator-diagram">Isolator diagram</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#usage-as-6-tx-and-2-rx">Usage as 6 TX and 2 RX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-this-number-of-channels">Why this number of channels?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#application-examples">Application examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-example">Application example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="digital_isolator_6t2r.html">digital-isolator-6t2r</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Pynq Z2 adapter</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pynq_rpi_ph_adapter.html">pynq-rpi-ph-adapter</a></li>
 </ul>
 
         </div>
@@ -115,12 +119,6 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The board is denoted <code class="docutils literal notranslate"><span class="pre">2t6r</span></code> based on the number of TX and RX of side A. This is typically the side that would be connected to the target application, while side B is connected to the controller (thus providing the controller with 2 TX and 6 RX channels).</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul class="simple">
-<li><p>TODO: make reference to Pynq header board.</p></li>
-</ul>
 </div>
 <section id="board-and-pinout">
 <h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
@@ -187,13 +185,13 @@
 <h2>Why this number of channels?<a class="headerlink" href="#why-this-number-of-channels" title="Permalink to this heading"></a></h2>
 <p>Originally, the board was intended to be used along the <a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a>, to provide digital isolation. Thus, the number of TX and RX were chosen to be compatible with the ADC board.</p>
 </section>
-<section id="application-examples">
-<h2>Application examples<a class="headerlink" href="#application-examples" title="Permalink to this heading"></a></h2>
-<p>This board has been used as part of research projects on dc/dc converters, to isolate an FPGA from the converters. One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup-dig-iso"><span class="std std-numref">Fig. 23</span></a>. In this case, two boards were used as in  interface between the FPGA and the ADCs, thus providing isolated measurements. In this setup, the Si8641 chip was used, with signals of 16.7 MHz.</p>
-<figure class="align-center" id="fig-general-buck-boost-setup-dig-iso">
-<a class="reference internal image-reference" href="_images/buck-boost-setup.jpeg"><img alt="Buck/boost setup." src="_images/buck-boost-setup.jpeg" style="width: 540.0px; height: 219.0px;" /></a>
+<section id="application-example">
+<h2>Application example<a class="headerlink" href="#application-example" title="Permalink to this heading"></a></h2>
+<p><a class="reference internal" href="#fig-digital-isolator-2t6r-example"><span class="std std-numref">Fig. 23</span></a> shows one example where the <code class="docutils literal notranslate"><span class="pre">digital-isolator-2t6r</span></code> board was used. In the example, the board was used to provide isolation between a controller and an experimental dc-dc converter. More specifically, the board was used to isolate the <a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a> from the controller, thus providing the controller with isolated measurements. The board used Si8641 chips with clock signals as high as 16.7 MHz.</p>
+<figure class="align-center" id="fig-digital-isolator-2t6r-example">
+<a class="reference internal image-reference" href="_images/pynq-plus-adapters-buck.svg"><img alt="Pynq and adapter boards." height="534" src="_images/pynq-plus-adapters-buck.svg" width="379" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 23 </span><span class="caption-text">2T6R isolator boards put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup-dig-iso" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 23 </span><span class="caption-text">2T6R isolator board put to use.</span><a class="headerlink" href="#fig-digital-isolator-2t6r-example" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>

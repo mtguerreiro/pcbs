@@ -22,6 +22,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="pynq-rpi-ph-adapter" href="pynq_rpi_ph_adapter.html" />
     <link rel="prev" title="digital-isolator-2t6r" href="digital_isolator_2t6r.html" /> 
 </head>
 
@@ -61,10 +62,14 @@
 <li class="toctree-l2"><a class="reference internal" href="#isolator-diagram">Isolator diagram</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#usage-as-2-tx-and-6-rx">Usage as 2 TX and 6 RX</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#why-this-number-of-channels">Why this number of channels?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#application-examples">Application examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-example">Application example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Pynq Z2 adapter</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pynq_rpi_ph_adapter.html">pynq-rpi-ph-adapter</a></li>
 </ul>
 
         </div>
@@ -114,12 +119,6 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The board is denoted <code class="docutils literal notranslate"><span class="pre">6t2r</span></code> based on the number of TX and RX of side B. This is typically the side that would be connected to the target application, while side A is connected to the controller (thus providing the controller with 6 TX and 2 RX channels).</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul class="simple">
-<li><p>TODO: make reference to Pynq header board.</p></li>
-</ul>
 </div>
 <section id="board-and-pinout">
 <h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
@@ -186,13 +185,13 @@
 <h2>Why this number of channels?<a class="headerlink" href="#why-this-number-of-channels" title="Permalink to this heading"></a></h2>
 <p>This board was originally designed to be a counterpart of the <a class="reference internal" href="digital_isolator_2t6r.html#sec-digital-isolator-2t6r"><span class="std std-ref">digital-isolator-2t6r</span></a> board. Since that board has 2 TX and 6 RX channels, this one was designed to have 6 TX and 2 RX channels.</p>
 </section>
-<section id="application-examples">
-<h2>Application examples<a class="headerlink" href="#application-examples" title="Permalink to this heading"></a></h2>
-<p>This board has been used as part of research projects on dc/dc converters, to isolate an FPGA from the converters. One example is shown in <a class="reference internal" href="#fig-general-buck-boost-setup-dig-iso-6t2r"><span class="std std-numref">Fig. 29</span></a>. In this case the boards were used drive the PWM signals and the relays of the converters. In this setup, the Si8641 chip was used, with the PWM signals being driven at 200 kHz in some cases.</p>
-<figure class="align-center" id="fig-general-buck-boost-setup-dig-iso-6t2r">
-<a class="reference internal image-reference" href="_images/buck-boost-setup.jpeg"><img alt="Buck/boost setup." src="_images/buck-boost-setup.jpeg" style="width: 540.0px; height: 219.0px;" /></a>
+<section id="application-example">
+<h2>Application example<a class="headerlink" href="#application-example" title="Permalink to this heading"></a></h2>
+<p><a class="reference internal" href="#fig-digital-isolator-6t2r-example"><span class="std std-numref">Fig. 29</span></a> shows one example where the <code class="docutils literal notranslate"><span class="pre">digital-isolator-6t2r</span></code> board was used. In the example, the board was used to provide isolation between a controller and an experimental dc-dc converter. More specifically, the board was used to isolate PWM signals and relay commands, sent by the controller to the converter. The board used Si8641 chips with PWM signals of 200 kHz.</p>
+<figure class="align-center" id="fig-digital-isolator-6t2r-example">
+<a class="reference internal image-reference" href="_images/pynq-plus-adapters-buck.svg"><img alt="Pynq and adapter boards." height="534" src="_images/pynq-plus-adapters-buck.svg" width="379" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 29 </span><span class="caption-text">6T2R isolator boards put to use.</span><a class="headerlink" href="#fig-general-buck-boost-setup-dig-iso-6t2r" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 29 </span><span class="caption-text">6T2R isolator board put to use.</span><a class="headerlink" href="#fig-digital-isolator-6t2r-example" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -207,6 +206,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="digital_isolator_2t6r.html" class="btn btn-neutral float-left" title="digital-isolator-2t6r" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pynq_rpi_ph_adapter.html" class="btn btn-neutral float-right" title="pynq-rpi-ph-adapter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

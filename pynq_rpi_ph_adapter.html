@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pynq-rpi-ph-adapter &mdash; ResPCBs v0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=4c0d86c8"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="digital-isolator-6t2r" href="digital_isolator_6t2r.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            ResPCBs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Amplifiers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="amplifier_board_six_channels.html">amplifier-board-six-channels</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Analog-to-digital converters (ADCs)</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="adc_board_six_channels.html">adc-board-six-channels</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Digital isolators</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="digital_isolator_2t6r.html">digital-isolator-2t6r</a></li>
+<li class="toctree-l1"><a class="reference internal" href="digital_isolator_6t2r.html">digital-isolator-6t2r</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Pynq Z2 adapter</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">pynq-rpi-ph-adapter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#board-and-pinout">Board and pinout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#compatible-boards">Compatible boards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#connecting-compatible-boards">Connecting compatible boards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#notes">Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#application-example">Application example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">ResPCBs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">pynq-rpi-ph-adapter</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/pynq_rpi_ph_adapter.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="pynq-rpi-ph-adapter">
+<span id="sec-pynq-rpi-ph-adapter"></span><h1>pynq-rpi-ph-adapter<a class="headerlink" href="#pynq-rpi-ph-adapter" title="Permalink to this heading"></a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> is an adapter board that routes all Raspberry and Arduino GPIOs of the Pynq Z2 board to side connectors that are compatible with boards such as <a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a>, <a class="reference internal" href="digital_isolator_2t6r.html#sec-digital-isolator-2t6r"><span class="std std-ref">digital-isolator-2t6r</span></a>, and <a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a>. In total, 48 GPIOs are made available in six different connectors (8 GPIOs per connector).</p>
+<section id="board-and-pinout">
+<h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
+<p>A partially populated board mounted on a Pynq Z2 board is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-board"><span class="std std-numref">Fig. 30</span></a>. The board’s pinout is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 31</span></a>. The mapping between the IOs, equivalent Raspberry/Arduino pins and the actual FPGA pins are shown in Table <a class="reference internal" href="#table-pynq-rpi-ph-adapter-pin-mapping"><span class="std std-ref">Pin mapping</span></a>.</p>
+<figure class="align-center" id="fig-pynq-rpi-ph-adapter-board">
+<a class="reference internal image-reference" href="_images/board3.svg"><img alt="Pynq adapter on Pynq board." height="231" src="_images/board3.svg" width="333" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Adapter board mounted on a Pynq Z2.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-board" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="fig-pynq-rpi-ph-adapter-pinout">
+<a class="reference internal image-reference" href="_images/pinout4.svg"><img alt="Pinout of the board." height="2043" src="_images/pinout4.svg" width="1549" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Board pinout.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-pinout" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<span id="table-pynq-rpi-ph-adapter-pin-mapping"></span><table class="docutils align-default" id="id1">
+<caption><span class="caption-number">Table 1 </span><span class="caption-text">Pin mapping</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+<col style="width: 16.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Adapter</p></th>
+<th class="head"><p>Pynq</p></th>
+<th class="head"><p>Zynq</p></th>
+<th class="head"><p>Adapter</p></th>
+<th class="head"><p>Pynq</p></th>
+<th class="head"><p>Zynq</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>IO 0</p></td>
+<td><p>RPIO 02</p></td>
+<td><p>W18</p></td>
+<td><p>IO 24</p></td>
+<td><p>RPIO 19</p></td>
+<td><p>Y8</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 1</p></td>
+<td><p>RPIO 03</p></td>
+<td><p>W19</p></td>
+<td><p>IO 25</p></td>
+<td><p>RPIO 20</p></td>
+<td><p>A20</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 2</p></td>
+<td><p>RPIO 04</p></td>
+<td><p>Y18</p></td>
+<td><p>IO 26</p></td>
+<td><p>RPIO 21</p></td>
+<td><p>Y9</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 3</p></td>
+<td><p>RPIO 18</p></td>
+<td><p>C20</p></td>
+<td><p>IO 27</p></td>
+<td><p>AR1</p></td>
+<td><p>U12</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 4</p></td>
+<td><p>RPIO 17</p></td>
+<td><p>U7</p></td>
+<td><p>IO 28</p></td>
+<td><p>AR2</p></td>
+<td><p>U13</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 5</p></td>
+<td><p>RPIO 27</p></td>
+<td><p>V7</p></td>
+<td><p>IO 29</p></td>
+<td><p>AR3</p></td>
+<td><p>V13</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 6</p></td>
+<td><p>RPIO 14</p></td>
+<td><p>V6</p></td>
+<td><p>IO 30</p></td>
+<td><p>RPIO 26</p></td>
+<td><p>W9</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 7</p></td>
+<td><p>RPIO 15</p></td>
+<td><p>Y6</p></td>
+<td><p>IO 31</p></td>
+<td><p>AR0</p></td>
+<td><p>T14</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 8</p></td>
+<td><p>RPIO 23</p></td>
+<td><p>W6</p></td>
+<td><p>IO 32</p></td>
+<td><p>AR4</p></td>
+<td><p>V15</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 9</p></td>
+<td><p>RPIO 22</p></td>
+<td><p>U8</p></td>
+<td><p>IO 33</p></td>
+<td><p>AR5</p></td>
+<td><p>T15</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 10</p></td>
+<td><p>RPIO 10</p></td>
+<td><p>V8</p></td>
+<td><p>IO 34</p></td>
+<td><p>AR7</p></td>
+<td><p>U17</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 11</p></td>
+<td><p>RPIO 9</p></td>
+<td><p>V10</p></td>
+<td><p>IO 35</p></td>
+<td><p>AR9</p></td>
+<td><p>V18</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 12</p></td>
+<td><p>RPIO 8</p></td>
+<td><p>F19</p></td>
+<td><p>IO 36</p></td>
+<td><p>AR10</p></td>
+<td><p>T16</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 13</p></td>
+<td><p>RPIO 11</p></td>
+<td><p>W10</p></td>
+<td><p>IO 37</p></td>
+<td><p>AR SCL</p></td>
+<td><p>P15</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 14</p></td>
+<td><p>RPIO 24</p></td>
+<td><p>Y7</p></td>
+<td><p>IO 38</p></td>
+<td><p>AR6</p></td>
+<td><p>R16</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 15</p></td>
+<td><p>RPIO 25</p></td>
+<td><p>F20</p></td>
+<td><p>IO 39</p></td>
+<td><p>AR8</p></td>
+<td><p>V17</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 16</p></td>
+<td><p>RPIO 07</p></td>
+<td><p>U19</p></td>
+<td><p>IO 40</p></td>
+<td><p>A</p></td>
+<td><p>Y13</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 17</p></td>
+<td><p>RPIO SC</p></td>
+<td><p>Y17</p></td>
+<td><p>IO 41</p></td>
+<td><p>AR13</p></td>
+<td><p>N17</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 18</p></td>
+<td><p>RPIO 05</p></td>
+<td><p>Y19</p></td>
+<td><p>IO 42</p></td>
+<td><p>AR11</p></td>
+<td><p>R17</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 19</p></td>
+<td><p>RPIO 06</p></td>
+<td><p>U18</p></td>
+<td><p>IO 43</p></td>
+<td><p>AR MOSI</p></td>
+<td><p>T12</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 20</p></td>
+<td><p>RPIO 13</p></td>
+<td><p>W8</p></td>
+<td><p>IO 44</p></td>
+<td><p>AR SCK</p></td>
+<td><p>H15</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 21</p></td>
+<td><p>RPIO 16</p></td>
+<td><p>B19</p></td>
+<td><p>IO 45</p></td>
+<td><p>AR SS</p></td>
+<td><p>F16</p></td>
+</tr>
+<tr class="row-even"><td><p>IO 22</p></td>
+<td><p>RPIO SD</p></td>
+<td><p>Y16</p></td>
+<td><p>IO 46</p></td>
+<td><p>AR12</p></td>
+<td><p>P18</p></td>
+</tr>
+<tr class="row-odd"><td><p>IO 23</p></td>
+<td><p>RPIO 12</p></td>
+<td><p>B20</p></td>
+<td><p>IO 47</p></td>
+<td><p>AR MISO</p></td>
+<td><p>W15</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="compatible-boards">
+<h2>Compatible boards<a class="headerlink" href="#compatible-boards" title="Permalink to this heading"></a></h2>
+<p>Some boards that compatible with the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> are:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a></p></li>
+<li><p><a class="reference internal" href="digital_isolator_2t6r.html#sec-digital-isolator-2t6r"><span class="std std-ref">digital-isolator-2t6r</span></a></p></li>
+<li><p><a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a></p></li>
+</ul>
+</section>
+<section id="connecting-compatible-boards">
+<h2>Connecting compatible boards<a class="headerlink" href="#connecting-compatible-boards" title="Permalink to this heading"></a></h2>
+<p>There are two possibilities when using the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> with compatible boards. The first option is to solder pin headers on the top of the board, and simply attach a compatible board. The second option is to attach compatible boards via ribbon cables. In this case, the headers must be soldered on the bottom of the adapter board. This is because the ribbon cable matches the pins on both connectors one-to-one, but we need them to be mirrored. For an example of connection via ribbon cables, see <a class="reference internal" href="#sec-pynq-rpi-ph-adapter-example"><span class="std std-ref">Application example</span></a>.</p>
+</section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Both 3V3 and 5V are routed to the side connectors (see pinout in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 31</span></a>). The 3V3 rail is always routed to the connector; however, the 5V rail can be routed to or isolated from the connectors depending on a jumper resistor (see resistor <cite>R1</cite> on the schematics of the board).</p></li>
+</ul>
+</section>
+<section id="application-example">
+<span id="sec-pynq-rpi-ph-adapter-example"></span><h2>Application example<a class="headerlink" href="#application-example" title="Permalink to this heading"></a></h2>
+<p><a class="reference internal" href="#fig-pynq-rpi-ph-adapter-buck-example"><span class="std std-numref">Fig. 32</span></a> shows the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board connecting the Pynq board with an experimental dc-dc converter. Compatible boards are attached to the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board via ribbon cables. For this reason, the male headers were soldered on the bottom of the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board.</p>
+<figure class="align-center" id="fig-pynq-rpi-ph-adapter-buck-example">
+<a class="reference internal image-reference" href="_images/pynq-plus-adapters-buck.svg"><img alt="Pynq and adapter boards." height="534" src="_images/pynq-plus-adapters-buck.svg" width="379" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Pynq adapter combined with compatible boards.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-buck-example" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<ul class="simple">
+<li><p>TODO: add constraints file</p></li>
+</ul>
+</div>
+</section>
+<section id="fabrication-files">
+<h2>Fabrication files<a class="headerlink" href="#fabrication-files" title="Permalink to this heading"></a></h2>
+<p>To get the gerber files used to fabricate the ADC board, checkout commit <code class="docutils literal notranslate"><span class="pre">48243a0069cdf400ffa442e71829328903b15db7</span></code>, and find the files under <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter/gerber</span></code>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="digital_isolator_6t2r.html" class="btn btn-neutral float-left" title="digital-isolator-6t2r" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Marco Guerreiro.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

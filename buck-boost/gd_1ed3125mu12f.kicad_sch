@@ -2477,7 +2477,7 @@
 		(dnp no)
 		(uuid "8854c7bf-d2c8-4cb6-9435-baeef7bdd7af")
 		(property "Reference" "R3"
-			(at 42.926 86.36 0)
+			(at 42.926 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2485,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 43.434 84.074 0)
+			(at 43.434 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

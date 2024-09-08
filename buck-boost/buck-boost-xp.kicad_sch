@@ -286,7 +286,7 @@
 			)
 			(uuid "44560cc7-8e0c-4546-a577-89feb9a13757")
 		)
-		(pin "G_Sload" bidirectional
+		(pin "G_S_load" bidirectional
 			(at 85.09 58.42 180)
 			(effects
 				(font
@@ -294,7 +294,7 @@
 				)
 				(justify left)
 			)
-			(uuid "a5db6e38-94e4-482a-aae2-0d47a82f0cd9")
+			(uuid "5085b06b-5e5c-4c42-9090-7334d80c4f77")
 		)
 		(instances
 			(project "buck-boost-xp"
@@ -305,7 +305,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 149.86)
+		(at 88.9 90.17)
 		(size 22.86 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -317,7 +317,7 @@
 		)
 		(uuid "fdca222d-0f97-4e31-8037-fff4f850ee1b")
 		(property "Sheetname" "drivers"
-			(at 95.25 149.1484 0)
+			(at 88.9 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "Sheetfile" "drivers.kicad_sch"
-			(at 95.25 175.8446 0)
+			(at 88.9 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

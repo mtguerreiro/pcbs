@@ -1,2 +1,3 @@
 - 10 mm capacitor would've been a better choice. For higher voltages (>160V), 10mm is easier to find
 - power leds
+- instead of having so many coupling capacitors, it would've been better to just place two capacitors, and make a custom footprint that fits all the other ones. This could also be reused for other projects

@@ -31,7 +31,7 @@ This is the documentation of printed circuit boards (PCBs) we developed for our 
    :maxdepth: 1
    :caption: Experimental converters
    
-   cuk_iso
+   cuk_iso_ps
 
 .. toctree::
    :maxdepth: 1

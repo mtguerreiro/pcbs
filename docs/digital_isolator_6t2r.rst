@@ -40,7 +40,7 @@ A fully populated board is shown in :numref:`fig-digital-isolator-6t2r-board`. T
 
 .. figure:: media/digital-isolator-6t2r/pinout.svg
    :name: fig-digital-isolator-6t2r-pinout
-   :scale: 150%
+   :scale: 70%
    :align: center
    :alt: Pinout of the board.
    

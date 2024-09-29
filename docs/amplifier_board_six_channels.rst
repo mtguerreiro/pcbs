@@ -34,7 +34,7 @@ The board's pinout is shown in :numref:`fig-amplifier-board-six-channels-pinout`
 
 .. figure:: media/amplifier-board-six-channels/pinout.svg
    :name: fig-amplifier-board-six-channels-pinout
-   :scale: 150%
+   :scale: 70%
    :align: center
    :alt: Pinout of the board.
    

@@ -37,7 +37,7 @@ A fully populated board is shown in :numref:`fig-adc-board-six-channels-adc-boar
 
 .. figure:: media/adc-board-six-channels/pinout.svg
    :name: fig-adc-board-six-channels-pinout
-   :scale: 150%
+   :scale: 70%
    :align: center
    :alt: Pinout of the board.
    

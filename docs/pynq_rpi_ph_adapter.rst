@@ -21,7 +21,7 @@ A partially populated board mounted on a Pynq Z2 board is shown in :numref:`fig-
 
 .. figure:: media/pynq-rpi-ph-adapter/pinout.svg
    :name: fig-pynq-rpi-ph-adapter-pinout
-   :scale: 150%
+   :scale: 70%
    :align: center
    :alt: Pinout of the board.
    

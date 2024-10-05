@@ -21,7 +21,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="digital-isolator-6t2r" href="digital_isolator_6t2r.html" /> 
+    <link rel="prev" title="cuk-iso-ps" href="cuk_iso_ps.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -55,6 +55,10 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="digital_isolator_2t6r.html">digital-isolator-2t6r</a></li>
 <li class="toctree-l1"><a class="reference internal" href="digital_isolator_6t2r.html">digital-isolator-6t2r</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Experimental converters</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="cuk_iso_ps.html">cuk-iso-ps</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Pynq Z2 adapter</span></p>
 <ul class="current">
@@ -98,17 +102,17 @@
 <p><code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> is an adapter board that routes all Raspberry and Arduino GPIOs of the Pynq Z2 board to side connectors that are compatible with boards such as <a class="reference internal" href="adc_board_six_channels.html#sec-adc-board-six-channels"><span class="std std-ref">adc-board-six-channels</span></a>, <a class="reference internal" href="digital_isolator_2t6r.html#sec-digital-isolator-2t6r"><span class="std std-ref">digital-isolator-2t6r</span></a>, and <a class="reference internal" href="digital_isolator_6t2r.html#sec-digital-isolator-6t2r"><span class="std std-ref">digital-isolator-6t2r</span></a>. In total, 48 GPIOs are made available in six different connectors (8 GPIOs per connector).</p>
 <section id="board-and-pinout">
 <h2>Board and pinout<a class="headerlink" href="#board-and-pinout" title="Permalink to this heading"></a></h2>
-<p>A partially populated board mounted on a Pynq Z2 board is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-board"><span class="std std-numref">Fig. 30</span></a>. The board’s pinout is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 31</span></a>. The mapping between the IOs, equivalent Raspberry/Arduino pins and the actual FPGA pins are shown in Table <a class="reference internal" href="#table-pynq-rpi-ph-adapter-pin-mapping"><span class="std std-ref">Pin mapping</span></a>.</p>
+<p>A partially populated board mounted on a Pynq Z2 board is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-board"><span class="std std-numref">Fig. 41</span></a>. The board’s pinout is shown in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 42</span></a>. The mapping between the IOs, equivalent Raspberry/Arduino pins and the actual FPGA pins are shown in Table <a class="reference internal" href="#table-pynq-rpi-ph-adapter-pin-mapping"><span class="std std-ref">Pin mapping</span></a>.</p>
 <figure class="align-center" id="fig-pynq-rpi-ph-adapter-board">
-<a class="reference internal image-reference" href="_images/board3.svg"><img alt="Pynq adapter on Pynq board." height="231" src="_images/board3.svg" width="333" /></a>
+<a class="reference internal image-reference" href="_images/board4.svg"><img alt="Pynq adapter on Pynq board." height="231" src="_images/board4.svg" width="333" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 30 </span><span class="caption-text">Adapter board mounted on a Pynq Z2.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-board" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 41 </span><span class="caption-text">Adapter board mounted on a Pynq Z2.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-board" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="fig-pynq-rpi-ph-adapter-pinout">
-<a class="reference internal image-reference" href="_images/pinout4.svg"><img alt="Pinout of the board." height="2043" src="_images/pinout4.svg" width="1549" /></a>
+<a class="reference internal image-reference" href="_images/pinout4.svg"><img alt="Pinout of the board." height="953" src="_images/pinout4.svg" width="723" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 31 </span><span class="caption-text">Board pinout.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-pinout" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 42 </span><span class="caption-text">Board pinout.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-pinout" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <span id="table-pynq-rpi-ph-adapter-pin-mapping"></span><table class="docutils align-default" id="id1">
@@ -318,16 +322,16 @@
 <section id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p>Both 3V3 and 5V are routed to the side connectors (see pinout in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 31</span></a>). The 3V3 rail is always routed to the connector; however, the 5V rail can be routed to or isolated from the connectors depending on a jumper resistor (see resistor <cite>R1</cite> on the schematics of the board).</p></li>
+<li><p>Both 3V3 and 5V are routed to the side connectors (see pinout in <a class="reference internal" href="#fig-pynq-rpi-ph-adapter-pinout"><span class="std std-numref">Fig. 42</span></a>). The 3V3 rail is always routed to the connector; however, the 5V rail can be routed to or isolated from the connectors depending on a jumper resistor (see resistor <cite>R1</cite> on the schematics of the board).</p></li>
 </ul>
 </section>
 <section id="application-example">
 <span id="sec-pynq-rpi-ph-adapter-example"></span><h2>Application example<a class="headerlink" href="#application-example" title="Permalink to this heading"></a></h2>
-<p><a class="reference internal" href="#fig-pynq-rpi-ph-adapter-buck-example"><span class="std std-numref">Fig. 32</span></a> shows the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board connecting the Pynq board with an experimental dc-dc converter. Compatible boards are attached to the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board via ribbon cables. For this reason, the male headers were soldered on the bottom of the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board.</p>
+<p><a class="reference internal" href="#fig-pynq-rpi-ph-adapter-buck-example"><span class="std std-numref">Fig. 43</span></a> shows the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board connecting the Pynq board with an experimental dc-dc converter. Compatible boards are attached to the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board via ribbon cables. For this reason, the male headers were soldered on the bottom of the <code class="docutils literal notranslate"><span class="pre">pynq-rpi-ph-adapter</span></code> board.</p>
 <figure class="align-center" id="fig-pynq-rpi-ph-adapter-buck-example">
 <a class="reference internal image-reference" href="_images/pynq-plus-adapters-buck.svg"><img alt="Pynq and adapter boards." height="534" src="_images/pynq-plus-adapters-buck.svg" width="379" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 32 </span><span class="caption-text">Pynq adapter combined with compatible boards.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-buck-example" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 43 </span><span class="caption-text">Pynq adapter combined with compatible boards.</span><a class="headerlink" href="#fig-pynq-rpi-ph-adapter-buck-example" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition warning">
@@ -347,7 +351,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="digital_isolator_6t2r.html" class="btn btn-neutral float-left" title="digital-isolator-6t2r" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cuk_iso_ps.html" class="btn btn-neutral float-left" title="cuk-iso-ps" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

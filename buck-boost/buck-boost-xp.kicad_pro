@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -593,7 +593,7 @@
     ],
     [
       "fdca222d-0f97-4e31-8037-fff4f850ee1b",
-      "drivers"
+      "Drivers"
     ],
     [
       "84d1d1f7-2f54-4c33-9a3e-2e9dd13843c7",
@@ -602,6 +602,42 @@
     [
       "a54d3f19-6e2c-4865-abea-187ad4200fd2",
       "gd_1ed3125mu12f3"
+    ],
+    [
+      "70cf8e5f-42f7-4af1-be5f-f7a395e09e78",
+      "Measurements"
+    ],
+    [
+      "10e18598-b3a5-43f8-8c73-25c6a5ac7f3b",
+      "Voltage measurement"
+    ],
+    [
+      "4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6",
+      "Current measurement"
+    ],
+    [
+      "db151abd-a3a5-4ce2-8717-af92247b7384",
+      "Signal conditioning"
+    ],
+    [
+      "95c7b7af-0b0f-47b5-89a1-4c64764014b4",
+      "Signal conditioning1"
+    ],
+    [
+      "85f051d6-340e-4bb5-860a-420f680f738d",
+      "Signal conditioning2"
+    ],
+    [
+      "d656cdb5-bd1e-4a9a-87e8-2a4cb4a7ff57",
+      "Signal conditioning3"
+    ],
+    [
+      "022172a8-bf73-4ecd-9115-186dc0b94035",
+      "Signal conditioning4"
+    ],
+    [
+      "658598b6-5ada-4dfb-8298-1b289cffd189",
+      "Signal conditioning5"
     ]
   ],
   "text_variables": {}

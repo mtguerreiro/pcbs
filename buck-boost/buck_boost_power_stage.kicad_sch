@@ -1621,16 +1621,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 59.69) (xy 148.59 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b6a5023-8b21-4734-90e4-0d37b52da9f3")
-	)
-	(wire
-		(pts
 			(xy 119.38 46.99) (xy 119.38 45.72)
 		)
 		(stroke
@@ -1701,16 +1691,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 138.43 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23cdccc2-0cd7-4a85-843f-6f96247305fc")
-	)
-	(wire
-		(pts
 			(xy 92.71 124.46) (xy 101.6 124.46)
 		)
 		(stroke
@@ -1748,6 +1728,16 @@
 			(type default)
 		)
 		(uuid "29c13065-214c-4e3b-81ef-faea31552a28")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae44e10-c786-4626-a718-99c4f974836f")
 	)
 	(wire
 		(pts
@@ -1798,6 +1788,16 @@
 			(type default)
 		)
 		(uuid "387d4fec-cfe4-412f-ae94-0aa90891f7c9")
+	)
+	(wire
+		(pts
+			(xy 148.59 57.15) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f84265-9842-43f0-8533-58b8ba21d4b6")
 	)
 	(wire
 		(pts
@@ -1888,16 +1888,6 @@
 			(type default)
 		)
 		(uuid "4e8a5172-d56e-430c-929f-08e0e806e57b")
-	)
-	(wire
-		(pts
-			(xy 148.59 57.15) (xy 148.59 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e9508fb-b3b8-48be-9298-88dcfe64206e")
 	)
 	(wire
 		(pts
@@ -2591,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 59.69) (xy 133.35 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3289052-9b82-40ff-a1ee-08581ba0d204")
+	)
+	(wire
+		(pts
 			(xy 114.3 59.69) (xy 119.38 59.69)
 		)
 		(stroke
@@ -2649,16 +2649,16 @@
 		)
 		(uuid "08319c34-85c7-471d-8d7b-b4cdb606a708")
 	)
-	(text "Low-side mosfets"
+	(text "BUCK:	Q4: OFF Q3:ON. Q1 & Q2 switches\nBOOST:	Q2: OFF Q1:ON. Q3 & Q4 switches\n"
 		(exclude_from_sim no)
-		(at 92.202 116.332 0)
+		(at 112.268 82.042 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1feb26e7-86a5-4aeb-b03c-46adebf249c5")
+		(uuid "16ebe6a4-9ef4-47da-b894-4c21b85573a0")
 	)
 	(text "Notes\n\n[1] V_s1 and V_s3 are the source voltages of Q1 and Q3. These \nnodes are used as reference for their gate drivers.\n\n[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance) capacitors.\n\n[3] These snubbers were placed based on reference designs from \nTI (see for example PMP9431, PMP21277, PMP30790, PMP10514, PMP21529)."
 		(exclude_from_sim no)
@@ -2722,6 +2722,20 @@
 			(justify left)
 		)
 		(uuid "888a9e29-30fc-4879-b269-9922f9ffaf25")
+	)
+	(text "[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance. Lower Resistance ?) capacitors."
+		(exclude_from_sim no)
+		(at 82.804 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 13 1)
+			)
+			(justify left)
+		)
+		(uuid "93ca0f18-733e-4242-8a42-e5548fcab7d2")
 	)
 	(text "High-side mosfets"
 		(exclude_from_sim no)
@@ -3218,7 +3232,7 @@
 		(uuid "d20edf79-5824-41a5-93fd-566c1b8df21d")
 	)
 	(label "IL-"
-		(at 139.7 59.69 0)
+		(at 140.97 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

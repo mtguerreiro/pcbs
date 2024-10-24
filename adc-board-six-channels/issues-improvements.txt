@@ -1,0 +1,5 @@
+Issues
+- Footprint of R15, R16 and R17 should be handsolder (same as all other resistors)
+
+Improvements
+- 5V and 3V3 labels should be changed to Vdd and Vcc, since they are the supply to the ADCs and don't have to necessarily be 5V and 3V3.  

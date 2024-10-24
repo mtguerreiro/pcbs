@@ -1,1 +1,2 @@
 - Change opamps from soic to ssop?
+- Possibility to ground V_ref' resistor for zero offset?

@@ -1,1 +1,0 @@
-- Footprint of R15, R16 and R17 should be handsolder (same as all other resistors)

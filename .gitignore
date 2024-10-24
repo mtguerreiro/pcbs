@@ -3,4 +3,9 @@
 *.pdf
 *__pycache__
 *.zip
+<<<<<<< HEAD
 *.bak
+=======
+docs/_build/
+docs/build/
+>>>>>>> origin/master

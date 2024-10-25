@@ -616,28 +616,28 @@
       "Current measurement"
     ],
     [
-      "db151abd-a3a5-4ce2-8717-af92247b7384",
-      "Signal conditioning"
+      "ac6d805a-91ff-46ab-a07c-38d24d43a826",
+      "Signal conditioning7"
     ],
     [
-      "95c7b7af-0b0f-47b5-89a1-4c64764014b4",
-      "Signal conditioning1"
-    ],
-    [
-      "85f051d6-340e-4bb5-860a-420f680f738d",
-      "Signal conditioning2"
+      "b71ace4a-3777-40e3-bf43-b98c34b826bd",
+      "Signal conditioning8"
     ],
     [
       "d656cdb5-bd1e-4a9a-87e8-2a4cb4a7ff57",
       "Signal conditioning3"
     ],
     [
-      "022172a8-bf73-4ecd-9115-186dc0b94035",
+      "214128e5-b4fd-48c1-a728-3a38148359c4",
       "Signal conditioning4"
     ],
     [
-      "658598b6-5ada-4dfb-8298-1b289cffd189",
+      "59a0d10e-a640-4cee-9a9c-5000a4ed7e4d",
       "Signal conditioning5"
+    ],
+    [
+      "2df0102b-2ba6-4ddd-b99a-02a76c6371fd",
+      "Signal conditioning6"
     ]
   ],
   "text_variables": {}

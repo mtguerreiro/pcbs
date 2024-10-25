@@ -894,16 +894,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 130.81) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03535e2f-fb7b-4777-bf3d-4bb672adf2c6")
-	)
-	(wire
-		(pts
 			(xy 116.84 83.82) (xy 106.68 83.82)
 		)
 		(stroke
@@ -931,6 +921,16 @@
 			(type default)
 		)
 		(uuid "0b92bd30-1a04-45fe-bb2b-ee6454d13c93")
+	)
+	(wire
+		(pts
+			(xy 31.75 180.34) (xy 25.4 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec0da50-1474-4a41-ace0-7d9b2a63d04e")
 	)
 	(wire
 		(pts
@@ -974,16 +974,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 29.21) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28783b8e-0993-4344-9fa1-0fd1f0a9e22d")
-	)
-	(wire
-		(pts
 			(xy 77.47 134.62) (xy 83.82 134.62)
 		)
 		(stroke
@@ -1004,6 +994,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3064d481-254d-4d3a-8119-543117ded329")
+	)
+	(wire
+		(pts
 			(xy 57.15 185.42) (xy 50.8 185.42)
 		)
 		(stroke
@@ -1021,6 +1021,16 @@
 			(type default)
 		)
 		(uuid "3100f30f-7e60-4dcf-b39c-733090003a6e")
+	)
+	(wire
+		(pts
+			(xy 31.75 177.8) (xy 25.4 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aa143c-531f-4ddc-b6f6-5b62ec2ce8c0")
 	)
 	(wire
 		(pts
@@ -1131,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "51dde8a5-8c06-4b9d-aa19-a2b5bbd5fccc")
+	)
+	(wire
+		(pts
+			(xy 140.97 30.48) (xy 144.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53625da0-0350-42ce-bb45-02f1d8d736b1")
 	)
 	(wire
 		(pts
@@ -1264,16 +1284,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 180.34) (xy 26.67 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1aeeb6-5703-42af-b3e1-4474c7f954e9")
-	)
-	(wire
-		(pts
 			(xy 57.15 180.34) (xy 50.8 180.34)
 		)
 		(stroke
@@ -1281,6 +1291,26 @@
 			(type default)
 		)
 		(uuid "8b8650e8-91a4-4cf1-8a57-d058be8856a5")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c33545c-646d-4c77-9286-1f65cb29cabb")
+	)
+	(wire
+		(pts
+			(xy 170.18 30.48) (xy 179.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d37cf1b-bdae-4718-8c1f-31bc9d4c76b0")
 	)
 	(wire
 		(pts
@@ -1304,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 80.01) (xy 173.99 80.01)
+			(xy 170.18 81.28) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1341,6 +1371,16 @@
 			(type default)
 		)
 		(uuid "9bbade31-48ba-4b2a-86f0-3dcc8b8afd6e")
+	)
+	(wire
+		(pts
+			(xy 144.78 86.36) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8963eb-e3ab-4d62-9de0-622c2f78deba")
 	)
 	(wire
 		(pts
@@ -1404,6 +1444,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8158701-c22c-4f72-bc18-0f432495e48a")
+	)
+	(wire
+		(pts
 			(xy 106.68 142.24) (xy 106.68 143.51)
 		)
 		(stroke
@@ -1464,17 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 29.21) (xy 173.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd3754d6-da28-464a-b6a9-abcb2038e238")
-	)
-	(wire
-		(pts
-			(xy 149.86 80.01) (xy 153.67 80.01)
+			(xy 140.97 81.28) (xy 144.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1484,7 +1524,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 130.81) (xy 175.26 130.81)
+			(xy 170.18 132.08) (xy 180.34 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1511,16 +1551,6 @@
 			(type default)
 		)
 		(uuid "dc7e5944-d31c-412b-9768-78e14fa79e5f")
-	)
-	(wire
-		(pts
-			(xy 25.4 177.8) (xy 26.67 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dccf1d67-8d5c-41f9-ae38-73d7585fc8b2")
 	)
 	(wire
 		(pts
@@ -1564,6 +1594,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 35.56) (xy 139.7 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cfc676-ee28-4920-b060-81e5fd819485")
+	)
+	(wire
+		(pts
 			(xy 74.93 182.88) (xy 85.09 182.88)
 		)
 		(stroke
@@ -1592,26 +1632,46 @@
 		)
 		(uuid "ee9e8bbc-df3b-4ae5-b4cb-4ff6a8b300fb")
 	)
-	(text "change the color\n"
-		(exclude_from_sim no)
-		(at 185.42 33.782 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 144.78 25.4) (xy 139.7 25.4)
 		)
-		(uuid "0dda8381-7079-4c72-bec6-2b56cb334be1")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a6628e-c900-440b-8333-6cba14641d30")
+	)
+	(wire
+		(pts
+			(xy 139.7 132.08) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd61ca8e-984a-4791-b301-e705d10e92d4")
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 23.368 170.688 0)
+		(at 27.686 172.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "a0fe1036-5581-4e05-ba8d-dbaaa69ecc72")
+		(uuid "521c4b94-b5ef-41fd-ac96-986bb4901dd8")
+	)
+	(text "change labels power"
+		(exclude_from_sim no)
+		(at 187.452 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62bd2a73-4173-4ba1-84d1-a074acbe3672")
 	)
 	(text "ACS712x(LCTR-20AB) may be different "
 		(exclude_from_sim no)
@@ -1622,6 +1682,16 @@
 			)
 		)
 		(uuid "a3253385-007a-4001-8b0e-a605634ff18c")
+	)
+	(text "indcutor current take specially care measurimg imductor current (ACS730xLCTR-20AB)\n\nin out current ACS712x(LCTR-20AB)(cheaper)\n"
+		(exclude_from_sim no)
+		(at 207.772 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e29d2d0a-523c-4eba-830c-af19af812e3a")
 	)
 	(label "I_in_sens"
 		(at 74.93 177.8 0)
@@ -1645,6 +1715,17 @@
 		)
 		(uuid "0f05c68f-6a18-4e79-994e-57c2a284c553")
 	)
+	(label "Vdd"
+		(at 139.7 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fd1d82c-2b93-4985-9b4a-671b4120fde0")
+	)
 	(label "I_in"
 		(at 107.95 30.48 180)
 		(fields_autoplaced yes)
@@ -1655,6 +1736,17 @@
 			(justify right bottom)
 		)
 		(uuid "193bfc0b-f1a1-40c7-aff5-a673f9e8fd0a")
+	)
+	(label "I_in_sens"
+		(at 179.07 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "259d3af6-31d1-4fdf-817e-1d6d2b168b49")
 	)
 	(label "I_out_sens"
 		(at 74.93 182.88 0)
@@ -1677,6 +1769,17 @@
 			(justify left bottom)
 		)
 		(uuid "2ff49cf4-5a0f-4b16-a9d7-6bbf6ca170bc")
+	)
+	(label "GND"
+		(at 139.7 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "367ef8b1-be75-4a4f-8d24-e40e3114fcd6")
 	)
 	(label "I_out_-"
 		(at 77.47 134.62 0)
@@ -1722,8 +1825,19 @@
 		)
 		(uuid "5fe991de-799a-4ac8-99fa-28d2483813d3")
 	)
+	(label "GND"
+		(at 139.7 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6908ca3c-ddff-4055-aa88-ac8b48091a3a")
+	)
 	(label "I_out_sens"
-		(at 175.26 130.81 180)
+		(at 180.34 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1744,6 +1858,28 @@
 		)
 		(uuid "81b349fd-d826-4de8-aea0-7561f47e569b")
 	)
+	(label "GND"
+		(at 25.4 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "878cb40f-9d87-466e-b586-463937e12927")
+	)
+	(label "I_in"
+		(at 140.97 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87c890b6-96b3-49fe-bec6-e271e376ff4f")
+	)
 	(label "IL-"
 		(at 77.47 83.82 0)
 		(fields_autoplaced yes)
@@ -1756,7 +1892,7 @@
 		(uuid "8cd5ca68-da44-4a1c-b561-0d7f54bcc129")
 	)
 	(label "IL_sens"
-		(at 173.99 80.01 180)
+		(at 177.8 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1767,7 +1903,7 @@
 		(uuid "93e6afed-b656-4cab-a520-bf2e16be7150")
 	)
 	(label "I_out"
-		(at 147.32 130.81 0)
+		(at 139.7 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1776,6 +1912,17 @@
 			(justify left bottom)
 		)
 		(uuid "9419748d-6f51-48bc-9019-e9283d9300be")
+	)
+	(label "Vdd"
+		(at 25.4 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94490c7e-5394-4d2c-9a21-fca61bcc4aae")
 	)
 	(label "IL-"
 		(at 50.8 185.42 0)
@@ -1787,6 +1934,17 @@
 			(justify left bottom)
 		)
 		(uuid "9fadd856-4eca-4684-8f14-2b87455811ff")
+	)
+	(label "Vdd"
+		(at 139.7 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6a1ac8e-664e-41d2-9405-780339870767")
 	)
 	(label "I_out_-"
 		(at 50.8 190.5 0)
@@ -1810,17 +1968,6 @@
 		)
 		(uuid "b43c4e59-51f4-49f0-bc71-15f9d4533202")
 	)
-	(label "I_in_sens"
-		(at 173.99 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0c9110a-a9da-433b-84fa-1b598cdb527c")
-	)
 	(label "IL+"
 		(at 50.8 182.88 0)
 		(fields_autoplaced yes)
@@ -1832,8 +1979,19 @@
 		)
 		(uuid "ce7d72cb-8b40-48be-8a22-e8a6b353b836")
 	)
+	(label "GND"
+		(at 139.7 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3f9072a-35d2-4788-a10d-fc672a4f5f34")
+	)
 	(label "I_L"
-		(at 149.86 80.01 0)
+		(at 140.97 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1876,8 +2034,8 @@
 		)
 		(uuid "e6da3e8d-765e-45bd-bd19-5747ad3ddae0")
 	)
-	(label "I_in"
-		(at 148.59 29.21 0)
+	(label "Vdd"
+		(at 139.7 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1885,7 +2043,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ebc58541-ca05-4e95-b81f-9d21f252547e")
+		(uuid "fdd03e76-aff0-435b-b0c5-f8ac492d31f7")
 	)
 	(hierarchical_label "I_out_-"
 		(shape input)
@@ -1898,6 +2056,30 @@
 			(justify left)
 		)
 		(uuid "0028e071-7087-4cc7-831e-0fcbfec4f0e0")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 31.75 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "158b1dc5-9964-46ce-af4e-f7b1e05dfc83")
+	)
+	(hierarchical_label "Vdd"
+		(shape bidirectional)
+		(at 31.75 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1921efbd-1c84-448b-aa47-05a4199dee4b")
 	)
 	(hierarchical_label "I_in_+"
 		(shape input)
@@ -1934,30 +2116,6 @@
 			(justify left)
 		)
 		(uuid "6c18c519-59dc-454f-9f66-eaac3822949d")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 26.67 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c98b9ad-71a4-4f3a-8f56-7c94ee311380")
-	)
-	(hierarchical_label "Vdd"
-		(shape bidirectional)
-		(at 26.67 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b0d1f50b-2f4a-4480-8703-adfb8a21308c")
 	)
 	(hierarchical_label "IL+"
 		(shape input)
@@ -2285,72 +2443,6 @@
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 25.4 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f6967fb-f492-47a1-9cd5-2c7a9912b3ec")
-		(property "Reference" "#PWR053"
-			(at 25.4 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 25.4 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 25.4 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "929eaf05-a38b-4b73-a933-5e9c5d07bf50")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3071,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ac964dd-6cfb-4ceb-ade2-ea19cc8b71ad")
+			(uuid "4ac964dd-6cfb-4ceb-ade2-ea19cc8b71ae")
 		)
 		(instances
 			(project "buck-boost-xp"
@@ -3753,72 +3845,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5276c01-f7ee-43c1-9454-3ad801722344")
-		(property "Reference" "#PWR054"
-			(at 25.4 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "375ce432-4ac2-434b-b41f-7e5b149c9139")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 106.68 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4366,7 +4392,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ac964dd-6cfb-4ceb-ade2-ea19cc8b71ad")
+			(uuid "4ac964dd-6cfb-4ceb-ade2-ea19cc8b71af")
 		)
 		(instances
 			(project "buck-boost-xp"
@@ -4448,19 +4474,19 @@
 		)
 	)
 	(sheet
-		(at 152.4 127)
-		(size 12.7 6.35)
+		(at 144.78 22.86)
+		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 253 231 1.0000)
 		)
-		(uuid "85f051d6-340e-4bb5-860a-420f680f738d")
-		(property "Sheetname" "Signal conditioning2"
-			(at 152.4 126.2884 0)
+		(uuid "2df0102b-2ba6-4ddd-b99a-02a76c6371fd")
+		(property "Sheetname" "Signal conditioning6"
+			(at 144.78 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,8 +4494,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Signal conditioning.kicad_sch"
-			(at 152.4 134.1886 0)
+		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+			(at 144.78 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,48 +4504,68 @@
 				(hide yes)
 			)
 		)
-		(pin "in" input
-			(at 152.4 130.81 180)
+		(pin "GND" bidirectional
+			(at 144.78 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "77ba3ddc-a90d-4738-a2ec-608ffa0a1279")
+			(uuid "9bdb97d8-2558-4141-bc02-f14bd8709b4b")
+		)
+		(pin "Vdd" bidirectional
+			(at 144.78 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da22e921-62e8-4d06-9744-cc4d55ffddca")
+		)
+		(pin "in" input
+			(at 144.78 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea8051c8-2df2-4d97-b779-6ed2a343e5b9")
 		)
 		(pin "out" output
-			(at 165.1 130.81 0)
+			(at 170.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "39818cc3-0c11-4f69-b4fd-ffffa76c2674")
+			(uuid "94ae39a1-cd71-4ba4-9d48-d1356b9a4517")
 		)
 		(instances
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(page "13")
+					(page "17")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 153.67 76.2)
-		(size 12.7 6.35)
+		(at 144.78 73.66)
+		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 253 231 1.0000)
 		)
-		(uuid "95c7b7af-0b0f-47b5-89a1-4c64764014b4")
-		(property "Sheetname" "Signal conditioning1"
-			(at 153.67 75.4884 0)
+		(uuid "ac6d805a-91ff-46ab-a07c-38d24d43a826")
+		(property "Sheetname" "Signal conditioning7"
+			(at 144.78 72.9484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,8 +4573,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Signal conditioning.kicad_sch"
-			(at 153.67 83.3886 0)
+		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+			(at 144.78 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,89 +4583,129 @@
 				(hide yes)
 			)
 		)
-		(pin "in" input
-			(at 153.67 80.01 180)
+		(pin "GND" bidirectional
+			(at 144.78 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a5f80d10-9cef-4ba4-964c-b3d3d1f091e8")
+			(uuid "35ff3ce6-0a33-455a-bd67-55e089b6f2de")
 		)
-		(pin "out" output
-			(at 166.37 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "00b228dd-ef5b-41d3-9732-42da4ac88a2f")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 152.4 25.4)
-		(size 12.7 6.35)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "db151abd-a3a5-4ce2-8717-af92247b7384")
-		(property "Sheetname" "Signal conditioning"
-			(at 152.4 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Signal conditioning.kicad_sch"
-			(at 152.4 32.5886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "in" input
-			(at 152.4 29.21 180)
+		(pin "Vdd" bidirectional
+			(at 144.78 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "89a5d0ef-8ba5-426a-a502-7846877c7c12")
+			(uuid "61359455-bc1f-4207-95f6-a998bb449d0c")
+		)
+		(pin "in" input
+			(at 144.78 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df0c9a2b-06f2-414c-aef8-92e1b570b537")
 		)
 		(pin "out" output
-			(at 165.1 29.21 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02f74a3e-0d21-4254-a343-1db87a2d54b8")
+			(uuid "41409824-ccf2-40bc-92e9-b9e1510f579e")
 		)
 		(instances
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 124.46)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 253 231 1.0000)
+		)
+		(uuid "b71ace4a-3777-40e3-bf43-b98c34b826bd")
+		(property "Sheetname" "Signal conditioning8"
+			(at 144.78 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+			(at 144.78 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 144.78 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d9517d1-ca40-4aaa-bc37-9efdb26c02d7")
+		)
+		(pin "Vdd" bidirectional
+			(at 144.78 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "478984a8-fa07-4dda-b573-5fa9e6cce0f4")
+		)
+		(pin "in" input
+			(at 144.78 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a9d0575-7ef0-4182-bd7a-afe6e68866cc")
+		)
+		(pin "out" output
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a87b2d50-19cf-48da-bec9-9e019faaabdd")
+		)
+		(instances
+			(project "buck-boost-xp"
+				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
+					(page "12")
 				)
 			)
 		)

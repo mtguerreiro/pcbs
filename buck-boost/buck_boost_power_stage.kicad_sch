@@ -2649,18 +2649,7 @@
 		)
 		(uuid "08319c34-85c7-471d-8d7b-b4cdb606a708")
 	)
-	(text "BUCK:	Q4: OFF Q3:ON. Q1 & Q2 switches\nBOOST:	Q2: OFF Q1:ON. Q3 & Q4 switches\n"
-		(exclude_from_sim no)
-		(at 112.268 82.042 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16ebe6a4-9ef4-47da-b894-4c21b85573a0")
-	)
-	(text "Notes\n\n[1] V_s1 and V_s3 are the source voltages of Q1 and Q3. These \nnodes are used as reference for their gate drivers.\n\n[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance) capacitors.\n\n[3] These snubbers were placed based on reference designs from \nTI (see for example PMP9431, PMP21277, PMP30790, PMP10514, PMP21529)."
+	(text "Notes\n\n[1] V_s1 and V_s3 are the source voltages of Q1 and Q3. These \nnodes are used as reference for their gate drivers.\n\n[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance) capacitors.\n\n[3] These snubbers were placed based on reference designs from \nTI (see for example PMP9431, PMP21277, PMP30790, PMP10514, PMP21529).\n\n[4] BUCK:	Q4: OFF Q3:ON. Q1 & Q2 switches\n	BOOST:	Q2: OFF Q1:ON. Q3 & Q4 switches\n "
 		(exclude_from_sim no)
 		(at 17.526 165.1 0)
 		(effects
@@ -2725,7 +2714,7 @@
 	)
 	(text "[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance. Lower Resistance ?) capacitors."
 		(exclude_from_sim no)
-		(at 82.804 166.878 0)
+		(at 99.314 161.798 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,6 +2725,16 @@
 			(justify left)
 		)
 		(uuid "93ca0f18-733e-4242-8a42-e5548fcab7d2")
+	)
+	(text "[4]"
+		(exclude_from_sim no)
+		(at 136.144 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "972c4dcd-7430-4ef3-9e0e-7e206792f498")
 	)
 	(text "High-side mosfets"
 		(exclude_from_sim no)

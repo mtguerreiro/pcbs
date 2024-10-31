@@ -216,16 +216,6 @@
 		)
 		(uuid "cc3ff2ed-b64b-48b9-ad5f-fe5a42f21853")
 	)
-	(text "voltage range, supply amplifiers"
-		(exclude_from_sim no)
-		(at 194.056 151.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "faf262f4-25d7-41e2-bfb2-1b2136e403a3")
-	)
 	(label "V_dc_in"
 		(at 50.8 177.8 0)
 		(fields_autoplaced yes)

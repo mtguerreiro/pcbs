@@ -1,0 +1,244 @@
+(footprint "PMEG3050EP115"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOD128")
+	(tags "Schottky Diode")
+	(property "Reference" "D**"
+		(at -0.3 0 0)
+		(layer "F.SilkS")
+		(uuid "77c2f316-1bcf-4642-9a8c-58e1d2dae67e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PMEG3050EP115"
+		(at -0.3 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "811b0666-b980-46ba-8315-5081282f6b2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06cb856c-11bd-4996-bca5-464ccfd7b737")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c0b83fd-e750-4efa-b575-c05d6cea9cbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45eaec3c-352e-4b0f-9507-91a50ff12c98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -0.1)
+		(end -3.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bbf096b-0a60-4fd6-89a8-55714b91642a")
+	)
+	(fp_line
+		(start -3.4 0.1)
+		(end -3.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb438ce7-6b11-433e-9aa8-13047b194eac")
+	)
+	(fp_line
+		(start -1.9 -1.25)
+		(end 1.9 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3662ea4-ac71-435e-b537-4b132fc74b6a")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end 1.9 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "823c8e5d-316d-41ec-a864-1ffbded02bf5")
+	)
+	(fp_arc
+		(start -3.4 -0.1)
+		(mid -3.3 0)
+		(end -3.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e542350-ed0b-4727-abb1-332d9eb76fd7")
+	)
+	(fp_arc
+		(start -3.4 0.1)
+		(mid -3.5 0)
+		(end -3.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4a5f4d5-ed70-4896-9991-f3ea66776534")
+	)
+	(fp_line
+		(start -4.5 -2.25)
+		(end 3.9 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57a2d0fd-1dae-4263-a01c-0b4d6cfa1ad6")
+	)
+	(fp_line
+		(start -4.5 2.25)
+		(end -4.5 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72626853-6211-47a8-b4e6-293d222be595")
+	)
+	(fp_line
+		(start 3.9 -2.25)
+		(end 3.9 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fe8ca89-b03a-4efd-a7ed-b216219fe65f")
+	)
+	(fp_line
+		(start 3.9 2.25)
+		(end -4.5 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0cbbb7a-d478-431f-aee8-596e57259951")
+	)
+	(fp_line
+		(start -1.9 -1.25)
+		(end 1.9 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dd1e96f-184c-469f-8c28-51437a04bce7")
+	)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15eca476-a830-4e91-ba08-646a10b1ed85")
+	)
+	(fp_line
+		(start 1.9 -1.25)
+		(end 1.9 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d7f86403-f558-4b64-b364-91dfb00446af")
+	)
+	(fp_line
+		(start 1.9 1.25)
+		(end -1.9 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e91f2826-67bb-4b6d-828a-56dd349ecc9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 0 0)
+		(layer "F.Fab")
+		(uuid "58034851-1b4f-4e6c-b6f8-aaa6b1024945")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "99841467-3ce5-44d9-8d30-93fa20097535")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 1.4 2.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "094dfaa7-3404-4de1-ada5-f5bc6b9df0c0")
+	)
+	(model "PMEG3050EP,115.stp"
+		(offset
+			(xyz -2.019999951 6.969999686 -4.709999967)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

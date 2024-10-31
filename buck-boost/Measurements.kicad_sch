@@ -365,6 +365,16 @@
 		)
 		(uuid "f67b83b9-1e64-4145-885c-892bdc170703")
 	)
+	(text "[1] Vdd: 5V"
+		(exclude_from_sim no)
+		(at 183.134 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0134583d-45cc-40a8-ae4a-f98e245d192b")
+	)
 	(text "Voltage"
 		(exclude_from_sim no)
 		(at 138.176 173.228 0)
@@ -435,6 +445,16 @@
 			)
 		)
 		(uuid "f2621664-fbbe-46d4-93d4-39ee219c4222")
+	)
+	(text "[1]"
+		(exclude_from_sim no)
+		(at 21.336 177.038 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f553af49-ff92-4b3d-a21f-85a1b319f7e6")
 	)
 	(label "I_in_-"
 		(at 50.8 180.34 0)

@@ -2876,16 +2876,6 @@
 		)
 		(uuid "2d7653ad-3860-40fc-8d54-ab1261fbb2e2")
 	)
-	(text "why is only the high side isolated???"
-		(exclude_from_sim no)
-		(at 97.028 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "38d02892-2299-4235-8d8b-8bcb57b31410")
-	)
 	(text "Gate drivers - Sload"
 		(exclude_from_sim no)
 		(at 34.036 106.934 0)

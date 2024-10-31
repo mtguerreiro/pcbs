@@ -2712,20 +2712,6 @@
 		)
 		(uuid "888a9e29-30fc-4879-b269-9922f9ffaf25")
 	)
-	(text "[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance. Lower Resistance ?) capacitors."
-		(exclude_from_sim no)
-		(at 99.314 161.798 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 13 1)
-			)
-			(justify left)
-		)
-		(uuid "93ca0f18-733e-4242-8a42-e5548fcab7d2")
-	)
 	(text "[4]"
 		(exclude_from_sim no)
 		(at 136.144 75.946 0)

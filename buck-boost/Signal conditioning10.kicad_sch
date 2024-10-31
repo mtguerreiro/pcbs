@@ -1458,10 +1458,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cb3d3cc-2187-40db-a63e-71faf309c51f")
 		(property "Reference" "U15"
-			(at 176.53 45.72 0)
+			(at 175.768 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)

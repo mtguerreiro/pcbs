@@ -365,55 +365,16 @@
 		)
 		(uuid "f67b83b9-1e64-4145-885c-892bdc170703")
 	)
-	(text "[1] Vdd: 5V"
+	(text "Notes:\n\n[1] Vdd: 5V. This voltage is comming from the buck converter placed in the Supply sheet "
 		(exclude_from_sim no)
-		(at 183.134 151.638 0)
+		(at 177.8 153.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "0134583d-45cc-40a8-ae4a-f98e245d192b")
-	)
-	(text "Voltage"
-		(exclude_from_sim no)
-		(at 138.176 173.228 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44d3b9fa-fdf8-428f-84c3-e354e3953253")
-	)
-	(text "Voltage"
-		(exclude_from_sim no)
-		(at 79.502 173.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a0140a7f-d4c3-4b5d-a809-454dd3284846")
-	)
-	(text "Current"
-		(exclude_from_sim no)
-		(at 104.902 173.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b0c11d42-f889-415b-b245-119049a1009d")
-	)
-	(text "Input\n"
-		(exclude_from_sim no)
-		(at 66.802 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cad8a8e0-d1d5-4042-85ba-71626e260b86")
 	)
 	(text "Power"
 		(exclude_from_sim no)
@@ -426,29 +387,9 @@
 		)
 		(uuid "e100e223-0e10-4832-a325-e678abf22081")
 	)
-	(text "Current"
-		(exclude_from_sim no)
-		(at 55.88 173.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e2af4f1f-6d2b-4b0b-aee9-f6b743a280bf")
-	)
-	(text "Output\n"
-		(exclude_from_sim no)
-		(at 121.412 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2621664-fbbe-46d4-93d4-39ee219c4222")
-	)
 	(text "[1]"
 		(exclude_from_sim no)
-		(at 21.336 177.038 0)
+		(at 118.364 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)

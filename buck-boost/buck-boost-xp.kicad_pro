@@ -499,16 +499,16 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -520,20 +520,56 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -563,6 +599,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -617,23 +661,23 @@
     ],
     [
       "ac6d805a-91ff-46ab-a07c-38d24d43a826",
-      "Signal conditioning7"
+      "sig_cond_curr_sens2"
     ],
     [
       "b71ace4a-3777-40e3-bf43-b98c34b826bd",
-      "Signal conditioning8"
+      "sig_cond_curr_sens3"
     ],
     [
       "d656cdb5-bd1e-4a9a-87e8-2a4cb4a7ff57",
-      "Signal conditioning3"
+      "Sig_cond_volt_sens1"
     ],
     [
       "214128e5-b4fd-48c1-a728-3a38148359c4",
-      "Signal conditioning4"
+      "Sig_cond_volt_sens2"
     ],
     [
       "59a0d10e-a640-4cee-9a9c-5000a4ed7e4d",
-      "Signal conditioning5"
+      "Sig_cond_volt_sens3"
     ],
     [
       "251ac69a-cf32-4699-b2cc-e2173b4efb0a",
@@ -641,7 +685,7 @@
     ],
     [
       "2df0102b-2ba6-4ddd-b99a-02a76c6371fd",
-      "Signal conditioning6"
+      "sig_cond_curr_sens1"
     ]
   ],
   "text_variables": {}

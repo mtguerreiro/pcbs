@@ -1487,9 +1487,9 @@
 		)
 		(uuid "5fd22e12-06de-494c-a5cf-b49506cec080")
 	)
-	(text "[1] ACS730xLCTR-20AB & ACS712ELCTR-20A differ in the bandwith. Since the \ninductor current requires specailly care is used only ACS730xLCTR-20AB (1MHz)\n\n[2] Pin 6 has to be configurate depending on the sensor model.\nBeforing using one of these sensors, consult the datasheet for the proper configuration on the board."
+	(text "Notes:\n\n[1] The ACS730xLCTR-20AB and ACS712ELCTR-20A differ in bandwidth. Due to the need\nfor careful handling of inductor current, only for the inductor ACS730xLCTR-20AB (1 MHz)\nshould be used.\n\n[2] Pin 6 configuration depends on the sensor model. Before using either sensor,\nconsult the datasheet to ensure proper sensor configuration."
 		(exclude_from_sim no)
-		(at 177.546 154.432 0)
+		(at 177.546 154.178 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 	)
 	(text "[1]"
 		(exclude_from_sim no)
-		(at 115.316 71.374 0)
+		(at 120.396 72.898 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 			(color 255 253 231 1.0000)
 		)
 		(uuid "2df0102b-2ba6-4ddd-b99a-02a76c6371fd")
-		(property "Sheetname" "Signal conditioning6"
+		(property "Sheetname" "sig_cond_curr_sens1"
 			(at 144.78 22.1484 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+		(property "Sheetfile" "Signal conditioning_Current.kicad_sch"
 			(at 144.78 38.6846 0)
 			(effects
 				(font
@@ -3554,7 +3554,7 @@
 			(color 255 253 231 1.0000)
 		)
 		(uuid "ac6d805a-91ff-46ab-a07c-38d24d43a826")
-		(property "Sheetname" "Signal conditioning7"
+		(property "Sheetname" "sig_cond_curr_sens2"
 			(at 144.78 72.9484 0)
 			(effects
 				(font
@@ -3563,7 +3563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+		(property "Sheetfile" "Signal conditioning_Current.kicad_sch"
 			(at 144.78 89.4846 0)
 			(effects
 				(font
@@ -3633,7 +3633,7 @@
 			(color 255 253 231 1.0000)
 		)
 		(uuid "b71ace4a-3777-40e3-bf43-b98c34b826bd")
-		(property "Sheetname" "Signal conditioning8"
+		(property "Sheetname" "sig_cond_curr_sens3"
 			(at 144.78 123.7484 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Signal conditioning10.kicad_sch"
+		(property "Sheetfile" "Signal conditioning_Current.kicad_sch"
 			(at 144.78 140.2846 0)
 			(effects
 				(font

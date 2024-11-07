@@ -1512,8 +1512,16 @@
 		(uuid "80266081-97dd-47da-b19e-af8d44200ee4")
 	)
 	(no_connect
+		(at 49.53 50.8)
+		(uuid "895921e5-8059-4a51-b52e-0babf3ed1944")
+	)
+	(no_connect
 		(at 137.16 36.83)
 		(uuid "9b041ddb-7b5b-4f2e-9529-6fc04d40f19c")
+	)
+	(no_connect
+		(at 222.25 50.8)
+		(uuid "ece50368-3a05-49be-b553-cc586da1585f")
 	)
 	(no_connect
 		(at 123.19 36.83)
@@ -1718,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "286ea899-c71d-434b-b0df-2bf23c6e7cf2")
+	)
+	(wire
+		(pts
+			(xy 254 59.69) (xy 254 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e45bda-7242-4e6b-88e2-f7da3a9baa03")
 	)
 	(wire
 		(pts
@@ -1951,6 +1969,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 129.54) (xy 25.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fc0c65-6473-4ca3-a51a-b1ac1cfd1612")
+	)
+	(wire
+		(pts
 			(xy 92.71 45.72) (xy 82.55 45.72)
 		)
 		(stroke
@@ -2108,6 +2136,16 @@
 			(type default)
 		)
 		(uuid "89731ec0-59f3-4cd0-a28f-fc96ec19833a")
+	)
+	(wire
+		(pts
+			(xy 16.51 132.08) (xy 25.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad03993-4c7a-4c4f-86ae-11a95ce75a11")
 	)
 	(wire
 		(pts
@@ -2451,16 +2489,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 129.54) (xy 16.51 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28c2bba-343e-4c21-9739-5529d411aa18")
-	)
-	(wire
-		(pts
 			(xy 116.84 127) (xy 128.27 127)
 		)
 		(stroke
@@ -2498,16 +2526,6 @@
 			(type default)
 		)
 		(uuid "eb9228df-1c0b-42fa-87b2-e35251800127")
-	)
-	(wire
-		(pts
-			(xy 254 59.69) (xy 254 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc6193d-af45-4f4c-8e66-898eae902317")
 	)
 	(wire
 		(pts
@@ -2558,16 +2576,6 @@
 			(type default)
 		)
 		(uuid "f0f30290-6daa-4cbe-b850-9a5f7a67bd88")
-	)
-	(wire
-		(pts
-			(xy 25.4 132.08) (xy 16.51 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1acf80c-d064-42c9-a648-d98c62c50019")
 	)
 	(wire
 		(pts
@@ -2649,7 +2657,7 @@
 		)
 		(uuid "08319c34-85c7-471d-8d7b-b4cdb606a708")
 	)
-	(text "Notes\n\n[1] V_s1 and V_s3 are the source voltages of Q1 and Q3. These \nnodes are used as reference for their gate drivers.\n\n[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance) capacitors.\n\n[3] These snubbers were placed based on reference designs from \nTI (see for example PMP9431, PMP21277, PMP30790, PMP10514, PMP21529).\n\n[4] BUCK:	Q4: OFF Q3:ON. Q1 & Q2 switches\n	BOOST:	Q2: OFF Q1:ON. Q3 & Q4 switches\n "
+	(text "Notes\n\n[1] V_s1 and V_s3 are the source voltages of Q1 and Q3. These \nnodes are used as reference for their gate drivers.\n\n[2] Two of these are bulk electrolytic capacitors, and one is\nlow-esr (lower capacitance) capacitors.\n\n[3] These snubbers were placed based on reference designs from \nTI (see for example PMP9431, PMP21277, PMP30790, PMP10514, PMP21529).\n\n[4] BUCK:	Q4: OFF Q3:ON. Q1 & Q2 switches\nBOOST:	Q2: OFF Q1:ON. Q3 & Q4 switches\n "
 		(exclude_from_sim no)
 		(at 17.526 165.1 0)
 		(effects
@@ -2809,8 +2817,8 @@
 		)
 		(uuid "22ad2f92-c0a5-42e5-9767-2c0d14089085")
 	)
-	(label "OUT+"
-		(at 16.51 124.46 0)
+	(label "OUT-"
+		(at 16.51 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2818,7 +2826,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "22ba595e-6c9a-4a41-983e-815ebeac929d")
+		(uuid "23cdf0aa-9a75-4161-8784-ad292506a031")
 	)
 	(label "IN-"
 		(at 25.4 73.66 180)
@@ -2852,17 +2860,6 @@
 			(justify left bottom)
 		)
 		(uuid "2afb07f0-bbd6-463f-86d7-390784264d51")
-	)
-	(label "LOAD+"
-		(at 16.51 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cffed6e-edd7-41c8-ab1f-7b75866634bf")
 	)
 	(label "I_out+"
 		(at 39.37 129.54 0)
@@ -3051,6 +3048,17 @@
 		)
 		(uuid "6dbc4de3-6ae4-4afd-8acc-c45133d312ce")
 	)
+	(label "OUT+"
+		(at 16.51 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71eb3bcc-2307-4f8c-bb64-fd8e967cbbef")
+	)
 	(label "V_dc_in"
 		(at 39.37 134.62 0)
 		(fields_autoplaced yes)
@@ -3095,6 +3103,17 @@
 		)
 		(uuid "93cbad86-9dd6-4059-b82d-aec9fabe706a")
 	)
+	(label "Load+"
+		(at 16.51 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9550fa7f-48b9-4701-a38f-38c97fa7e59d")
+	)
 	(label "OUT-"
 		(at 261.62 73.66 0)
 		(fields_autoplaced yes)
@@ -3105,6 +3124,17 @@
 			(justify left bottom)
 		)
 		(uuid "95e5e2b6-9506-4909-9080-e7215c02e59b")
+	)
+	(label "Load-"
+		(at 16.51 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98307479-dd84-4087-a23c-f072db799571")
 	)
 	(label "I_in-"
 		(at 39.37 121.92 0)
@@ -3127,17 +3157,6 @@
 			(justify left bottom)
 		)
 		(uuid "a723e600-3cfe-4b9a-8a94-cb9923591139")
-	)
-	(label "OUT-"
-		(at 16.51 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b14595ee-4d2c-4814-a3c9-7026116cd1e0")
 	)
 	(label "K_out_A1"
 		(at 220.98 58.42 180)
@@ -3259,17 +3278,6 @@
 			(justify left bottom)
 		)
 		(uuid "e51a862f-74df-41cc-b1e1-0037e1c5b1f1")
-	)
-	(label "LOAD-"
-		(at 16.51 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef113f7f-0abe-483d-9ecb-36aa11cae60e")
 	)
 	(label "IN-"
 		(at 16.51 121.92 0)
@@ -3665,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 148.59 54.61 0)
 			(effects
 				(font
@@ -3946,7 +3954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 119.38 54.61 0)
 			(effects
 				(font
@@ -4082,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Resistor_SMD:R_MELF_MMB-0207_HandSoldering"
 			(at 148.59 64.77 0)
 			(effects
 				(font
@@ -4149,7 +4157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Resistor_SMD:R_MELF_MMB-0207_HandSoldering"
 			(at 148.59 49.53 0)
 			(effects
 				(font
@@ -4359,7 +4367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Resistor_SMD:R_MELF_MMB-0207_HandSoldering"
 			(at 41.91 39.37 0)
 			(effects
 				(font
@@ -4428,7 +4436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -4708,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Resistor_SMD:R_MELF_MMB-0207_HandSoldering"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -4845,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90S"
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -4924,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90S"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -5001,7 +5009,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Resistor_SMD:R_MELF_MMB-0207_HandSoldering"
 			(at 119.38 49.53 0)
 			(effects
 				(font
@@ -5141,7 +5149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CL_Inductor_SMD:L_Bourns_SRP2313AA_24x24"
 			(at 130.81 59.69 0)
 			(effects
 				(font
@@ -5210,7 +5218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 148.59 69.85 0)
 			(effects
 				(font

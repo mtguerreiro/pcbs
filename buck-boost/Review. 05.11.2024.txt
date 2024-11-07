@@ -1,0 +1,46 @@
+Circuit issues
+==============
+- Supply sheet
+  - Value for inductors L3 and L6?
+  - I would remove one output capacitor from the buck converter, and add one to the output of the boost converter.
+  - Capacitor C65 should be in parallel with resistor R92 and not R93 (this was an error in the Altium design).
+  - C64 should be 100 nF and not 1 uF.
+  - Don't leave the PG pin of the buck converter disconnected. Place a no connection symbol on it (shortcut: q)
+  - Check the datasheet of LMR62014 to see if the feedback resistors (R53 and R54) are correct.
+
+- General
+  - Before starting with the layout, make sure to run "Electrical Rules Checker" in the schematics to identify issues with the schematics.
+  - Should we make the 5V (Vdd) available to the users?
+
+Style issues
+============
+- Cleaning up
+  - Delete "~buck-boost-xp.kicad_sch.lck".
+  - Delete the Libraries and New library.pretty folders (I assume we don't need them).
+  - I don't know why we have so many signal conditioning schematics, for example:
+    - Signal conditioning1.kicad_sch
+    - Signal conditioning1.kicad_sch
+    - signal conditioning2.kicad_sch
+    - Signal conditioning3.kicad_sch
+    - Signal conditioning10.kicad_sch
+    There is also a untitled.kicad_sch that I don't know if it is being used for something. Please cleanup these files.
+
+- General
+  - Give a better name for the signal conditioning circuits. For example, for the voltage circuits, I would name them "sig_cond_volt_sens" and likewise for current, "sig_cond_curr_sens".
+  - Sometimes the circuits are spread over the entire sheet, although they could be closer together. Try to make things more compact and closer together when possible. This makes it easier to read the file.
+
+- Main sheet
+  - Describe the choices with connector J2 in a note.
+  - Improve the description of note [1].
+  
+- Supply
+  - Mention which other versions of the buck converter are compatible.
+  - It would nice to specify the maximum output current available for each dc-dc (keep in mind that the buck converter supplies the boost converter).
+
+- Signal conditioning3 (Measurements/Voltage measurement)
+  - Explain in a note the reason why the resistors to select the "out" signal.
+  - This is example of a sheet that you could puts things closer together so that is easier to read the schematics.
+  - I would name the "out_buff" simply "out". Makes more sense to me.
+
+- Measurements/Current measurement
+  - Fix typos and improve the notes

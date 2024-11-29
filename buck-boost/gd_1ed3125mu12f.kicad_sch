@@ -1537,6 +1537,16 @@
 		)
 		(uuid "c57c1557-3bff-45bc-8a9b-a96952591024")
 	)
+	(text "WHy MELF footprint ? SEE https://www.infineon.com/dgdl/Infineon-EVAL-1ED3122Mx12H-ApplicationNotes-v01_10-EN.pdf?fileId=5546d46274f6cd4c0174f821f169026f\n"
+		(exclude_from_sim no)
+		(at 180.848 62.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb318262-cae4-4f07-ae48-a1073688c2c6")
+	)
 	(text "Logic side"
 		(exclude_from_sim no)
 		(at 39.878 34.29 0)

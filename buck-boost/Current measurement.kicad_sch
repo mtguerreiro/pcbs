@@ -491,126 +491,6 @@
 				)
 			)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 39.37 127)
@@ -735,16 +615,6 @@
 			(type default)
 		)
 		(uuid "1dbdd5f5-29fb-428a-8e5b-8c569859b21d")
-	)
-	(wire
-		(pts
-			(xy 116.84 142.24) (xy 116.84 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2216689a-15c2-4eec-8a05-9caa4330704c")
 	)
 	(wire
 		(pts
@@ -888,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 116.84 92.71)
+			(xy 116.84 91.44) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1015,6 +885,16 @@
 			(type default)
 		)
 		(uuid "67e3e0b4-18b9-414c-9282-568e5d7e4134")
+	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 116.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71751c7b-fa91-4516-a0f4-e3fc12c07faa")
 	)
 	(wire
 		(pts
@@ -1338,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 40.64) (xy 116.84 41.91)
+			(xy 116.84 40.64) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1871,6 +1751,17 @@
 		)
 		(uuid "ae00d725-3dd2-40c0-a8e7-763acf93a0a0")
 	)
+	(label "Vdd"
+		(at 116.84 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b224bb24-a0d3-4b12-8a5a-e0478af06293")
+	)
 	(label "IL_sens"
 		(at 74.93 180.34 0)
 		(fields_autoplaced yes)
@@ -1958,6 +1849,28 @@
 			(justify left bottom)
 		)
 		(uuid "da73ce62-1920-4b2e-bb52-87a7521c403e")
+	)
+	(label "Vdd"
+		(at 116.84 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daca7a3c-dff9-40d2-a05a-32ba764fc391")
+	)
+	(label "Vdd"
+		(at 116.84 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e09dfa3d-30bd-44d7-b437-d785985d8174")
 	)
 	(label "I_in_+"
 		(at 77.47 27.94 0)
@@ -2222,72 +2135,6 @@
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc32c7c-e62f-426d-82da-26780a50fa88")
-		(property "Reference" "#PWR024"
-			(at 116.84 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d830c86f-7a17-4887-92bd-aa68bfc5df0c")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3097,138 +2944,6 @@
 			(project "buck-boost-xp"
 				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6636beb-4b8a-4840-a29a-23e35e4ef0ca")
-		(property "Reference" "#PWR022"
-			(at 116.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 116.84 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ddd15457-0957-4f3a-a82f-fcd3664ee5b2")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb140f74-e52f-4768-ad3b-0bc0e064f2e2")
-		(property "Reference" "#PWR026"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "368543da-c5d4-42f2-9d24-b7dc32888960")
-		)
-		(instances
-			(project "buck-boost-xp"
-				(path "/3f994017-d36f-4c43-a8c8-740bd919e8ad/70cf8e5f-42f7-4af1-be5f-f7a395e09e78/4c95cbf9-e4e0-409d-a846-0f8d58b8f8d6"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)

@@ -420,7 +420,7 @@
 		(uuid "0a83a87d-933d-4213-ae0b-d01aa8b56423")
 	)
 	(label "V_out"
-		(at 124.46 60.96 180)
+		(at 124.46 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -739,7 +739,7 @@
 		(uuid "d21f1192-fcae-4f55-aa8f-718c62decb9f")
 	)
 	(label "V_dc_out"
-		(at 124.46 58.42 180)
+		(at 124.46 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

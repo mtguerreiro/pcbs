@@ -3885,7 +3885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm"
+		(property "Footprint" "CL_Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm_2pins"
 			(at 126.0348 35.56 0)
 			(effects
 				(font
@@ -4649,7 +4649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm"
+		(property "Footprint" "CL_Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm_2pins"
 			(at 140.0048 35.56 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm"
+		(property "Footprint" "CL_Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm_2pins"
 			(at 140.0048 27.94 0)
 			(effects
 				(font
@@ -5432,7 +5432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm"
+		(property "Footprint" "CL_Heatsink:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm_2pins"
 			(at 126.0348 27.94 0)
 			(effects
 				(font

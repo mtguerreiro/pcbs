@@ -1,0 +1,8 @@
+(version  8)
+
+(rule gnd_top_separation
+(layer "F.Cu")
+
+(condition "A.NetName == '/IN+' && B.NetName == '/GND'")
+(constraint physical_clearance(min 1mm))
+)

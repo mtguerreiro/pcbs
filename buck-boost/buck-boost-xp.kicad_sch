@@ -3500,7 +3500,7 @@
 		(uuid "06901118-a7ac-4d06-9b50-e19d41d1fa6d")
 	)
 	(label "V_dc_in_sens"
-		(at 149.86 97.79 0)
+		(at 149.86 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3643,7 +3643,7 @@
 		(uuid "4183ea31-c764-426c-84f2-2bdbf1ac4755")
 	)
 	(label "V_out_sens"
-		(at 149.86 102.87 0)
+		(at 149.86 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3665,7 +3665,7 @@
 		(uuid "4e0f51d9-9593-4d2b-87a1-4bd40e2aa1d4")
 	)
 	(label "V_dc_out_sens"
-		(at 149.86 100.33 0)
+		(at 149.86 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3863,7 +3863,7 @@
 		(uuid "837e54eb-4de6-4a65-8af0-8d9f519e2d64")
 	)
 	(label "IL_sens"
-		(at 149.86 92.71 0)
+		(at 149.86 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4171,7 +4171,7 @@
 		(uuid "eb1fc159-0eaf-49de-96a3-293927ed5616")
 	)
 	(label "I_out_sens"
-		(at 149.86 95.25 0)
+		(at 149.86 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

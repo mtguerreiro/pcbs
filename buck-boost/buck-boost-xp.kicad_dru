@@ -2,6 +2,6 @@
 
 (rule "Zone_to_Zone_Clearance"
 	(constraint clearance (min 1.5mm))
-	(condition "(A.NetName == '/IN+' || A.NetName == 'Net-(J3-Pin_1)' || A.NetName == '/Vel' || A.NetName =='/I_in_+' || A.NetName =='/I_in_-' || A.NetName =='/Vs_S1' || A.NetName =='/IL+' || A.NetName =='/IL-'  || A.NetName =='/I_out_+' || A.NetName == '/I_out_-' || A.NetName == '/V_out' || A.NetName == '/buck_boost_power_stage/Load-') && B.NetName == 'GND'")
-	(layer "F.Cu")
+	(condition "(A.NetName == '/IN+' || A.NetName == 'Net-(J3-Pin_1)' || A.NetName == '/Vel' || A.NetName =='/I_in_+' || A.NetName =='/I_in_-' || A.NetName =='/Vs_S1' || A.NetName =='/IL+' || A.NetName =='/IL-'  || A.NetName =='/I_out_+' || A.NetName == '/I_out_-' || A.NetName == '/V_out' || A.NetName == '/buck_boost_power_stage/Load-'|| A.NetName == '/G_S1' || A.NetName == '/G_S3') && B.NetName == 'GND'")
+	
 )

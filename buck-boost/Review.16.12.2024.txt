@@ -1,0 +1,42 @@
+- Increase the thermal spoke width for the power connectors (IN+, GND, etc). I used 2mm for my Cuk converter
+
+- Same for
+  - Relays
+  - Inductor
+  - Load transistor (Q5)
+
+- For IN+ and V_out, I would consider doing the the power plane on both sides (top and bottom)
+
+- Some isolation rules don't seem to be applied to the bottom of the PCB. For example, the input relay. Pin 11 and 14 do not have a larger isolation distance between them and ground.
+
+- C14: rotate it 180 degrees. Then you can make the I_in_- plane smaller
+
+- I would also rotate C9 180 degrees, so that its positive terminal is much closer to the positive terminal of C8. I would also make their trace wider.
+
+- Consider the same thing for C11, C10 and C16. I switch places between C16 and C11/C10, and do some rotations like mentioned above.
+
+- Some parts of the ground plane have strange shapes, for example, between the pins of heat sink 1 and ground, or in the lower part between IN+ and I_in_+. They might have to be fixed by hand. The way I did it for my converter was to add some "no fill zones" in those places, to make sure no plane would go there.
+
+- Signal connectors J1 and J2: They're too close together. Since we are going to attach additional boards there (isolator, adc), they have to be farther apart. They should be around 30 mm apart
+
+- Output relay: too little isolation between Vdd and power planes
+
+- Holes for spacers (H1, H2, H3,...) I would move H6 to the left of the traces, and add an additional hole in the area close to JP5
+
+- Trace Vs_S1: I would move it away from the hole of the heat sink
+
+- In my opinion, G_S1 and G_S3 should have more isolation to ground, because they will be at the same potential as Vs_S1 and IL-
+
+- V_dc_out measurement: Maybe such a long trace for the measurement is not necessary. For example, you could make a via from the power plane of I_out_+ close to the current sensor, and then use a trace to connect this measurement to R41. 
+
+- I feel that some traces in the bottom plane are too long, but this is not necessary. For example, the track between the signal connector and IL_sens: you could make another via after crossing S1 and S2 tracks, and continuing in the top layer until the connector. I always try to keep the bottom with as few traces as possible, and I try to make them always the same placement (horizon or vertical) as much as I can.
+
+- I'm a little bit worried about the vias of U16 (the buck converter). Did you check if we would be able to manufacture them?
+
+- For the buck converter
+  - I feel that the Vdd trace, connecting the output of the converter to the rest of the circuit is too small
+  - I would move the Vdd track a bit to the left, and add a via between the ground planes in the pads of C93 and C102
+
+- Boost: I see no clear path between C97/C90 and the ground of the boost IC. I would add a via to ground in the are to the left of R54
+
+- Remove teardrops

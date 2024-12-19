@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*
+G04 #@! TF.CreationDate,2024-12-19T18:07:51+01:00*
+G04 #@! TF.ProjectId,buck-boost-xp,6275636b-2d62-46f6-9f73-742d78702e6b,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-12-19 18:07:51*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X12290000Y-44740000D02*
+X280790000Y-44740000D01*
+X280790000Y-162740000D01*
+X12290000Y-162740000D01*
+X12290000Y-44740000D01*
+M02*

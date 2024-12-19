@@ -4853,7 +4853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90S"
+		(property "Footprint" "CL_Relay:T9GV5L14-5"
 			(at 231.14 41.91 0)
 			(effects
 				(font
@@ -4932,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_RAYEX-L90S"
+		(property "Footprint" "CL_Relay:T9GV5L14-5"
 			(at 40.64 41.91 0)
 			(effects
 				(font

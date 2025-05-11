@@ -5,7 +5,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>cuk-iso-ps &mdash; ResPCBs v0.1 documentation</title>
-      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
 
   
@@ -69,8 +69,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#plecs-model">PLECS model</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#known-issues">Known issues</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#additional-notes">Additional notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#issues-and-notes">Issues and notes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fabrication-files">Fabrication files</a></li>
 </ul>
 </li>
@@ -135,9 +134,9 @@
 </section>
 <section id="converter-and-board-pinout">
 <h2>Converter and board pinout<a class="headerlink" href="#converter-and-board-pinout" title="Permalink to this heading"></a></h2>
-<p><a class="reference internal" href="#fig-cuk-iso-ps-board"><span class="std std-numref">Fig. 33</span></a> shows the assembled converter, using two <code class="docutils literal notranslate"><span class="pre">cuk-iso-ps</span></code> boards and a high-frequency transformer. The primary side is the input, while the secondary side is the output. The pinout of the signal connectors is shown in <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j7"><span class="std std-numref">Fig. 34</span></a>, <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j8"><span class="std std-numref">Fig. 35</span></a>, and <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j9"><span class="std std-numref">Fig. 36</span></a>. Connectors <code class="docutils literal notranslate"><span class="pre">J7</span></code> and <code class="docutils literal notranslate"><span class="pre">J8</span></code> have the measurement signals, while  <code class="docutils literal notranslate"><span class="pre">J9</span></code> contains the signals for the actuators. Connectors <code class="docutils literal notranslate"><span class="pre">J7</span></code> and <code class="docutils literal notranslate"><span class="pre">J8</span></code> provide the same set of measurements; the difference is that all measurements in connector <code class="docutils literal notranslate"><span class="pre">J8</span></code> are filtered.</p>
+<p><a class="reference internal" href="#fig-cuk-iso-ps-board"><span class="std std-numref">Fig. 33</span></a> shows the assembled converter, using two <code class="docutils literal notranslate"><span class="pre">cuk-iso-ps</span></code> boards and a high-frequency transformer. The bottom PCB is the primary side (input), while the top PCB is the secondary side (output). The pinout of the signal connectors is shown in <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j7"><span class="std std-numref">Fig. 34</span></a>, <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j8"><span class="std std-numref">Fig. 35</span></a>, and <a class="reference internal" href="#fig-cuk-iso-ps-pinout-signal-j9"><span class="std std-numref">Fig. 36</span></a>. Connectors <code class="docutils literal notranslate"><span class="pre">J7</span></code> and <code class="docutils literal notranslate"><span class="pre">J8</span></code> have the measurement signals, while  <code class="docutils literal notranslate"><span class="pre">J9</span></code> contains the signals for the actuators. Connectors <code class="docutils literal notranslate"><span class="pre">J7</span></code> and <code class="docutils literal notranslate"><span class="pre">J8</span></code> provide the same set of measurements; the difference is that all measurements in connector <code class="docutils literal notranslate"><span class="pre">J8</span></code> are filtered.</p>
 <figure class="align-center" id="fig-cuk-iso-ps-board">
-<a class="reference internal image-reference" href="_images/board1.svg"><img alt="Cuk converter assembled from two ``cuk-iso-ps`` boards." height="278" src="_images/board1.svg" width="570" /></a>
+<a class="reference internal image-reference" href="_images/board1.svg"><img alt="Cuk converter assembled from two ``cuk-iso-ps`` boards." height="329" src="_images/board1.svg" width="404" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 33 </span><span class="caption-text">Ćuk converter assembled from two <code class="docutils literal notranslate"><span class="pre">cuk-iso-ps</span></code> boards.</span><a class="headerlink" href="#fig-cuk-iso-ps-board" title="Permalink to this image"></a></p>
 </figcaption>
@@ -176,10 +175,11 @@
 <li><p>Output inductor (<span class="math notranslate nohighlight">\(L_2\)</span>): <a class="reference external" href="https://de.rs-online.com/web/p/smd-induktivitat/2585656?gb=b">Wurth Elektronik 74437429203151</a>, 150 uH</p></li>
 <li><p>Coupling capacitors (<span class="math notranslate nohighlight">\(C_1\)</span>, <span class="math notranslate nohighlight">\(C_2\)</span>): <a class="reference external" href="https://de.rs-online.com/web/p/folienkondensatoren/8829367?gb=b">EPCOS B32674D4475K000</a>, 4.7 uF (two were placed in parallel, resulting in 9.4 uF for  <span class="math notranslate nohighlight">\(C_1\)</span> and <span class="math notranslate nohighlight">\(C_2\)</span>)</p></li>
 <li><p>Input and output capacitors (<span class="math notranslate nohighlight">\(C_\text{o}\)</span>): <a class="reference external" href="https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/7152192?gb=b">Nichicon UCS2C331MHD</a> 330 uF</p></li>
-<li><p>Main switches: N-channel MOSFET <a class="reference external" href="https://de.rs-online.com/web/p/mosfet/7545500?gb=s">IPP200N25N3GXKSA1</a>, 250 V, 64 A, 20 mOhms</p></li>
+<li><p>Primary sides switch: N-channel MOSFET <a class="reference external" href="https://www.infineon.com/cms/de/product/power/mosfet/n-channel/irfb4227/">IRFB4227</a>, 200 V, 20 mOhms</p></li>
+<li><p>Secondary side switch: N-channel MOSFET <a class="reference external" href="https://www.infineon.com/cms/de/product/power/mosfet/n-channel/irfb4127/">IRFB4127</a>, 200 V, 17 mOhms</p></li>
 <li><p>Load switch: N-channel MOSFET <a class="reference external" href="https://de.rs-online.com/web/p/mosfet/8962366?gb=s">TK39A60W</a>, 600 V, 39 A, 65 mOhms</p></li>
-<li><p>Snubber capacitor: <a class="reference external" href="https://de.rs-online.com/web/p/folienkondensatoren/8961584?gb=b">EPCOS B32621</a>, 10nF</p></li>
-<li><p>Snubber resistors: two 22 Ohms in parallel at the primary side, three 22 Ohms in parallel at the secondary-side</p></li>
+<li><p>Snubber capacitor: <a class="reference external" href="https://www.murata.com/en-eu/products/productdetail?partno=GRM31A7U2J471JW31%23">Murata  GRM31A7U2J471JW31D</a>, 470pF, two in parallel (both sides)</p></li>
+<li><p>Snubber resistors: 20 Ohms, 0207 package (both sides)</p></li>
 </ul>
 <p>Drivers</p>
 <ul class="simple">
@@ -210,21 +210,28 @@
 <li><p><span class="math notranslate nohighlight">\(R_\text{C,o}\)</span>: 131 mOhms</p></li>
 </ul>
 <p>The ESR of the inductors were obtained by measuring the average voltage across the inductors with a multimeter. Then, the input/output currents were measured, and this was used to determine the ESR. The ESR of the output capacitor was estimated based on its measured voltage ripple and estimated current ripple.</p>
-<p>The simulation has some reasonable agreement with the hardware. <a class="reference internal" href="#fig-cuk-iso-prototype-model-val-ltspice-vds"><span class="std std-numref">Fig. 37</span></a> and <a class="reference internal" href="#fig-cuk-iso-prototype-model-val-vds"><span class="std std-numref">Fig. 38</span></a> show the drain-source voltages of the MOSFETs, obtained in LTSpice and experimentally. The shape of the waveforms match quite well, but the drain-source voltage of the switch on the secondary has a higher peak value.</p>
-<figure class="align-center" id="fig-cuk-iso-prototype-model-val-ltspice-vds">
-<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-ltspice-vds.png"><img alt="Vds LTSpice cuk iso" src="_images/cuk-iso-prototype-model-val-ltspice-vds.png" style="width: 399.0px; height: 249.4px;" /></a>
+<p>In addition, the connection of the transformer shows a considerable ESR, which was lumped as a single resistor in the primary side of the transformer in the simulation.</p>
+<p><a class="reference internal" href="#fig-cuk-iso-prototype-model-val-ltspice-hw-vds"><span class="std std-numref">Fig. 37</span></a> shows the drain-source voltages of the MOSFETs, obtained in LTSpice and experimentally. The waveforms are similar, but the simulation does not capture the magnitude of the ringing on the switches. A comparison at the drain-source voltage of the MOSFETs at the switching instants is shown in <a class="reference internal" href="#fig-cuk-iso-prototype-model-val-ltspice-hw-vds-zoom"><span class="std std-numref">Fig. 38</span></a>.</p>
+<figure class="align-center" id="fig-cuk-iso-prototype-model-val-ltspice-hw-vds">
+<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-ltspice-hw-vds.svg"><img alt="Vds LTSpice cuk iso" height="558" src="_images/cuk-iso-prototype-model-val-ltspice-hw-vds.svg" width="370" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Simulated drain-source voltage of MOSFETs. Yellow: Primary-side MOSFET. Blue: Secondary-side MOSFET.</span><a class="headerlink" href="#fig-cuk-iso-prototype-model-val-ltspice-vds" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 37 </span><span class="caption-text">Simulated (top) and experimental (bottom) drain-source voltage of MOSFETs. Yellow: Primary-side MOSFET. Blue: Secondary-side MOSFET.</span><a class="headerlink" href="#fig-cuk-iso-prototype-model-val-ltspice-hw-vds" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<figure class="align-center" id="fig-cuk-iso-prototype-model-val-vds">
-<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-vds.png"><img alt="Vds experimental cuk iso" src="_images/cuk-iso-prototype-model-val-vds.png" style="width: 400.0px; height: 292.40000000000003px;" /></a>
+<figure class="align-center" id="fig-cuk-iso-prototype-model-val-ltspice-hw-vds-zoom">
+<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-ltspice-hw-vds-zoom.svg"><img alt="Vds LTSpice cuk iso zoom" height="558" src="_images/cuk-iso-prototype-model-val-ltspice-hw-vds-zoom.svg" width="789" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 38 </span><span class="caption-text">Experimental drain-source voltage of MOSFETs. Yellow (CH1): Primary-side MOSFET. Blue (CH2): Secondary-side MOSFET.</span><a class="headerlink" href="#fig-cuk-iso-prototype-model-val-vds" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 38 </span><span class="caption-text">Closer view of the drain-source voltage of the MOSFETs in the simulation (top) and the prototype (bottom). Yellow: Primary-side MOSFET. Blue: Secondary-side MOSFET.</span><a class="headerlink" href="#fig-cuk-iso-prototype-model-val-ltspice-hw-vds-zoom" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<p>The table below shows steady-state input/output measurements obtained with multimeters. These measurements were obtained with 50% duty-cycle, 200 ns of dead time and switching frequency of 100 kHz. Input and output voltages were measured at the converter’s terminals.</p>
-<p>The output stage measurements show good agreement between simulation and  experiments. However, we see higher current (and power) on the experiments, which is probably because the prototype has more losses.</p>
+<p>For reference, <a class="reference internal" href="#cuk-iso-prototype-model-val-ltspice-hw-vds-vo"><span class="std std-numref">Fig. 39</span></a> shows the drain-source voltage of the primary-side MOSFET and the output voltage. At the switching instants, there is a considerable transient on the output voltage. This is discussed more in the issues and notes section.</p>
+<figure class="align-center" id="cuk-iso-prototype-model-val-ltspice-hw-vds-vo">
+<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-ltspice-hw-vds-vo.svg"><img alt="Vds Vo cuk iso" height="274" src="_images/cuk-iso-prototype-model-val-ltspice-hw-vds-vo.svg" width="369" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Drain-source voltage of the primary-side MOSFET (yellow) and the output voltage (blue).</span><a class="headerlink" href="#cuk-iso-prototype-model-val-ltspice-hw-vds-vo" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<p>The table below shows steady-state input/output measurements obtained with multimeters. These measurements were obtained with 40% duty-cycle, 70 ns of dead time and switching frequency of 100 kHz. Input and output voltages were measured at the converter’s terminals.</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Quantity</p></th>
@@ -235,41 +242,41 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p>Input voltage</p></td>
-<td><p>16.88 V</p></td>
-<td><p>16.88 V</p></td>
+<td><p>25.0 V</p></td>
+<td><p>25.0 V</p></td>
 <td><ul class="simple">
 <li></li>
 </ul>
 </td>
 </tr>
 <tr class="row-odd"><td><p>Input current</p></td>
-<td><p>2.473</p></td>
-<td><p>2.575 A</p></td>
-<td><p>3.96</p></td>
+<td><p>5.70 A</p></td>
+<td><p>5.52 A</p></td>
+<td><p>3.16</p></td>
 </tr>
 <tr class="row-even"><td><p>Input power</p></td>
-<td><p>41.74 W</p></td>
-<td><p>43.47 W</p></td>
-<td><p>4.14</p></td>
+<td><p>142.5 W</p></td>
+<td><p>138.0 W</p></td>
+<td><p>3.16</p></td>
 </tr>
 <tr class="row-odd"><td><p>Output voltage</p></td>
-<td><p>28.66 V</p></td>
-<td><p>28.42 V</p></td>
-<td><p>0.83</p></td>
+<td><p>25.6 V</p></td>
+<td><p>25.4 V</p></td>
+<td><p>0.78</p></td>
 </tr>
 <tr class="row-even"><td><p>Output current</p></td>
-<td><p>1.30 A</p></td>
-<td><p>1.30 A</p></td>
-<td><p>0</p></td>
+<td><p>4.89 A</p></td>
+<td><p>4.85 A</p></td>
+<td><p>0.82</p></td>
 </tr>
 <tr class="row-odd"><td><p>Output power</p></td>
-<td><p>37.32 W</p></td>
-<td><p>36.95 W</p></td>
-<td><p>0.99</p></td>
+<td><p>125.1 W</p></td>
+<td><p>123.2 W</p></td>
+<td><p>1.52</p></td>
 </tr>
 <tr class="row-even"><td><p>Efficiency</p></td>
-<td><p>89.4%</p></td>
-<td><p>84.6%</p></td>
+<td><p>87.8%</p></td>
+<td><p>89.3%</p></td>
 <td><ul class="simple">
 <li></li>
 </ul>
@@ -277,25 +284,40 @@
 </tr>
 </tbody>
 </table>
+<p>The temperature of the MOSFETs and the snubber was also observed after the converter operated with the power above for a couple of minutes. The measurements are shown in the table below.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Part</p></th>
+<th class="head"><p>Temperature</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Primary-side MOSFET</p></td>
+<td><p>~90ºC</p></td>
+</tr>
+<tr class="row-odd"><td><p>Primary-side snubber</p></td>
+<td><p>~135ºC</p></td>
+</tr>
+<tr class="row-even"><td><p>Secondary-side MOSFET</p></td>
+<td><p>~45ºC</p></td>
+</tr>
+<tr class="row-odd"><td><p>Secondary-side snubber</p></td>
+<td><p>~100ºC</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="plecs-model">
 <h3>PLECS model<a class="headerlink" href="#plecs-model" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p><a class="reference download internal" download="" href="_downloads/ddbf654c2ebcd6676c0f571fa3c3d2a6/cuk-iso-prototype-control-model.plecs"><code class="xref download docutils literal notranslate"><span class="pre">PLECS</span> <span class="pre">model</span></code></a></p></li>
+<li><p><a class="reference download internal" download="" href="_downloads/42a46d5e66b40b04d483234905312566/cuk-iso-prototype.plecs"><code class="xref download docutils literal notranslate"><span class="pre">PLECS</span> <span class="pre">model</span></code></a></p></li>
 </ul>
 <p>The PLECS models above can be used for closed-loop simulation. The model includes ADCs and PWMs. In the simulation, as in the hardware, the PWM is generated based on a triangle carrier, and the measurements are triggered when the carrier reaches its peak value. In this way, the current of the inductors are sampled as its average value. Moreover, using this scheme can reduce switching noise in the measurements.</p>
-<p>The model is a reasonable representation of the prototype. <a class="reference internal" href="#fig-cuk-iso-ps-prototype-sensors-meas-sim"><span class="std std-numref">Fig. 39</span></a> and <a class="reference internal" href="#fig-cuk-iso-ps-prototype-sensors-meas-exp"><span class="std std-numref">Fig. 40</span></a> show a comparison between the measurements obtained from the simulation and from the prototype. The results were obtained with an input voltage of 20 V, a permanent load of 22 Ohms, a switched load of 20 Ohms, and a duty-cycle of 0.47. Both figures show the measurements as seen by the controller, assuming the controller obtains signals from an ADC, and then these readings are converted back to the actual measurements.</p>
-<p><a class="reference internal" href="#fig-cuk-iso-ps-prototype-sensors-meas-sim"><span class="std std-numref">Fig. 39</span></a> and <a class="reference internal" href="#fig-cuk-iso-ps-prototype-sensors-meas-exp"><span class="std std-numref">Fig. 40</span></a> show the system’s response when there is a load step (a 20 Ohm resistor is connected to the permanent 22 Ohm resistor). As the figures show, the shape of the waveforms are well represented by the simulation (although the exact numerical values don’t match perfectly).</p>
-<figure class="align-center" id="fig-cuk-iso-ps-prototype-sensors-meas-sim">
-<a class="reference internal image-reference" href="_images/cuk-iso-prototype-sensors-meas-sim.png"><img alt="Open-loop simulated measurements" src="_images/cuk-iso-prototype-sensors-meas-sim.png" style="width: 478.52000000000004px; height: 278.88000000000005px;" /></a>
+<p><a class="reference internal" href="#cuk-iso-prototype-model-val-sim-hw"><span class="std std-numref">Fig. 40</span></a> shows a comparison of the step response between the hardware (blue curve) and the PLECS model (red curves). The transient of the currents and the output voltage show more agreement between simulation and hardware. However, the dynamics of the voltage of the coupling capacitors differs more. The dynamics can be tuned in the simulation by changing the ESR of the output capacitor and of the transformer, as well as the magnetizing inductance. Here, these values were kept the same as those of the  LTSpice simulation.</p>
+<figure class="align-center" id="cuk-iso-prototype-model-val-sim-hw">
+<a class="reference internal image-reference" href="_images/cuk-iso-prototype-model-val-sim-hw.svg"><img alt="Step response hardware simulation" height="681" src="_images/cuk-iso-prototype-model-val-sim-hw.svg" width="511" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 39 </span><span class="caption-text">Simulation results.</span><a class="headerlink" href="#fig-cuk-iso-ps-prototype-sensors-meas-sim" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
-<figure class="align-center" id="fig-cuk-iso-ps-prototype-sensors-meas-exp">
-<a class="reference internal image-reference" href="_images/cuk-iso-prototype-sensors-meas-exp.png"><img alt="Open-loop experimental measurements" src="_images/cuk-iso-prototype-sensors-meas-exp.png" style="width: 478.52000000000004px; height: 278.88000000000005px;" /></a>
-<figcaption>
-<p><span class="caption-number">Fig. 40 </span><span class="caption-text">Experimental results.</span><a class="headerlink" href="#fig-cuk-iso-ps-prototype-sensors-meas-exp" title="Permalink to this image"></a></p>
+<p><span class="caption-number">Fig. 40 </span><span class="caption-text">Comparison between hardware (blue curves) and simulation (red curves).</span><a class="headerlink" href="#cuk-iso-prototype-model-val-sim-hw" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <div class="admonition note">
@@ -303,24 +325,18 @@
 <p>In the PLECS model, noise is added to the current measurements. This is because the current measurements are quite noisy in the hardware (as opposed to the voltage measurements, which are quite clean).</p>
 <p>The standard deviation that was used to model the noise was obtained from hardware experiments.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The parameters of the PLECS model were adjusted to better match the transient observed in the measurements. Thus, the parameters in the LTSpice model and PLECS model may not necessarily match.</p>
-</div>
 </section>
 </section>
-<section id="known-issues">
-<h2>Known issues<a class="headerlink" href="#known-issues" title="Permalink to this heading"></a></h2>
+<section id="issues-and-notes">
+<h2>Issues and notes<a class="headerlink" href="#issues-and-notes" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(S_\text{io}\)</span> switch: in the current version of the prototype, a P-channel MOSFET was used to realize this high-side switch. In practice, this didn’t work quite well because the on resistance of the P-channel used was too large. Moreover, to fully drive the MOSFET, a large-ish output voltage was required, which made things more difficult when debugging the converter with low voltages. Thus, in the assembled prototype, this switch as shorted and not used. For future versions, it would be better to use a relay or an N-channel MOSFET with proper driving.</p></li>
-<li><p>Snubber: the snubber used in this version of the prototype is very large. It improves ringing on the MOSFETs quite well but also is very lossy, and the resistors get very hot. For this reason, with the current snubber circuit, it is only possible to continuously run the converter for a couple of seconds. Despite this limitation, the converter has been used with up to 200 W of load.</p></li>
-<li><p>Filtered measurements: initially, there was a concern regarding switching noise affecting the measurements. For this reason, all measurements have a filtered counterpart, and an additional connector was dedicated for these measurements. The idea was to compare the raw and filtered measurements. However, overall, no significant noise was observed in the raw measurements. Although the raw current measurements is significantly noisier, it was within the levels expected from the current sensors. In a future version, the dedicated connector with filtered measurements can be removed. The raw or filtered signal can be routed to a single measurements connector, and the measurement that goes to the connector can be selected with a jumper.</p></li>
-</ul>
-</section>
-<section id="additional-notes">
-<h2>Additional notes<a class="headerlink" href="#additional-notes" title="Permalink to this heading"></a></h2>
-<ul class="simple">
-<li><p>A dead-time of 200 ns seemed to improve <span class="math notranslate nohighlight">\(V_\text{DS}\)</span> on the primary. With 100 ns, ringing on <span class="math notranslate nohighlight">\(V_\text{DS}\)</span> got worse, with 200 ns it got much better. Increasing beyond 200 ns did not improve much (however, it seems like the losses were lower as the dead time increased)</p></li>
+<li><p><span class="math notranslate nohighlight">\(S_\text{io}\)</span> switch: in the current version of the prototype, a P-channel MOSFET was used to realize this high-side switch. In practice, this didn’t work quite well because the on resistance of the P-channel used was too large. Moreover, to fully drive the MOSFET, a large-ish output voltage was required, which made things more difficult when debugging the converter with low voltages. Thus, in the assembled prototype, this switch as shorted and not used. For future versions, it would be better to use a relay or an N-channel MOSFET with proper driving. To drive this high-side MOSFET, an isolated gate driver with integrated supply could be used, for example the <a class="reference external" href="https://www.ti.com/product/TPSI3052">TPSI3052</a> or the <a class="reference external" href="https://www.infineon.com/cms/de/product/power/solid-state-relay/solid-state-isolators/issi20r11h/">ISSI20R11H</a>. For a next version, however, MOSFETs or relays should definitely be used to isolate the input and output of the converter during adverse conditions. The converter was used in a larger experimental setup with additional converters in parallel, and these input/output switches would’ve helped a lot.</p></li>
+<li><p>Snubber: The original snubber turned to be too large. Although it did improve the ringing on the MOSFETs quite also, it was also very lossy and the resistors would get very hot. It was a mistake to use a film capacitor for the snubber, and in the end ceramic capacitors had a much better response. For a next version, the snubber could be designed for two ceramic capacitors and two SMD resistors.</p></li>
+<li><p>Filtered measurements: initially, there was a concern regarding switching noise affecting the measurements. For this reason, all measurements have a filtered counterpart, and an additional connector was dedicated for these measurements. The idea was to compare the raw and filtered measurements. However, overall, no significant noise was observed in the raw measurements. Although the raw current measurements is significantly noisier, it was within the levels expected from the current sensors. In a future version, the dedicated connector with filtered measurements can be removed. The raw or filtered signal can be routed to a single measurements connector, and the measurement that goes to the connector can be selected with a jumper. Another option would be to remove these filtered measurements altogether.</p></li>
+<li><p>Although it was a good idea at first to split the converter in two boards in order to use different transformers, in the end the same transformer was used and there are not plans to change it. In a future version, the converter could be designed in a single PCB with the transformed already on it. This would for sure improve the transient response and the efficiency, as the external connections through cables introduced a quite large ESR.</p></li>
+<li><p>A dead-time of 70 ns seems quite small, but increasing it actually increased losses, and made the ringing on the MOSFETs worse.</p></li>
+<li><p>Four output capacitors were planned for the converter, but in the end just one was enough. For a next version, leaving footprint for just two would be more than enough.</p></li>
+<li><p>The output voltage shows some oscillations during the switching instants, which are expected, but are too big (see <a class="reference internal" href="#cuk-iso-prototype-model-val-ltspice-hw-vds-vo"><span class="std std-numref">Fig. 39</span></a>). They probably could be improved by placing additional ceramic capacitors in parallel with the main bulk capacitor.</p></li>
 </ul>
 </section>
 <section id="fabrication-files">

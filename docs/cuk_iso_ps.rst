@@ -45,11 +45,11 @@ The converter is monitored with three voltage sensors and two current sensors. T
 Converter and board pinout
 --------------------------
 
-:numref:`fig-cuk-iso-ps-board` shows the assembled converter, using two ``cuk-iso-ps`` boards and a high-frequency transformer. The primary side is the input, while the secondary side is the output. The pinout of the signal connectors is shown in :numref:`fig-cuk-iso-ps-pinout-signal-j7`, :numref:`fig-cuk-iso-ps-pinout-signal-j8`, and :numref:`fig-cuk-iso-ps-pinout-signal-j9`. Connectors ``J7`` and ``J8`` have the measurement signals, while  ``J9`` contains the signals for the actuators. Connectors ``J7`` and ``J8`` provide the same set of measurements; the difference is that all measurements in connector ``J8`` are filtered. 
+:numref:`fig-cuk-iso-ps-board` shows the assembled converter, using two ``cuk-iso-ps`` boards and a high-frequency transformer. The bottom PCB is the primary side (input), while the top PCB is the secondary side (output). The pinout of the signal connectors is shown in :numref:`fig-cuk-iso-ps-pinout-signal-j7`, :numref:`fig-cuk-iso-ps-pinout-signal-j8`, and :numref:`fig-cuk-iso-ps-pinout-signal-j9`. Connectors ``J7`` and ``J8`` have the measurement signals, while  ``J9`` contains the signals for the actuators. Connectors ``J7`` and ``J8`` provide the same set of measurements; the difference is that all measurements in connector ``J8`` are filtered. 
 
 .. figure:: media/cuk-iso-ps/board.svg
    :name: fig-cuk-iso-ps-board
-   :scale: 12%
+   :scale: 80%
    :align: center
    :alt: Cuk converter assembled from two ``cuk-iso-ps`` boards.
    
